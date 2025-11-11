@@ -1,3 +1,40 @@
+Package: libdtklog-dev
+Architecture: amd64
+Version: 0.0.6
+Priority: optional
+Section: libdevel
+Source: dtklog
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 54
+Depends: libdtklog (= 0.0.6)
+Filename: pool/main/d/dtklog/libdtklog-dev_0.0.6_amd64.deb
+Size: 9136
+MD5sum: 0b07cdd8e82e4812b19c271a55620226
+SHA1: 2bf600bf27d29bbeb68bd7e636ad665129732b04
+SHA256: b61569d4711d1421bda50668cfc21d4e649b7805c329855561437b9a518cb188
+SHA512: ceef066dd489a8dfd83f06db6a9365eaee918d41a65b0ac732264629afc11c5fabaa0d3197f3979c83560fcc82a651376152b18aaffe36540b2a5622cf1de80c
+Description: Simple, convinient and thread safe logger for Qt-based C++ apps.
+ This package contains the header files and static libraries of dlog
+
+Package: libdtklog
+Architecture: amd64
+Version: 0.0.6
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: dtklog
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 176
+Depends: libc6 (>= 2.32), libfmt10 (>= 10.1.1+ds1), libgcc-s1 (>= 3.0), libqt5core5t64 (>= 5.15.15), libspdlog1.15-fmt10, libstdc++6 (>= 14), libsystemd0, qtbase-abi-5-15-15
+Filename: pool/main/d/dtklog/libdtklog_0.0.6_amd64.deb
+Size: 51628
+MD5sum: 1443da0a5bd00ec7a75d82703ecbb472
+SHA1: 203f51d00c95e524ec9743a2e506551f08780736
+SHA256: f907fda77208315fb40b3f132f8849b9eb56bb8d7f0d872a0a13e8245f5a2fe9
+SHA512: 5c34adc633c39fb2c5bec221c64e3a066d5e01f965d9b5f506c4935334f31ef4df560cd4bba32fa8aaa7956aa9b55ed78a0611be90ea1ead440c17d6e25d14d4
+Description: Simple, convinient and thread safe logger for Qt-based C++ apps.
+ This package contains the shared libraries.
+
 Package: example-package
 Architecture: amd64
 Version: 1.0.0
