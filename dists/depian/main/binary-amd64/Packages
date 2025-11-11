@@ -1,0 +1,17 @@
+Package: example-package
+Architecture: amd64
+Version: 1.0.0
+Priority: optional
+Section: misc
+Maintainer: Your Name <your.email@example.com>
+Depends:
+Filename: pool/main/e/example-package/example-package.deb
+Size: 1216
+MD5sum: a939af3072f79a71be3b1133c8085b11
+SHA1: d9eb7e68a877c53e2a46ee5a9bf6e63928579e17
+SHA256: 99ababc76d43023799aaff153dbda51f345269f7de96869a8d277bd8985dad59
+SHA512: 95f80147e6bfb87e3868fd497c04de4103ef248d775af44bd2814efac3dad8540b0d12eb5575656f651dee7c3be42e0bfb596846f4d08a725ce1d5947a134df7
+Description: Example package for APT repository
+ This is an example package to demonstrate how to add packages
+ to your personal APT repository hosted on GitHub Pages.
+
