@@ -1,3 +1,43 @@
+Package: libdtkcommon-dev
+Architecture: amd64
+Version: 5.7.24
+Priority: optional
+Section: libdevel
+Source: dtkcommon
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 25
+Conflicts: libdtkcore-dev (<< 5.4.10)
+Replaces: libdtkcore-dev (<< 5.4.10)
+Filename: pool/main/d/dtkcommon/libdtkcommon-dev_5.7.24_amd64.deb
+Size: 5668
+MD5sum: d7a14de7d22394abfbfb951db055c713
+SHA1: 4e6a75196b9d983ff4b26e71a5feb1447044a1a6
+SHA256: c2fa133e788fd6340604f327f2bcbbcab46100ef89b47adfd5494cafd0dfe0f8
+SHA512: a17378c927265aff47bf73e8d4ab4b4083dd1ab4bdd4030723f27ad2a91e2dd8b569dfe219bdd801eb05a92b8a6612e123ea84503154213c8bc8f5002fef38b0
+Homepage: http://www.deepin.org/
+Description: dtk common files
+ Used to store public build files
+
+Package: libdtkdata
+Architecture: amd64
+Version: 5.7.24
+Priority: optional
+Section: libdevel
+Source: dtkcommon
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 16
+Conflicts: libdtkcommon
+Replaces: libdtkcommon
+Filename: pool/main/d/dtkcommon/libdtkdata_5.7.24_amd64.deb
+Size: 4432
+MD5sum: b159c636a611f50ff38d515e6b8ad371
+SHA1: 169ede487cfba8a7dc731131172d55f7593183a1
+SHA256: 4a4fb98b63d1f6c4c1586ec904c97c5fab860ce53283c0366f5d191661e103f9
+SHA512: 457b74701b69b62cd162b35a59a1ef512099954241b4777b801d9e63478fe66b450fd10c58eac52acda935b7630ec184799e3f39c7e9dd86e2f3c66c9dcb3199
+Homepage: http://www.deepin.org/
+Description: dtk common files
+ Used to store public configuration files
+
 Package: libdtklog-dev
 Architecture: amd64
 Version: 0.0.6
