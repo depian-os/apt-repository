@@ -289,3 +289,19 @@ Description: Example package for APT repository
  This is an example package to demonstrate how to add packages
  to your personal APT repository hosted on GitHub Pages.
 
+Package: treeland-protocols
+Architecture: all
+Version: 0.5.0
+Priority: optional
+Section: dde
+Maintainer: rewine <luhongxu@deepin.org>
+Installed-Size: 94
+Filename: pool/main/t/treeland-protocols/treeland-protocols_0.5.0_all.deb
+Size: 13136
+MD5sum: 1fdf8c907c04bce796f90fac20d8e8c2
+SHA1: 0ea424d060f1685e9582c4cdb7963c334252e114
+SHA256: 68f80c7d9d02497e4d51c43f3961c1b963625d12de836dd6ea78166b9d654357
+SHA512: a5f0faeaa8b513e5c373eadd4255cb983f28ba475c8ab5fdda6f42c15c0e61437808b13eb7f3e6bb4df0b180463a5506661c28a7f745336e7a7f62913a6864a4
+Homepage: https://github.com/linuxdeepin/treeland-protocols
+Description: wayland protocols of treeland.
+
