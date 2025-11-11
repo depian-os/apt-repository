@@ -1,3 +1,40 @@
+Package: libdtk6log-dev
+Architecture: amd64
+Version: 0.0.6
+Priority: optional
+Section: libdevel
+Source: dtk6log
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 54
+Depends: libdtk6log (= 0.0.6)
+Filename: pool/main/d/dtk6log/libdtk6log-dev_0.0.6_amd64.deb
+Size: 9072
+MD5sum: bbe9b72e21ac2c9678a9d09bafb76965
+SHA1: 499d8da5db9897aaaa9961e8ff8ff8948187c125
+SHA256: e9adf34c5d6f2d697cdcf5beca69dc7498b195467ed6a590eae1c664612baf66
+SHA512: a8694aacac56a80e6454d04d0267dedbd34fb68bb27cced952b3ecf6bb5917196758e84e3d0cf1a020e13fe5e660fafc65002acad5a509b4adaf825f6d28c9b4
+Description: Simple, convinient and thread safe logger for Qt-based C++ apps.
+ This package contains the header files and static libraries of dlog
+
+Package: libdtk6log
+Architecture: amd64
+Version: 0.0.6
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: dtk6log
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 188
+Depends: libc6 (>= 2.32), libfmt10 (>= 10.1.1+ds1), libgcc-s1 (>= 3.0), libqt6core6t64 (>= 6.8.2), libspdlog1.15-fmt10, libstdc++6 (>= 14), libsystemd0, qt6-base-private-abi (= 6.8.2)
+Filename: pool/main/d/dtk6log/libdtk6log_0.0.6_amd64.deb
+Size: 56148
+MD5sum: 149b9825d7db902ed9f5cfafde08b338
+SHA1: 62f25d85da29494bdebf34984976578d5baff2ac
+SHA256: 80e319619784a8fc6c88503933d624a330f68f0243e7fcc786445ee751441ae1
+SHA512: 2aa5adacc5ef65ceaa410137e343842ebaee677facb11e274f6727f7743b056f4c14c558faf50388a1d231d715df4c0ca2b23cdb1f115afc92d52aa6b3eb1f10
+Description: Simple, convinient and thread safe logger for Qt-based C++ apps.
+ This package contains the shared libraries.
+
 Package: libdtkcommon-dev
 Architecture: amd64
 Version: 5.7.24
