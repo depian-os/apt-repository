@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Depian OS - APT 仓库</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --accent-color: #e74c3c;
+            --bg-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        
+        .github-link {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+            background: rgba(255, 255, 255, 0.9);
+            color: var(--primary-color);
+            padding: 10px 15px;
+            border-radius: 25px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .github-link:hover {
+            background: white;
+            color: var(--secondary-color);
+            transform: scale(1.05);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fa;
+            min-height: 100vh;
+        }
+        
+        .hero-section {
+            background: var(--bg-gradient);
+            color: white;
+            padding: 4rem 0;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="%23ffffff" fill-opacity="0.1" d="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,122.7C672,117,768,139,864,154.7C960,171,1056,181,1152,165.3C1248,149,1344,107,1392,85.3L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>') no-repeat bottom;
+            background-size: cover;
+        }
+        
+        .hero-content {
+            position: relative;
+            z-index: 1;
+        }
+        
+        .logo {
+            font-size: 3rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            margin-bottom: 2rem;
+        }
+        
+        .command-card {
+            background: white;
+            border-radius: 15px;
+            padding: 2rem;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            margin-top: -3rem;
+            position: relative;
+            z-index: 2;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .command-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+        }
+        
+        .command-display {
+            background: #2c3e50;
+            color: #ecf0f1;
+            padding: 1.5rem;
+            border-radius: 10px;
+            font-family: 'Courier New', monospace;
+            font-size: 1.1rem;
+            position: relative;
+            margin: 1.5rem 0;
+            border-left: 4px solid var(--secondary-color);
+        }
+        
+        .copy-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: var(--secondary-color);
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 0.9rem;
+        }
+        
+        .copy-btn:hover {
+            background: #2980b9;
+            transform: scale(1.05);
+        }
+        
+        .copy-btn.copied {
+            background: #27ae60;
+        }
+        
+        .feature-section {
+            padding: 4rem 0;
+        }
+        
+        .feature-card {
+            background: white;
+            border-radius: 10px;
+            padding: 2rem;
+            text-align: center;
+            height: 100%;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: 1px solid #e9ecef;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+        
+        .feature-icon {
+            font-size: 3rem;
+            color: var(--secondary-color);
+            margin-bottom: 1rem;
+        }
+        
+        .steps-section {
+            background: #f8f9fa;
+            padding: 4rem 0;
+        }
+        
+        .step-card {
+            background: white;
+            border-radius: 10px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            border-left: 4px solid var(--secondary-color);
+            transition: transform 0.3s ease;
+        }
+        
+        .step-card:hover {
+            transform: translateX(5px);
+        }
+        
+        .step-number {
+            background: var(--secondary-color);
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
+        
+        .footer {
+            background: var(--primary-color);
+            color: white;
+            padding: 2rem 0;
+            margin-top: 4rem;
+        }
+        
+        @media (max-width: 768px) {
+            .hero-section {
+                padding: 2rem 0;
+            }
+            
+            .logo {
+                font-size: 2rem;
+            }
+            
+            .command-display {
+                font-size: 0.9rem;
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- GitHub Link -->
+    <a href="https://github.com/depian-os/apt-repository" class="github-link">
+        <i class="bi bi-github"></i> GitHub
+    </a>
+    
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="hero-content text-center">
+                <div class="logo">
+                    <i class="bi bi-box-seam"></i> Depian OS
+                </div>
+                <div class="subtitle">基于 Deepin 25 桌面环境，使用 Debian 13 软件源的发行版</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Command Section -->
+    <section class="command-section">
+        <div class="container">
+            <div class="command-card">
+                <h2 class="text-center mb-4">
+                    <i class="bi bi-terminal"></i> 添加 APT 仓库
+                </h2>
+                <p class="text-center text-muted mb-4">
+                    Depian OS 结合了 Deepin 25 的美观桌面环境和 Debian 13 的稳定软件源，为您提供卓越的使用体验
+                </p>
+                
+                <div class="command-display" id="commandDisplay">
+                    <button class="copy-btn" onclick="copyCommand()">
+                        <i class="bi bi-clipboard"></i> 复制
+                    </button>
+                    <code>deb https://depian.github.io/apt-repository depian main</code>
+                </div>
+                
+                <div class="alert alert-info" role="alert">
+                    <i class="bi bi-info-circle"></i>
+                    <strong>提示：</strong> 您可以使用以下命令快速添加仓库：
+                    <br><code>echo "deb https://depian.github.io/apt-repository depian main" | sudo tee /etc/apt/sources.list.d/depian.list</code>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="feature-section">
+        <div class="container">
+            <h2 class="text-center mb-5">Depian OS 特色</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="bi bi-window"></i>
+                        </div>
+                        <h4>Deepin 25 桌面</h4>
+                        <p class="text-muted">采用最新的 Deepin 25 桌面环境，美观现代，操作流畅</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="bi bi-box"></i>
+                        </div>
+                        <h4>Debian 13 软件源</h4>
+                        <p class="text-muted">基于稳定的 Debian 13 软件源，提供丰富的软件包选择</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="bi bi-stars"></i>
+                        </div>
+                        <h4>完美融合</h4>
+                        <p class="text-muted">结合 Deepin 的美观界面与 Debian 的稳定性，打造最佳体验</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Steps Section -->
+    <section class="steps-section">
+        <div class="container">
+            <h2 class="text-center mb-5">快速安装指南</h2>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="step-card">
+                        <div class="step-number">1</div>
+                        <h5>添加仓库</h5>
+                        <p>将 Depian OS 仓库添加到您的系统源列表中</p>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-number">2</div>
+                        <h5>更新包列表</h5>
+                        <p>运行 <code>sudo apt update</code> 更新软件包列表</p>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-number">3</div>
+                        <h5>安装软件</h5>
+                        <p>使用 <code>sudo apt install package-name</code> 安装所需软件</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container text-center">
+            <p>&copy; 2025 Depian OS. 基于 Deepin 25 桌面环境和 Debian 13 软件源构建。</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function copyCommand() {
+            const command = 'deb https://depian.github.io/apt-repository depian main';
+            const copyBtn = document.querySelector('.copy-btn');
+            
+            navigator.clipboard.writeText(command).then(() => {
+                copyBtn.classList.add('copied');
+                copyBtn.innerHTML = '<i class="bi bi-check"></i> 已复制';
+                
+                setTimeout(() => {
+                    copyBtn.classList.remove('copied');
+                    copyBtn.innerHTML = '<i class="bi bi-clipboard"></i> 复制';
+                }, 2000);
+            }).catch(err => {
+                console.error('复制失败:', err);
+                // 降级方案
+                const textArea = document.createElement('textarea');
+                textArea.value = command;
+                document.body.appendChild(textArea);
+                textArea.select();
+                document.execCommand('copy');
+                document.body.removeChild(textArea);
+                
+                copyBtn.classList.add('copied');
+                copyBtn.innerHTML = '<i class="bi bi-check"></i> 已复制';
+                
+                setTimeout(() => {
+                    copyBtn.classList.remove('copied');
+                    copyBtn.innerHTML = '<i class="bi bi-clipboard"></i> 复制';
+                }, 2000);
+            });
+        }
+    </script>
+</body>
+</html>
