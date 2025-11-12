@@ -233,6 +233,61 @@ Description: Deepin Internationalization utilities
  .
  This package is part of DDE (Deepin Desktop Environment).
 
+Package: deepin-service-manager
+Architecture: amd64
+Version: 1.0.16
+Priority: optional
+Section: admin
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 286
+Depends: libc6 (>= 2.34), libdtk6core (>= 6.0), libgcc-s1 (>= 3.0), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.1.2), libqt6gui6 (>= 6.1.2), libstdc++6 (>= 14), libsystemd0 (>= 221)
+Recommends: dde-services
+Filename: pool/main/d/deepin-service-manager/deepin-service-manager_1.0.16_amd64.deb
+Size: 79492
+MD5sum: f8c31fe7e9ffd962d63c0095c781c9d2
+SHA1: cfbc55468a96ff5ff3637c9ffd4ecdde681ef718
+SHA256: a821f095f8639aec630c78580a268e457445b4b884b2ba77173b9ed59cfec8b7
+SHA512: 693f12e822ce795e8c2b52a72cfda273b01e0f80e9f4724d015ea5cda0d67f2e7a95d87100fad57d3d79b6a71de0a2cdefdf8715b9046a58ccb5786e0f6e3c60
+Homepage: https://github.com/linuxdeepin
+Description: deepin desktop-environment - service manager frame
+ Load system plug-ins for unified management
+
+Package: libdeepin-service-framework-dev
+Architecture: amd64
+Version: 1.0.16
+Priority: optional
+Section: admin
+Source: deepin-service-manager
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 19
+Depends: libdeepin-service-framework (= 1.0.16)
+Filename: pool/main/d/deepin-service-manager/libdeepin-service-framework-dev_1.0.16_amd64.deb
+Size: 3700
+MD5sum: b347864e3571b46504bedbfb598ccee3
+SHA1: 2a43b64a0694512ac160008cb7ff7341bdac94e5
+SHA256: a91975c62b70e2b7a8e5cc0e88c7284d27ae98bdb18802888dbcdc395fa6494e
+SHA512: 4c42a7a4b26257823837a1378f559669e5271997f2f624bda082a40e1f789b54df5a93b2558e9af77439a105d9242f965d28c7712a70ee767d6718ec0686c1b0
+Homepage: https://github.com/linuxdeepin
+Description: deepin desktop-environment - service frame for development
+
+Package: libdeepin-service-framework
+Architecture: amd64
+Version: 1.0.16
+Priority: optional
+Section: admin
+Source: deepin-service-manager
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 143
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.0), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.1.2), libstdc++6 (>= 5.2), libsystemd0 (>= 221)
+Filename: pool/main/d/deepin-service-manager/libdeepin-service-framework_1.0.16_amd64.deb
+Size: 40560
+MD5sum: 550ece3312ea5e7f354a2485fb800741
+SHA1: 11d2022dde7fb851767671d9b669bfd14952cfb3
+SHA256: d5c4f12b5aff2c279b0b2a80b96c22c7a4f016732e53eb4e10eca2d8be3e5d96
+SHA512: 40e2d91fa45646e2b94465906f67d7f8c3ef47ac95f19f57760cf99f86542c31f63424fb95b523394cfea3b92e362ee221ad2300b1a6db90c4da51bde3a4d532
+Homepage: https://github.com/linuxdeepin
+Description: deepin desktop-environment - service frame
+
 Package: libdtk6core-bin
 Architecture: amd64
 Version: 6.0.44
