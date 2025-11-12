@@ -1572,6 +1572,44 @@ Homepage: https://github.com/linuxdeepin/go-x11-client
 Description: deepin go x11 client
  mirrored from https://cr.deepin.io/#/admin/projects/go-x11-client
 
+Package: libdareader-dev
+Architecture: amd64
+Version: 2.0.0.0
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: libdareader
+Maintainer: chenlinxuan <chenlinxuan@uniontech.com>
+Installed-Size: 17
+Depends: libdareader1 (= 2.0.0.0)
+Filename: pool/main/libd/libdareader/libdareader-dev_2.0.0.0_amd64.deb
+Size: 2640
+MD5sum: cf896c2e67ca6fd01b11f12b1e3ef47e
+SHA1: 6c5f83926b7169151a6b645f9e4a29222116ab05
+SHA256: fcb02b33754de813064a997fcf2562e55fe3493c9ec154b7976e5df57287f3a1
+SHA512: d371f6e989793c8d363545529fe8ce290c90e468bc55d1941202858194e6bd44a155c893e0ee39d1091467cb826b17707dcfb96471e52e000bcbac1ac1e311e2
+Description: dev lib for read image/video data from deepin-authentication
+ this package is a dev lib for read image/video data from deepin-authentication.
+
+Package: libdareader1
+Architecture: amd64
+Version: 2.0.0.0
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libdareader
+Maintainer: chenlinxuan <chenlinxuan@uniontech.com>
+Installed-Size: 32
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
+Filename: pool/main/libd/libdareader/libdareader1_2.0.0.0_amd64.deb
+Size: 5804
+MD5sum: 01650f5abc48acfcad9a8b8051595a35
+SHA1: 892943a7b1609cebcb78e708ad2f0bb965cd9eb3
+SHA256: eede4b2722fd0a491f266095907803a94b6c24de9b13ffc7efe95f5261481db8
+SHA512: 0d05f0d686731381e97acd6b25364c0397613caa58a7f4c25ff2e469e20d39458c360551b10ffcd00025b0f9cf76f8d25eb9ca56782ebadbd70eba54a8c05b1d
+Description: lib for read image/video data from deepin-authentication
+ this package is a lib for read image/video data from deepin-authentication.
+
 Package: treeland-protocols
 Architecture: all
 Version: 0.5.0
