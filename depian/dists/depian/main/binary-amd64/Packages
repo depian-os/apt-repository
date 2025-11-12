@@ -345,6 +345,45 @@ Homepage: http://www.deepin.org
 Description: extension library of dde-file-manager
  Extension library of dde-file-manager which is provided for third parties
 
+Package: dde-polkit-agent-dev
+Architecture: amd64
+Version: 6.0.16
+Priority: optional
+Section: devel
+Source: dde-polkit-agent
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 14
+Depends: dde-polkit-agent (= 6.0.16)
+Filename: pool/main/d/dde-polkit-agent/dde-polkit-agent-dev_6.0.16_amd64.deb
+Size: 3848
+MD5sum: 0fa19629d7e4f3698e7ec03482ea10b5
+SHA1: 0a4221e639ddbc6f0e32132991df53c88b91e2da
+SHA256: d58a6379732ba82e8e882fad3c043695e8fd176d1e1f1822a2ddca14359ce8c8
+SHA512: dd128a3bd48bf0a2e39fe32cbfab4e3954813a3082affa98e2844b34fce170da23e1a4edc0cc1df5cb2f8ccb72ba378bafdee0fed144c6cabc3729c055e81f8d
+Homepage: https://github.com/linuxdeepin/dde-polkit-agent
+Description: development files of dde-polkit-agent extensions.
+ Development files of dde-polkit-agent extensions.
+
+Package: dde-polkit-agent
+Architecture: amd64
+Version: 6.0.16
+Priority: optional
+Section: devel
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 566
+Depends: libc6 (>= 2.34), libdde-shell (>= 2.0.17), libdtk6core (>= 6.0), libdtk6gui (>= 6.0), libdtk6widget (>= 6.0), libgcc-s1 (>= 3.0), libpolkit-qt6-1-1 (>= 0.200.0), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.8.2), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 14)
+Filename: pool/main/d/dde-polkit-agent/dde-polkit-agent_6.0.16_amd64.deb
+Size: 133744
+MD5sum: 666fec2c0a415395016ac484f3f2c2eb
+SHA1: f9b304bb7ac7a850bbdbb717f4a474a270df6e76
+SHA256: 7841c5889d4970d349eeab5625abc596aed1b3b65db3c3b6332a5eb64c5e84da
+SHA512: 1d3a09f4495ea8ad0c6b8400604ffe86fa2c452352375ae1a1464dc86285f42329a3a7a24900f095d0f0679e1e71670fabf69ac71e89a00b5e4dfdaa096e774c
+Homepage: https://github.com/linuxdeepin/dde-polkit-agent
+Description: PolicyKit agent for DDE.
+ PolicyKit agent is usually a dialog used to provide a way to let users
+ grant permission to specific actions, this package serves the role in
+ Deepin Desktop Environment.
+
 Package: dde-qt6xcb-plugin
 Architecture: amd64
 Version: 6.0.44-depian1
