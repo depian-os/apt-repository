@@ -321,6 +321,24 @@ Homepage: http://www.deepin.org
 Description: extension library of dde-file-manager
  Extension library of dde-file-manager which is provided for third parties
 
+Package: dde-qt6xcb-plugin
+Architecture: amd64
+Version: 6.0.44-depian1
+Priority: optional
+Section: devel
+Source: dde-qt6platform-plugins
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 1102
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.4.0), libqt6gui6 (>= 6.8.2), libqt6opengl6 (>= 6.1.2), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 14), libx11-6, libxcb-composite0, libxcb-damage0, libxcb-icccm4 (>= 0.4.2), libxcb-shape0, libxcb-xfixes0, libxcb1 (>= 1.6), libxi6 (>= 2:1.2.99.4), qt6-base-private-abi (= 6.8.2)
+Filename: pool/main/d/dde-qt6platform-plugins/dde-qt6xcb-plugin_6.0.44-depian1_amd64.deb
+Size: 335628
+MD5sum: a09f646fc90f6a738e0b3b135a293f63
+SHA1: 39e5f2db3debc1aca4f5737c466a325e9a354dd2
+SHA256: e61c9c524e0219ec173bb591e6df98b8f3292e04c5b39f8065dfeaa085c2c777
+SHA512: 6ec694e4e224f557af7a21aae715dc42314214dba5f633a6fc1f08ec45b5f82464290e9c9ad431152324a493c3d65678f958832a28be14f49fe4c6cbe9301399
+Description: Qt platform plugins
+ Qt platform plugins for DDE.
+
 Package: dde-shell-example
 Architecture: amd64
 Version: 2.0.17-0depian1
