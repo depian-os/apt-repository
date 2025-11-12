@@ -1330,3 +1330,164 @@ SHA512: a5f0faeaa8b513e5c373eadd4255cb983f28ba475c8ab5fdda6f42c15c0e61437808b13e
 Homepage: https://github.com/linuxdeepin/treeland-protocols
 Description: wayland protocols of treeland.
 
+Package: libdfm6-burn-dev
+Architecture: amd64
+Version: 1.3.39
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: util-dfm
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 28
+Depends: libdfm6-burn (= 1.3.39), libisoburn-dev
+Filename: pool/main/u/util-dfm/libdfm6-burn-dev_1.3.39_amd64.deb
+Size: 5616
+MD5sum: 23ba8d49c371a2261e05fa93e5a04980
+SHA1: 4f5aa7696d8acd35e744dabfc07945c6180d5c61
+SHA256: f3772689a0ced5e590c81a34b649fc16b7c61a2e38114b6c2a04d538987be485
+SHA512: 789d475cb81bcffec7e930767eb465b64350e2260841e7848057fa89456d27bfea82eba7fa98a8f35829d0dee90ccfadea98ac1594d86a8e8a32c82dcf33dde2
+Homepage: http://www.deepin.org
+Description: A library about mount burning CD.
+ A library that provides burning CD interface dev.
+
+Package: libdfm6-burn
+Architecture: amd64
+Version: 1.3.39
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: util-dfm
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 395
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libisoburn1t64 (>= 1.5.6), libqt6core6t64 (>= 6.8.2), libstdc++6 (>= 5.2)
+Recommends: libudfburn
+Filename: pool/main/u/util-dfm/libdfm6-burn_1.3.39_amd64.deb
+Size: 135028
+MD5sum: c0f27addc8b54066cdaddcd0c097d319
+SHA1: 4890a6642fad4c430f39b815e4f561251e5c2f31
+SHA256: 318f36e9e0a18f1865415e01f7b92f267d045f14875118213c4357a473a4e038
+SHA512: 8254c94c5ad0223158e0f67cde50be437673d780acbf80771dd0dbe61d84ba5f6eef041d68145ef809231d64cca136ca72d223275d85bbc62f44699519172244
+Homepage: http://www.deepin.org
+Description: A library about burning CD.
+ A library that provides burning CD interface.
+
+Package: libdfm6-io-dev
+Architecture: amd64
+Version: 1.3.39
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: util-dfm
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 69
+Depends: libdfm6-io (= 1.3.39)
+Filename: pool/main/u/util-dfm/libdfm6-io-dev_1.3.39_amd64.deb
+Size: 13152
+MD5sum: 623f0ac976e6768e6c72d0eb8cdaeefb
+SHA1: 8b13aba79c5bfc63a745c7dc5da593204423bb88
+SHA256: 756008afd78ce8f560f8eb520166cc1af4b79246855aa0c2eba25c3d76b77dfc
+SHA512: 48e02a2584f97028bc52ece6921c4826ed3fba882d6d9e9a4ff0717745e53d1dcff92ecf7799bfaaf707645e797c690b20d9254e5102e8b0e05777b77e122fb2
+Homepage: http://www.deepin.org
+Description: A library about I/O dev.
+ A library that provides I/O interface dev.
+
+Package: libdfm6-io
+Architecture: amd64
+Version: 1.3.39
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: util-dfm
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 468
+Depends: libc6 (>= 2.33), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.83.0), libmediainfo0v5 (>= 0.7.56), libqt6core6t64 (>= 6.8.2), libstdc++6 (>= 14), libglibmm-2.4-1v5
+Filename: pool/main/u/util-dfm/libdfm6-io_1.3.39_amd64.deb
+Size: 138408
+MD5sum: 83ec41de690de80df349b0035afcce17
+SHA1: 9217fc05fa0a24e834648e7eb07dbc85240ca638
+SHA256: 4fa222ab0c846f4bf9afde951d052f7e470b59cc48cce23127424d08f568cae4
+SHA512: 5494da5dc98913ebb22a6998b6ce4e369ae4c1e1a55ce8cf85892416fca8df92d7294a90c0001c418683acdffdeb13c9611da6ef50b90cd04fd4835b081e60de
+Homepage: http://www.deepin.org
+Description: A library about I/O.
+ A library that provides I/O interface.
+
+Package: libdfm6-mount-dev
+Architecture: amd64
+Version: 1.3.39
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: util-dfm
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 61
+Depends: libdfm6-mount (= 1.3.39), libsecret-1-dev, libudisks2-dev
+Filename: pool/main/u/util-dfm/libdfm6-mount-dev_1.3.39_amd64.deb
+Size: 12204
+MD5sum: 9451a455e61cbee38c7a843d953c3e86
+SHA1: 8eba778b0f449ac8d9e6b30128e0d28f3e90b2a3
+SHA256: 5cdeaf02771e4e2c3548cfa432018af9bca2d7f21ddb92d43bfb14c349d208d2
+SHA512: 3ec6f977892be34292cc1c6b87ad1d75975a46c00123f32a79e8d130121bbda5579c08575b89c7bd5806315691d851fc356ca797dd45e84b0e74acc1ceab98a9
+Homepage: http://www.deepin.org
+Description: A library about mount and umount dev.
+ A library that provides mount and umount interface dev.
+
+Package: libdfm6-mount
+Architecture: amd64
+Version: 1.3.39
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: util-dfm
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 654
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.83.0), libmount1 (>= 2.25), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.1.2), libqt6widgets6 (>= 6.1.2), libsecret-1-0 (>= 0.7), libstdc++6 (>= 14), libudisks2-0 (>= 2.8.1)
+Filename: pool/main/u/util-dfm/libdfm6-mount_1.3.39_amd64.deb
+Size: 170340
+MD5sum: a28896d7ea17f08a509c3566b59b067e
+SHA1: a503a1d036977b8f6ca439f4081dfbf83e9898df
+SHA256: c3329cc68dba15221861273650b5dd5c4e0237d16b54851d888eec0a2782cb7b
+SHA512: a5061dd62a6a6feaaa8cbaf157b53941c3ada1249d49132c649a4c4f32027c3e78d5be3d2870bcaf963514ca138ccd11ea2cef4ca53208a79dba3073ac4fddc1
+Homepage: http://www.deepin.org
+Description: A library about mount and umount.
+ A library that provides mount and umount interface.
+
+Package: libdfm6-search-dev
+Architecture: amd64
+Version: 1.3.39
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: util-dfm
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 70
+Depends: libdfm6-search (= 1.3.39)
+Filename: pool/main/u/util-dfm/libdfm6-search-dev_1.3.39_amd64.deb
+Size: 14192
+MD5sum: 47f22f7f7a68e86d563a1c736dc13aa8
+SHA1: 98a8f7d8b08246189cae5fc021e4f91d74ed4687
+SHA256: 0f9decd59947ddafa3110ac9bdf3653109b5d52670a352936625053844b05a36
+SHA512: c57b57250262db443d620f521923fe633b06f27eabd73f1158c48490da52600e3be06a6bc8d570ac5f2268b5e8f8f492bf05d21e21cee569b8b0d3607a2b937f
+Homepage: http://www.deepin.org
+Description: A library about searching files dev.
+ A library that provides file searching interface dev.
+
+Package: libdfm6-search
+Architecture: amd64
+Version: 1.3.39
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: util-dfm
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 634
+Depends: libc6 (>= 2.34), libdtk6core (>= 6.0), libgcc-s1 (>= 3.0), liblucene++-contrib0t64 (>= 3.0.9), liblucene++0t64 (>= 3.0.9), libqt6core6t64 (>= 6.8.2), libstdc++6 (>= 13.1)
+Filename: pool/main/u/util-dfm/libdfm6-search_1.3.39_amd64.deb
+Size: 161200
+MD5sum: 7138fad3d9c9cb0c08b7bfd17726630e
+SHA1: e12d53d282291bf3e390ebac89bfd3d19d2cdc9d
+SHA256: f366a2045725aef02447bc912ff51abfc56cec302a4d6ec7f45bf940f6494ce5
+SHA512: 74a4aa7c008042d617914f68c5e9e4464c971c76a1de92a70a0ff02a928fc16820d274f7f241b88051287e53d92c9ac0bd221ddc41459c771f0739954cf244d1
+Homepage: http://www.deepin.org
+Description: A library about searching files.
+ A library that provides file searching interface.
+
