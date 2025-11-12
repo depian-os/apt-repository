@@ -37,6 +37,43 @@ Description: Go-lang bingdings for dde-daemon
  DDE API provides some dbus interfaces that is used for screen zone
  detecting, thumbnail generating, sound playing, etc.
 
+Package: dde-application-manager-api
+Architecture: amd64
+Version: 1.2.37
+Priority: optional
+Section: utils
+Source: dde-application-manager
+Maintainer: He YuMing <heyuming@deepin.org>
+Installed-Size: 39
+Depends: dde-application-manager (= 1.2.37)
+Filename: pool/main/d/dde-application-manager/dde-application-manager-api_1.2.37_amd64.deb
+Size: 8436
+MD5sum: 8c5c1bf5c25a2f7a0ec4cfeb494b22b1
+SHA1: f34f9c206356d0acb7b9e269c1d9121e6d45150e
+SHA256: f8fcb33e7f8dffa5628ebf0c597032256682f0700dd6963c15e8f22e72ba949c
+SHA512: 57b6e95bfca544f7424c37c0f30ce405503618d500e1b3738e7ecae78525b8b92773f12467e034da8ebf58213bb322cb270d4a31c61b51621fa8e6e31e15fad1
+Homepage: https://github.com/linuxdeepin/dde-application-manager
+Description: DBus Interface of dde-application-manager.
+  For the convenience of developers who want to use dde-application-manager.
+
+Package: dde-application-manager
+Architecture: amd64
+Version: 1.2.37
+Priority: optional
+Section: utils
+Maintainer: He YuMing <heyuming@deepin.org>
+Installed-Size: 1114
+Depends: libc6 (>= 2.34), libdtk6core (>= 6.0), libgcc-s1 (>= 3.0), libqt6concurrent6 (>= 6.1.2), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libstdc++6 (>= 14), libsystemd0 (>= 237)
+Filename: pool/main/d/dde-application-manager/dde-application-manager_1.2.37_amd64.deb
+Size: 305568
+MD5sum: 6c22c9ffb90c1dce82e712fa6130d71e
+SHA1: e80653aa1f0a1e504561054b4e1a6602b24f4f90
+SHA256: 306101fee5c66f7c0d7c11f03a7e0c53e82b8da8525dd8f7cb6d330431ad0b25
+SHA512: 7976d61911a564f33eb5a272b524e7786195708fc1ebff00d7cd578efe24ffda96ab3aad16594e5bcc102b6e7d5c5170392946539f7ac3dd7af44781583bd4a4
+Homepage: https://github.com/linuxdeepin/dde-application-manager
+Description: Application manager for DDE.
+  Launch applications by systemd for more caps.
+
 Package: dde-tray-loader-dev
 Architecture: amd64
 Version: 2.0.5
