@@ -74,6 +74,73 @@ Homepage: https://github.com/linuxdeepin/dde-application-manager
 Description: Application manager for DDE.
   Launch applications by systemd for more caps.
 
+Package: dde-control-center-dev
+Architecture: amd64
+Version: 6.1.53-0depian1
+Priority: optional
+Section: admin
+Source: dde-control-center
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 67
+Depends: dde-control-center (= 6.1.53-0depian1)
+Filename: pool/main/d/dde-control-center/dde-control-center-dev_6.1.53-0depian1_amd64.deb
+Size: 28276
+MD5sum: 4abdcf2dfdf33c6adc62dbd5a6d9a9a9
+SHA1: 79a67c0a6afce10b01c4cf30388fa5aea6da3856
+SHA256: 585069ac5afcee8fee6ddfe0b0cfbd8d1377ec4a09b26dff4ed83a5a623f2391
+SHA512: 69b8594df6a679049a7818b6df317cd812b5a71928ecea9ff0dc8ccdf7d4e6d14a84cad585062e23de2e09f81df18c8581b1c400e243061d960e2d955a40b897
+Homepage: https://github.com/linuxdeepin/dde-control-center
+Description: New control center for Deepin Desktop Environment - development files
+ DDE Control Center is the control panel of Deepin Desktop Environment.
+
+Package: dde-control-center-doc
+Architecture: amd64
+Version: 6.1.53-0depian1
+Priority: optional
+Section: admin
+Source: dde-control-center
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 26
+Depends: dde-control-center (= 6.1.53-0depian1)
+Filename: pool/main/d/dde-control-center/dde-control-center-doc_6.1.53-0depian1_amd64.deb
+Size: 20324
+MD5sum: abc41abae020489b48c099b75d4ad577
+SHA1: fb1cbbd205f2b98720faed13ca05d7238dad067a
+SHA256: 5841fe424dee7f2682b2c42870237be3ad505e7faf7c56173fc15a396886aa38
+SHA512: 961a90d7525ed29cf763efeafd99d20520fed219824ea90ffd4124e8ea485a030c26c808a5ab0d545449dfbd48694b6b25386f66edc1caccfe1e3e823388a730
+Homepage: https://github.com/linuxdeepin/dde-control-center
+Description: dde-control-center (document)
+ This package contains the doc files of dde-control-center
+
+Package: dde-control-center
+Architecture: amd64
+Version: 6.1.53-0depian1
+Priority: optional
+Section: admin
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 70503
+Depends: libc6 (>= 2.34), libdareader1, libdde-shell (>= 2.0.17), libdeepin-pw-check, libdtk6core (>= 6.0), libdtk6gui (>= 6.0), libgcc-s1 (>= 3.0), libicu76 (>= 76.1-1~), libpolkit-qt6-1-1 (>= 0.200.0), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.1.2), libqt6multimedia6 (>= 6.6.1), libqt6network6 (>= 6.1.2), libqt6qml6 (>= 6.7.2), libqt6qmlmodels6 (>= 6.6.0), libqt6quick6 (>= 6.6.0), libqt6waylandclient6 (>= 6.6.0), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14), libwayland-client0 (>= 1.20.0), qt6-base-private-abi (= 6.8.2), qt6-declarative-private-abi (= 6.8.2), qt6-waylandclient-private-abi (= 6.8.2), qml6-module-qtquick-layouts, qml6-module-qtquick-window, qml6-module-qt-labs-qmlmodels, qml6-module-qtquick-dialogs, qml6-module-qtquick-effects, libdtk6declarative (>= 6.0.41.5), netselect
+Recommends: uos-license-content
+Conflicts: dde-control-center-dock
+Replaces: dde-control-center-dock
+Filename: pool/main/d/dde-control-center/dde-control-center_6.1.53-0depian1_amd64.deb
+Size: 53346692
+MD5sum: bbe4214eda325a013de641f738d63308
+SHA1: d57ead081d7efb91feab45237526a857909839bc
+SHA256: 06fd943c6d985e208f928069358e2a20701a84066cee8c788301269ce869406c
+SHA512: 785d239b2ce8948462e7eddc4b949006d6a411122c64586f057bf71333aa8a7a8b6f1e9a00ebf564b7493cacf31ce417c3fc189bf0370928456e5323f4aaf9e0
+Homepage: https://github.com/linuxdeepin/dde-control-center
+Description: New control center for Deepin Desktop Environment,
+ Integrated control center with rich functions,Besides providing rich
+ system setting items, the function level is simple, the logic is clear,
+ the user can easily set the system, and the learning cost is low,
+ Provide users with automatic update system and developer mode to meet
+ the various needs of users for the operating system.
+ abrecovery -restore system, Determine whether the system is restored
+ reboot-reminder-dialog -Update restart, Confirm whether to restart the system
+ after the completion of the update.
+ DDE Control Center is the control panel of Deepin Desktop Environment.
+
 Package: dde-desktop
 Architecture: amd64
 Version: 6.5.99
@@ -1494,23 +1561,6 @@ Description: Deepin graphical user interface library
  DtkWidget is Deepin graphical user interface for deepin desktop development.
  .
  This package contains the shared libraries.
-
-Package: example-package
-Architecture: amd64
-Version: 1.0.0
-Priority: optional
-Section: misc
-Maintainer: Your Name <your.email@example.com>
-Depends:
-Filename: pool/main/e/example-package/example-package.deb
-Size: 1216
-MD5sum: a939af3072f79a71be3b1133c8085b11
-SHA1: d9eb7e68a877c53e2a46ee5a9bf6e63928579e17
-SHA256: 99ababc76d43023799aaff153dbda51f345269f7de96869a8d277bd8985dad59
-SHA512: 95f80147e6bfb87e3868fd497c04de4103ef248d775af44bd2814efac3dad8540b0d12eb5575656f651dee7c3be42e0bfb596846f4d08a725ce1d5947a134df7
-Description: Example package for APT repository
- This is an example package to demonstrate how to add packages
- to your personal APT repository hosted on GitHub Pages.
 
 Package: golang-github-linuxdeepin-go-dbus-factory-dev
 Architecture: all
