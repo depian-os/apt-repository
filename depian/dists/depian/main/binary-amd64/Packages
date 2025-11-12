@@ -141,6 +141,24 @@ Description: New control center for Deepin Desktop Environment,
  after the completion of the update.
  DDE Control Center is the control panel of Deepin Desktop Environment.
 
+Package: dde-device-formatter
+Architecture: amd64
+Version: 1.5.8
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 435
+Depends: libc6 (>= 2.34), libdtk6core (>= 6.0), libdtk6gui (>= 6.0), libdtk6widget (>= 6.0), libgcc-s1 (>= 3.0), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.1.2), libqt6gui6 (>= 6.1.2), libqt6network6 (>= 6.1.2), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 11), libudisks2-qt6 (>= 6.0.1), libx11-6, qt6-base-private-abi (= 6.8.2), nilfs-tools
+Filename: pool/main/d/dde-device-formatter/dde-device-formatter_1.5.8_amd64.deb
+Size: 87616
+MD5sum: 5c15bee73a4eb9eeb3cf5b674c941ec5
+SHA1: a986a5de2db26d3f4249d0e04b3f12983f9f2f82
+SHA256: f74cdebef10ce2b1c94b0c26c467eb28f1fab06d43572a2bdb1432b049b7b25c
+SHA512: 3b7f23bbe25f1baa8b1baabc378e8d7f6d1fefa1be7c7626e620244e28527d2e9557cef91ed5d1fbbed8a4288b8dfc62c5a6ff9d76b40cbf2b9188a45fe0f2b5
+Homepage: http://www.deepin.org
+Description: Device formatter
+  A simple graphical interface for creating file system in a block device.
+
 Package: dde-desktop
 Architecture: amd64
 Version: 6.5.99
