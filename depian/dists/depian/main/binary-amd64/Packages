@@ -877,6 +877,28 @@ Description: Example package for APT repository
  This is an example package to demonstrate how to add packages
  to your personal APT repository hosted on GitHub Pages.
 
+Package: golang-github-linuxdeepin-go-lib-dev
+Architecture: all
+Version: 6.0.12
+Priority: extra
+Section: devel
+Source: golang-github-linuxdeepin-go-lib
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 1997
+Depends: golang-github-linuxdeepin-go-x11-client-dev, golang-github-youpy-go-wav-dev, golang-github-fsnotify-fsnotify-dev, golang-github-mozillazg-go-pinyin-dev, golang-golang-x-image-dev, golang-gir-gobject-2.0-dev (>> 1.2.0+), golang-gir-gio-2.0-dev (>> 1.2.0+), golang-gir-glib-2.0-dev (>> 1.2.0+), golang-dbus-dev, libpulse-dev, libgtk-3-dev, libasound2-dev, libpam0g-dev, golang-golang-x-net-dev, golang-golang-x-crypto-dev, libssl-dev
+Conflicts: golang-dlib-dev
+Replaces: golang-dlib-dev
+Filename: pool/main/g/golang-github-linuxdeepin-go-lib/golang-github-linuxdeepin-go-lib-dev_6.0.12_all.deb
+Size: 371904
+MD5sum: 57d88cf124994f640dfdca6a4e958b36
+SHA1: 6be972d96615f9fe72e5a511f7560f48408c9ba0
+SHA256: 19969c740cd13199b67489ed71ed6e854a947370caf00a12e0af6c5a99aa6d47
+SHA512: fa238c87a73f06d9fcd88ddbb164e4edd0e022078fa1e79a83ef63a340e37cb2582ef241bc7363e0d5a6d38ec9dae56758f39519bba7e72fc23e8c709367644b
+Homepage: https://github.com/linuxdeepin/go-lib
+Description: Go bindings for Deepin Desktop Environment development
+ DLib is a set of Go bindings/libraries for DDE development.
+ Containing dbus (forking from guelfey), glib, gdkpixbuf, pulse and more.
+
 Package: golang-github-linuxdeepin-go-x11-client-dev
 Architecture: all
 Version: 1.0.2
