@@ -459,6 +459,28 @@ SHA512: 348d9e663ae8bfa48d5002856523b04fe3b2f46299f2e0cbfe3b71e560ee87753dd4627d
 Description: The basic file of Deepin Desktop,
  provides system attribute description for DDE components
 
+Package: deepin-desktop-schemas
+Architecture: amd64
+Version: 6.0.13
+Priority: optional
+Section: misc
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 346
+Depends: dconf-gsettings-backend | gsettings-backend
+Conflicts: deepin-default-gsettings
+Breaks: dde-daemon (<< 2.92.2), deepin-default-gsettings, deepin-wm (<< 0.2.1), startdde (<< 2.91.0)
+Replaces: deepin-default-gsettings
+Filename: pool/main/d/deepin-desktop-schemas/deepin-desktop-schemas_6.0.13_amd64.deb
+Size: 43168
+MD5sum: 8d3f5140089c21f7f0911033552465aa
+SHA1: e5939bb7a4b2755d466b850c8bbd9ea05499d07e
+SHA256: 58a7c1086b7890825fff4b8d8550152f97d287451d184fc5d347693e0e7204cc
+SHA512: ee729c505949a3dca3ee46f6337dd52249bfb2112d0eab2a886456cfb8907f4398d74507288dd26c467b9b080044fc753a01917e869fbade95c7251343f0431b
+Homepage: https://github.com/linuxdeepin/deepin-desktop-schemas
+Description: GSettings deepin desktop-wide schemas
+ deepin-desktop-schemas contains a collection of GSettings schemas for
+ settings shared by various components of a desktop.
+
 Package: deepin-gettext-tools
 Architecture: all
 Version: 1.0.6-1
