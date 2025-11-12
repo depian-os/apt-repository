@@ -360,6 +360,25 @@ SHA512: 40e2d91fa45646e2b94465906f67d7f8c3ef47ac95f19f57760cf99f86542c31f63424fb
 Homepage: https://github.com/linuxdeepin
 Description: deepin desktop-environment - service frame
 
+Package: depian-keyring
+Architecture: all
+Version: 2025.11.12
+Multi-Arch: foreign
+Priority: important
+Section: misc
+Maintainer: lilongyu <leaeasy@linuxdeepin.com>
+Installed-Size: 32
+Depends: gpgv
+Filename: pool/main/d/depian-keyring/depian-keyring_2025.11.12_all.deb
+Size: 6296
+MD5sum: 1dad5819c09580df3262109fdc19ac00
+SHA1: 03f2f745f59a979fc3e511580c7fe86ea695cbc6
+SHA256: 413fbfe574bd15dfa8484a02bbe7e6652d35ed21555a8eb365a9c0658d1193cd
+SHA512: d3e681a0fc99784edf13782b98038c0973ef950a9c475fb78ef005fc3d3ef0d1e69de50db75fa89331fbe5585959a43097b57ae8585759a181441f56194e4235
+Description: GnuPG keys of the Deepin archive
+ The Deepin project digitally signs its Release files. This package
+ contains the archive keys used for that.
+
 Package: libdocparser-dev
 Architecture: amd64
 Version: 1.0.22
