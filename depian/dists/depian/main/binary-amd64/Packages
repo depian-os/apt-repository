@@ -211,6 +211,25 @@ Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - wireless casting plugin for dde-dock
  wireless casting plugin module
 
+Package: deepin-desktop-base
+Architecture: amd64
+Version: 2025.10.22
+Priority: optional
+Section: misc
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 103
+Provides: deepin-appstore-config
+Depends: depian-keyring, distro-info-data, eject, fonts-noto, fonts-symbola
+Conflicts: deepin-desktop-server
+Filename: pool/main/d/deepin-desktop-base/deepin-desktop-base_2025.10.22_amd64.deb
+Size: 23712
+MD5sum: e9426e9be347abd1cfae3b1498348bf1
+SHA1: e0d6a81fffb1a1fceecf82e1da48aa5d50605d25
+SHA256: 99495159b62adf194b6d312e85757202c52034a2c674666003c6c2d61a22383a
+SHA512: 348d9e663ae8bfa48d5002856523b04fe3b2f46299f2e0cbfe3b71e560ee87753dd4627d651536393c5763f1c607647b7e78f3c04e73e7ff90c11ae86c0c2566
+Description: The basic file of Deepin Desktop,
+ provides system attribute description for DDE components
+
 Package: deepin-gettext-tools
 Architecture: all
 Version: 1.0.6-1
