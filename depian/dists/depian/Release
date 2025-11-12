@@ -1,32 +1,32 @@
 Codename: depian
-Date: Wed, 12 Nov 2025 00:47:44 +0000
+Date: Wed, 12 Nov 2025 00:57:37 +0000
 Label: Depian OS Repository
 Origin: depian-os.github.io
 Suite: depian
 MD5Sum:
- a50ab9612198b5a9cbe3cfc116c7eedd              125 Release
- b3483af4b0336c3d5ca97ffbe0410198            43854 main/binary-amd64/Packages
+ bf822c9ba02092a875ae48a19f9c5abf              125 Release
+ f4568f158cd5c6ceb05593e658902d7d            44832 main/binary-amd64/Packages
  a85cba99e94c4de2e42d75e8d3414205               80 main/binary-amd64/Release
  d41d8cd98f00b204e9800998ecf8427e                0 main/binary-i386/Packages
  b091def84bb467feee3d4b86631f00ab               79 main/binary-i386/Release
  7896d059b53a772c0d7d88803b388143               81 main/source/Release
 SHA1:
- d67343f485b406d5b388fd9a8562a5e846307816              125 Release
- 0f51a3792216786f5e19a45ec874eadab3f89682            43854 main/binary-amd64/Packages
+ 92abfb6c623e5d45d93f95a61e7f4ce071b1bcb8              125 Release
+ e2e33f3df04779390784060baba0fdb203530ebe            44832 main/binary-amd64/Packages
  1dea827aa2bfcc8aab365277d57bbca45fdc0d48               80 main/binary-amd64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709                0 main/binary-i386/Packages
  547cf4ac143001bc170780e9154623e3cb8b5ffa               79 main/binary-i386/Release
  085f47014d5c81c3f726a8755c2c58f7c21592a5               81 main/source/Release
 SHA256:
- 9a4cf29d50633e365a271b356c211b3d301793df9371574913269606d1a622fa              125 Release
- bab7590317468244b42cfa7bafa2914f6742b198d146fcde04f6e99f32590ae9            43854 main/binary-amd64/Packages
+ 2063b9d11bd0d98c8df7dcd35d2c73b2681ce85689483c22b43d5ed62fce704f              125 Release
+ 3d1a6ac6cfac1c741b66e2d9d949ee625b3518ce743b5cb97cfb211feb12c71f            44832 main/binary-amd64/Packages
  d97ba12959904cf5f89980adf7d3debc088ce1f0782338b8e77c1ac35f898c51               80 main/binary-amd64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 main/binary-i386/Packages
  45950aa594abaf8891375ecdd63ab700aea7cec7571f9fca8ffaad8e023327a5               79 main/binary-i386/Release
  3bc25aa2d6a022a91bad609146cfc2d9021e004b34b54a2b85a4b4eb4d8b736f               81 main/source/Release
 SHA512:
- 955a10683b6319638308febd66d3d7c357208dd25e2209af8bab1dfa3786197f421199268c653e6186872c08decaa8a14a80913fa99358e17a0e75b9539d7cdf              125 Release
- 01098849759470c5148b3fe672e08a1d7c4a871627c628e8156e7085639a1403ac7793515b7bef6ac68aef67d9030634dc5ccbfbb1e74726a8e16f2583045a33            43854 main/binary-amd64/Packages
+ 5986cdad75354a9528cbfe33fcb2ac926186da6c1b369c4c8a0efee526898e2722aa5a470977565eaa6752b3d146a196da3d57a4bd1ac2897c556475dcb2a999              125 Release
+ 528f3119d7d6ad7f18312ae15160c168ec86051c8cbddfce489ce0af7d9ffe48c2f69605f772022ae8b4de5ae4c0b4fef5a71de608342488bc45d1cc227f9774            44832 main/binary-amd64/Packages
  04d2953aad51e2b99a9312ba8a1e9698264d2d81724eb9164a70ce1cb3bcc050eacd1f3607da75555080fb72242c631ea5cb40cbb5520f8faf198de4272cfb78               80 main/binary-amd64/Release
  cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e                0 main/binary-i386/Packages
  4f11490b8af7968e85007a5c52712c808334ca2542ab54fe026edac075cbb0c289148a7f112365145409173021321281ce4d27bed7e898939526a85924b88aa9               79 main/binary-i386/Release
