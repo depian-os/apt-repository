@@ -360,6 +360,43 @@ SHA512: 40e2d91fa45646e2b94465906f67d7f8c3ef47ac95f19f57760cf99f86542c31f63424fb
 Homepage: https://github.com/linuxdeepin
 Description: deepin desktop-environment - service frame
 
+Package: libdocparser-dev
+Architecture: amd64
+Version: 1.0.22
+Priority: optional
+Section: libdevel
+Source: docparser
+Maintainer: deepin <packages@deepin.com>
+Installed-Size: 16
+Depends: libdocparser
+Filename: pool/main/d/docparser/libdocparser-dev_1.0.22_amd64.deb
+Size: 3160
+MD5sum: 6f6dd64893cc81cc1cd761b55e006b73
+SHA1: 1fa81a8339ea0d783370515d68f13eb20b500c6b
+SHA256: 40d7bb31ff53fcc0b7a92b81d19d5e0f4cd1dcb9acea05444aab97da2cd7d61f
+SHA512: 64ecbf804d6cfdfa9e2d26b305da11acc66e23ac28d491b58cded59b61b270cccd87a6ae9d60a38748d784bc2c211f9165a043301f3393d1b93f16c64ab82e7b
+Description: Development files for libdocparser
+ This package contains the header files and static libraries
+ of libdocparser
+
+Package: libdocparser
+Architecture: amd64
+Version: 1.0.22
+Priority: optional
+Section: libdevel
+Source: docparser
+Maintainer: deepin <packages@deepin.com>
+Installed-Size: 1362
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libmagic1t64 (>= 5.12), libpoppler-cpp2 (>= 25.03.0), libpugixml1v5 (>= 1.8.1), libstdc++6 (>= 13.1), libtinyxml2-11 (>= 11.0.0), libuuid1 (>= 2.16), libxml2 (>= 2.7.4), libzip5 (>= 0.11.2)
+Filename: pool/main/d/docparser/libdocparser_1.0.22_amd64.deb
+Size: 411832
+MD5sum: 9007882ef7b01a2eec290e3513cb68e6
+SHA1: 8f551a81a8b940e3cd0898272027a9a069bb81e2
+SHA256: b16ea9f7abbad7971121a31fb9fbadbaaab3fb7a41ac0da8f62b6e5c1eebcbae
+SHA512: 2ee1c6f30668a61304d6acad852f2648a4686e700377bc537703a1c30f3b05ac21b8b4e41a4b3b35cc034a67216bc99a825fb8101ab12560d4ccbf344228fcbd
+Description: Document parser library.
+ This package contains the shared libraries.
+
 Package: libdtk6core-bin
 Architecture: amd64
 Version: 6.0.44
