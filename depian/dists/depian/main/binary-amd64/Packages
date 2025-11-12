@@ -37,6 +37,66 @@ Description: Go-lang bingdings for dde-daemon
  DDE API provides some dbus interfaces that is used for screen zone
  detecting, thumbnail generating, sound playing, etc.
 
+Package: dde-tray-loader-dev
+Architecture: amd64
+Version: 2.0.5
+Priority: optional
+Section: unknown
+Source: dde-tray-loader
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 58
+Provides: dde-dock-dev (= 6.1.0)
+Conflicts: dde-dock-dev
+Replaces: dde-dock-dev
+Filename: pool/main/d/dde-tray-loader/dde-tray-loader-dev_2.0.5_amd64.deb
+Size: 15096
+MD5sum: fc708918b35d9faa428c4517302236b1
+SHA1: fde8de591b21ae9dfd92e0220ea3cdd38f7b08af
+SHA256: bd59776c01ee1635bec68c025740541aa8cfafb1ce0467506a286c9a18c15f1e
+SHA512: 85e9f9898a118f0848a1695773dba7dc65af97a2a1b8e841d7e5c8bd36b82b7d835ec4bfbc4bf8ba3ac949fd949fcf64383bf496fd536ce7f790139d2aab6838
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - tray plugins module development files
+ Tray plugins module development files of deepin desktop-environment
+
+Package: dde-tray-loader
+Architecture: amd64
+Version: 2.0.5
+Priority: optional
+Section: unknown
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 8953
+Depends: libc6 (>= 2.34), libdtk6core (>= 6.0), libdtk6gui (>= 6.0), libdtk6widget (>= 6.0), libgcc-s1 (>= 3.0), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.8.2), libqt6svg6 (>= 6.6.0), libqt6waylandclient6 (>= 6.6.0), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 14), libwayland-client0 (>= 1.20.0), libx11-6, libxcb-composite0, libxcb-ewmh2 (>= 0.4.2), libxcb-image0 (>= 0.2), libxcb-res0 (>= 1.10), libxcb-shape0, libxcb-xtest0, libxcb1, libxcursor1 (>> 1.1.2), libxtst6 (>= 2:1.2.5), qt6-base-private-abi (= 6.8.2), qt6-waylandclient-private-abi (= 6.8.2), deepin-desktop-schemas (>= 5.9.14), dde-qt6xcb-plugin, dde-daemon (>= 6.1.26), lastore-daemon (>= 5.2.9)
+Conflicts: dde-dock, dde-dock-onboard-plugin
+Replaces: dde-dock, dde-dock-onboard-plugin
+Filename: pool/main/d/dde-tray-loader/dde-tray-loader_2.0.5_amd64.deb
+Size: 1447544
+MD5sum: 2c1bd890eb4b0ee9c72b4f55e90820e9
+SHA1: adc3fbfa89e99289b8704ae483570ea710c0ecdc
+SHA256: caac16c1b76b556f86fce47bea8b8c6ca745903adf72b0ab5c2d8dc189905b39
+SHA512: 4d1267e01973805a405662b0d957cd6fe352b0cad947e53b1a61a3dc1887ad44362f6b9964ebb228aa24158a4b5514172394a3ac6defa27b7856cb20c76e4945
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - the plugins of tray for dde-dock
+ Tray plugins module
+
+Package: dde-wirelesscasting-plugin
+Architecture: amd64
+Version: 2.0.5
+Priority: optional
+Section: unknown
+Source: dde-tray-loader
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 831
+Depends: libc6 (>= 2.32), libdtk6core (>= 6.0), libdtk6gui (>= 6.0), libdtk6widget (>= 6.0), libgcc-s1 (>= 3.0), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.1.2), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 14)
+Filename: pool/main/d/dde-tray-loader/dde-wirelesscasting-plugin_2.0.5_amd64.deb
+Size: 188108
+MD5sum: 94d7a2936efc63ac5af26b8de3dd7388
+SHA1: affbcd2553c7f469bc6bcdf6a4fba5b9388a5fa5
+SHA256: 2d973e10d2c4e1330c4a73b5674c01aa528c996aa0d0a33b26f1a30b971f9e77
+SHA512: c2a5a2ee5d3a6d9139aa0a99b70ae5c287c1cc7668e975bc3e0b55d4855a0982c6d888ea828b0b9e31a8bf21b2bea8c3fccdf9cae93c26797fb02a23355134d7
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - wireless casting plugin for dde-dock
+ wireless casting plugin module
+
 Package: deepin-gettext-tools
 Architecture: all
 Version: 1.0.6-1
