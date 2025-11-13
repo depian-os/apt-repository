@@ -703,6 +703,23 @@ Description: Deepin Internationalization utilities
  .
  This package is part of DDE (Deepin Desktop Environment).
 
+Package: deepin-home
+Architecture: amd64
+Version: 1.6.5
+Priority: optional
+Section: admin
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 5834
+Depends: libc6 (>= 2.34), libdtkcore5 (>= 5.7), libdtkdeclarative5 (>= 5.7.24.3), libdtkgui5 (>= 5.7), libgcc-s1 (>= 3.0), libqt5core5t64 (>= 5.15.1), libqt5dbus5t64 (>= 5.0.2), libqt5gui5t64 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5t64 (>= 5.9.0~beta), libqt5qml5 (>= 5.14.1), libqt5widgets5t64 (>= 5.0.2), libssl3t64 (>= 3.0.0), libstdc++6 (>= 5.2), qml-module-qtquick-controls, qml-module-qtquick-dialogs, qml-module-qtquick-controls2, qml-module-qtquick-layouts, inxi
+Filename: pool/main/d/deepin-home/deepin-home_1.6.5_amd64.deb
+Size: 1248560
+MD5sum: 48c6b6d934a6d24c93e09e7bc97c47da
+SHA1: dbc497b653c42538d6186b7173352f80f0a04e54
+SHA256: 85e49ab1a4495cca1319426c560e8ee756e6a9ac8f87f943bb94b5753b41770a
+SHA512: ce1f5a472667bdddcf13f27d44b0035001497aa91d9890567fb316f82cec35d5bb68441c6f5f7efb7aecc2d5390213ceb333be0d6b50fd278966fe4a4485e099
+Description: deepin home
+ quick login bbs, bug report.
+
 Package: deepin-installer-timezones
 Architecture: all
 Version: 6.0.4
