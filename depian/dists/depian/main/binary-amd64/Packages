@@ -597,6 +597,64 @@ Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - wireless casting plugin for dde-dock
  wireless casting plugin module
 
+Package: ddm
+Architecture: amd64
+Version: 0.2.1-0depian1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Maintainer: justforlxz <zhangdingyuan@deepin.org>
+Installed-Size: 1034
+Depends: libc6 (>= 2.38), libddm (>= 0.2.1), libgcc-s1 (>= 3.0), libpam0g (>= 0.99.7.1), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6network6 (>= 6.6.1~), libqt6qml6 (>= 6.6.1~), libstdc++6 (>= 13.1), libsystemd0, libwayland-client0 (>= 1.20.0), qml6-module-qtquick, qml6-module-qtquick-controls, qml6-module-qtquick-layouts, qml6-module-qtqml-workerscript, qml6-module-qtquick-templates, qml6-module-qtquick-particles, qml6-module-qtquick-dialogs, qml6-module-qtquick-window, qml6-module-qt5compat-graphicaleffects, qml6-module-qtquick-effects, qml6-module-qt-labs-folderlistmodel, adduser, seatd, qt6-wayland, libqt6svg6
+Recommends: libpam-systemd, xwayland
+Filename: pool/main/d/ddm/ddm_0.2.1-0depian1_amd64.deb
+Size: 268020
+MD5sum: eaae180b39b80d0d87bb6cb99a43c0b8
+SHA1: 0ac28da23004c4ec70de234c8848af4bec05037e
+SHA256: a1a43394aaf81659e21d97f4bbcc51651aca58ae15f3f04c516bc159cae10019
+SHA512: 881ac2152911f663739483ceb74d22d2dc1ed523766e2b360ac37181d9c6333bae65f8fb314b7aed0c1910162b66e014d57f609d071b7d2f5ce981c00fb905b0
+Homepage: https://github.com/linuxdeepin/ddm.git
+Description: a modern display manager for Wayland sessions aiming to be fast, simple and beautiful.
+
+Package: libddm-dev
+Architecture: amd64
+Version: 0.2.1-0depian1
+Priority: optional
+Section: libs
+Source: ddm
+Maintainer: justforlxz <zhangdingyuan@deepin.org>
+Installed-Size: 121
+Depends: libddm (= 0.2.1-0depian1), qt6-base-dev
+Filename: pool/main/d/ddm/libddm-dev_0.2.1-0depian1_amd64.deb
+Size: 23496
+MD5sum: fc3d182f41ff7e57b69a5c0ff4889d3f
+SHA1: 69337114ef226b3dc70f56f7450f297190c8ba37
+SHA256: 12c573afbe3b553925f14f0b19f785b316d287190b84385c28c10fe2dd9df297
+SHA512: f5fc67d514904073db830e07b4ea4ed5702fe27f70586c309822f72330f1ddd44ee7662432ad47bc9678a64402809a719cf856d2fac24538a77ff977ad117483
+Homepage: https://github.com/linuxdeepin/ddm.git
+Description: DDM devel library
+  provide PAM headers
+
+Package: libddm
+Architecture: amd64
+Version: 0.2.1-0depian1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: ddm
+Maintainer: justforlxz <zhangdingyuan@deepin.org>
+Installed-Size: 479
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.6.1~), libqt6network6 (>= 6.6.1~), libqt6qml6 (>= 6.6.1~), libstdc++6 (>= 5.2), libxau6 (>= 1:1.0.11)
+Filename: pool/main/d/ddm/libddm_0.2.1-0depian1_amd64.deb
+Size: 124136
+MD5sum: ed8c863ec30cdf118bb0daacaff58a54
+SHA1: 8f14b5ca4b30939ec4d39f9b403f07f625e62ded
+SHA256: c7b6407b4f5867b78177e80b82963266d0230ac5236fb433542128e95d99933c
+SHA512: 83ecef14e86799bca4c33dafcecbacda3dc55581549a3ea49dbd9e7a035d3b5ae9b226fb8003e2fe32f9ed07ccd898d7a394d005184c09d9a8a162080edd9b5c
+Homepage: https://github.com/linuxdeepin/ddm.git
+Description: DDM library
+  provide PAM libraries
+
 Package: deepin-default-settings-tuning
 Architecture: all
 Version: 2025.06.17
