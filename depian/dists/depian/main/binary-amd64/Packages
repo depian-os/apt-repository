@@ -2241,6 +2241,164 @@ Homepage: http://github.com/linuxdeepin/lastore-daemon
 Description: daemon of lastore
  daemon of lastore - support dbus interface
 
+Package: gir1.2-lightdm-1
+Architecture: amd64
+Version: 1.32.0-depian1
+Priority: optional
+Section: introspection
+Source: lightdm
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 47
+Depends: liblightdm-gobject-1-0 (= 1.32.0-depian1)
+Filename: pool/main/l/lightdm/gir1.2-lightdm-1_1.32.0-depian1_amd64.deb
+Size: 24776
+MD5sum: fa72a52fa242d5363760473b2ce515ad
+SHA1: c03a7a48b2e5badff8ed0a32069bd036c7bc751f
+SHA256: 9b74ebd7ec5d9a32324b26676e73f7bd14048d2498254552dbcdb8e9ae92c064
+SHA512: c66c9556c12e5fef9cfeb7acd225e84002973996e1b231b4c02ea5862d268b3086731ccb430060f354bd24732e360b09af6614b83ae0b757a75a004cba9f5db5
+Homepage: https://discourse.ubuntu.com/c/light-dm/107
+Description: Typelib file for liblightdm-1
+ liblightdm provides a library for building LightDM greeters and applications.
+ .
+ This package can be used by other packages using the GIRepository format to
+ generate dynamic bindings for liblightdm.
+
+Package: liblightdm-gobject-1-0
+Architecture: amd64
+Version: 1.32.0-depian1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: lightdm
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 155
+Depends: libc6 (>= 2.14), libglib2.0-0t64 (>= 2.80.0), libx11-6, libxklavier16 (>= 5.0)
+Filename: pool/main/l/lightdm/liblightdm-gobject-1-0_1.32.0-depian1_amd64.deb
+Size: 57024
+MD5sum: 54847a76cc0f25ce4cd3be12db988fa0
+SHA1: 727194388a06eb352e0d999395e1d49790efbb9a
+SHA256: 8dc45d7a130c6aa47d4649ba464c8e1d61ae8f5e700e7b273a11db848b7ee2fd
+SHA512: ccc3e38e3891f49f7eb29f620b1f17bd17766b19d0c928fd7b6269237a226762a0bc786ec4ad955fff5eecc666799b5d24ccf55a01289ca9ca82b50048afe9f6
+Homepage: https://discourse.ubuntu.com/c/light-dm/107
+Description: simple display manager (GObject library)
+ This package contains the GObject library for lightdm, used by the GTK+
+ greeter.
+
+Package: liblightdm-gobject-dev
+Architecture: amd64
+Version: 1.32.0-depian1
+Priority: optional
+Section: libdevel
+Source: lightdm
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 771
+Depends: liblightdm-gobject-1-0 (= 1.32.0-depian1), gir1.2-lightdm-1 (= 1.32.0-depian1), libglib2.0-dev, libxklavier-dev, libx11-dev
+Filename: pool/main/l/lightdm/liblightdm-gobject-dev_1.32.0-depian1_amd64.deb
+Size: 96100
+MD5sum: 57ff5538521db6183fd221a226da029c
+SHA1: 61e2e127938423a6229c671fc8ef7950d1e1f945
+SHA256: b85db7a9267759f3af317df5e84089e4ff3142b119a7503d10e56169ac8b63e4
+SHA512: 1dae4fada484847151e91ec6c3c998695107497ba0803ae9a052f6a538315e50a2bd6c2894d09024694831cb08522c911f92137db4819e419a2b19076fa37bfe
+Homepage: https://discourse.ubuntu.com/c/light-dm/107
+Description: simple display manager (GObject development files)
+ This package contains the development files for lightdm.
+ They can be used to build new greeters applications GTK+ based.
+
+Package: liblightdm-qt6-3-0
+Architecture: amd64
+Version: 1.32.0-depian1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: lightdm
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 143
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.0), liblightdm-gobject-1-0 (>= 1.32.0), libqt6core6t64 (>= 6.8.2), libqt6gui6 (>= 6.1.2), libstdc++6 (>= 5)
+Recommends: lightdm
+Filename: pool/main/l/lightdm/liblightdm-qt6-3-0_1.32.0-depian1_amd64.deb
+Size: 50764
+MD5sum: 2fd508357e89a60d42311e615e6f15c9
+SHA1: 67a62940df47a7814e7836e2f72815a41d3df815
+SHA256: ba0142ed4ae795d1e211db3acce0c249c34419a80fc6a0ed02c1e53567c3718e
+SHA512: 8ca3ea22ddbd94cecb478054999b650b4bd8e92ce437be4e5f5921e0eec78a6e3788817d72dabc793f7b7acbde2bbca783240e6aee932f5f273f601db72884df
+Homepage: https://discourse.ubuntu.com/c/light-dm/107
+Description: LightDM Qt 6 client library
+ A Qt 6 based library for LightDM clients to use to interface with LightDM.
+
+Package: liblightdm-qt6-3-dev
+Architecture: amd64
+Version: 1.32.0-depian1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: lightdm
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 267
+Depends: liblightdm-qt6-3-0 (= 1.32.0-depian1), qt6-base-dev
+Filename: pool/main/l/lightdm/liblightdm-qt6-3-dev_1.32.0-depian1_amd64.deb
+Size: 56888
+MD5sum: c9e41ea06066a0063f99f100ef5e8809
+SHA1: fd892d28914ae896b9bf0dd5243f5fd6dcda9fbc
+SHA256: 67eb22247caac1ac5f6752c904af57a5001a485854f62e5d86ec1908dde438cf
+SHA512: 28a62cf4a8f15c7f111b697ff8bd2cab8c5fb1c5f8d943ff3707716f29f14476cfe23d13a614ebfd46e2fb8718c81614982d574dcd3d87d43f2a96f6e6bd1314
+Homepage: https://discourse.ubuntu.com/c/light-dm/107
+Description: LightDM Qt 6 client library (development files)
+ A Qt 6 based library for LightDM clients to use to interface with LightDM.
+ .
+ This package contains header files and development information, which
+ is useful for building LightDM greeters and user switchers.
+
+Package: lightdm-vala
+Architecture: amd64
+Version: 1.32.0-depian1
+Multi-Arch: same
+Priority: optional
+Section: x11
+Source: lightdm
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 42
+Filename: pool/main/l/lightdm/lightdm-vala_1.32.0-depian1_amd64.deb
+Size: 22576
+MD5sum: bd1299a6c8c6a92e56f1c0538120e52e
+SHA1: f8145ec0c9b27b82cfda68da402aedf60ddcf779
+SHA256: f4ceed4b3ce6482ce05508c3d47f6eca8f9a7a668e0b9d02bad912709100b216
+SHA512: a35d4df363902d64cd47913a21e081dee4c01235868cbb4a8765659dcf9dce79f48dd7eae891db3af74fc54a9ad0b1dfcb74f5df96cc729c33e7701c0a32e2b4
+Homepage: https://discourse.ubuntu.com/c/light-dm/107
+Description: simple display manager (Vala files)
+ This package contains the Vala files for the lightdm display manager
+
+Package: lightdm
+Architecture: amd64
+Version: 1.32.0-depian1
+Priority: optional
+Section: x11
+Maintainer: Debian Xfce Maintainers <debian-xfce@lists.debian.org>
+Installed-Size: 817
+Provides: x-display-manager
+Depends: adduser, dbus, libpam-systemd | logind, lightdm-gtk-greeter | lightdm-greeter, debconf (>= 0.5) | debconf-2.0, libaudit1 (>= 1:2.2.1), libc6 (>= 2.34), libgcrypt20 (>= 1.11.0), libglib2.0-0t64 (>= 2.80.0), libpam0g (>= 0.99.7.1), libxcb1, libxdmcp6
+Recommends: xserver-xorg
+Suggests: accountsservice, upower, xserver-xephyr
+Filename: pool/main/l/lightdm/lightdm_1.32.0-depian1_amd64.deb
+Size: 164652
+MD5sum: a32291f07c9c67e5e061ea0748d866f2
+SHA1: 983f0a1bd7fa04ca43ee87b55d4f6a550dbd2d30
+SHA256: 353b4416d62a10fab4f20ac10a64391e8994d08936ec61a2050cb366e1796598
+SHA512: b76137b42ab08e1b6fe34a58467065f9239538bfd119564b3195f653eb59320d649271a4506a33cf7adaa6a6608752136e8db112e38a185b38050bfaaf616b96
+Homepage: https://discourse.ubuntu.com/c/light-dm/107
+Description: simple display manager
+ An X display manager that:
+  * Has a lightweight codebase
+  * Is standards compliant (PAM, ConsoleKit, etc)
+  * Has a well defined interface between the server and user interface
+  * Fully themeable
+  * Cross-desktop (greeters can be written in any toolkit)
+ .
+ Additional software can be useful along with LightDM:
+  * xserver-xephyr can be used to add a nested X display by calling
+   'dm-tool add-nested-seat`
+  * upower can be used to suspend the computer from the display manager
+  * accountsservice is used to populate a user list with addition information.
+
 Package: libdareader-dev
 Architecture: amd64
 Version: 2.0.0.0
