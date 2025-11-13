@@ -439,6 +439,120 @@ Homepage: http://www.deepin.org
 Description: extension library of dde-file-manager
  Extension library of dde-file-manager which is provided for third parties
 
+Package: dcc-network-plugin
+Architecture: amd64
+Version: 2.0.71
+Priority: optional
+Section: libs
+Source: dde-network-core
+Maintainer: donghualin <donghualin@uniontech.com>
+Installed-Size: 5336
+Depends: dde-control-center (>= 6.1.53), libc6 (>= 2.14), libdde-network-core (= 2.0.71), libgcc-s1 (>= 3.0), libkf6networkmanagerqt6 (>= 6.0.0), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.1.2), libqt6network6 (>= 6.1.2), libstdc++6 (>= 11), network-manager-integration-plugins
+Filename: pool/main/d/dde-network-core/dcc-network-plugin_2.0.71_amd64.deb
+Size: 843008
+MD5sum: 6c6e91d6e1ad2f17a87b067592c45446
+SHA1: 853ecc6e1f32247d7dce32e8e9a4bed0c274fa1d
+SHA256: 5c33c6d5174c768eaee13d887ab99a8e331a1c4a60ef1faa1c27d32d6705091e
+SHA512: 509dfadfb70eb516d74acc86299baf2006dc7f926167c1c0c4c43ebda92873c16219c4264218d2c07a79fba3338271845627bd8f3d84e3ecdbece24b92707ec7
+Homepage: https://gerrit.uniontech.com/admin/repos/dde-network-core
+Description: the plugin of network for dde control center
+ dcc-network-plugin module
+
+Package: deepin-service-plugin-network
+Architecture: amd64
+Version: 2.0.71
+Priority: optional
+Section: libs
+Source: dde-network-core
+Maintainer: donghualin <donghualin@uniontech.com>
+Installed-Size: 1596
+Depends: libc6 (>= 2.34), libdtk6core (>= 6.0), libdtk6widget (>= 6.0), libgcc-s1 (>= 3.0), libgsettings-qt6-1 (>= 1.0.0), libkf6networkmanagerqt6 (>= 6.0.0), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.1.2), libqt6network6 (>= 6.1.2), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 5.2), curl
+Filename: pool/main/d/dde-network-core/deepin-service-plugin-network_2.0.71_amd64.deb
+Size: 386056
+MD5sum: 87a716c560925ae5e3b888a97dc3fd50
+SHA1: 210ef41fee2cb5da0c30ca26ca3a61c8bb9e23c3
+SHA256: 6f9df1d548c011f1c98e1ee18b2305571baec08f631c6240fa4f06db83994471
+SHA512: 86eec8f4302721b55a297421e40f39f971096572c7faba4148e69829277b7b2313dcb288ae21bb499e95fa661d339f5872bbe26224372c87c175369bdbdba813
+Homepage: https://gerrit.uniontech.com/admin/repos/dde-network-core
+Description: the plugin of network service for deepin-service-manager
+ deepin-service-plugin-network module
+
+Package: dock-network-plugin
+Architecture: amd64
+Version: 2.0.71
+Priority: optional
+Section: libs
+Source: dde-network-core
+Maintainer: donghualin <donghualin@uniontech.com>
+Installed-Size: 2196
+Depends: libc6 (>= 2.32), libdde-network-core (= 2.0.71), libdtk6core (>= 6.0), libdtk6gui (>= 6.0), libdtk6widget (>= 6.0), libgcc-s1 (>= 3.0), libkf6networkmanagerqt6 (>= 6.0.0), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.8.2), libqt6network6 (>= 6.1.2), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 5.2)
+Filename: pool/main/d/dde-network-core/dock-network-plugin_2.0.71_amd64.deb
+Size: 502336
+MD5sum: fc66d4c73a4f3b3132ac6981afbc1f8f
+SHA1: 39504904a0aa6fa7b2704a303b9c33c632c3ad4d
+SHA256: 46c85e3473279cad37e0e76685045e1eba540a6b3b3dc86e130fd64dad842798
+SHA512: baa5b2fd1e8caefa137dbaea4e6ce553c299e9f99367ba483155beeedad42d57c020ae2211ec7d9020fc8d968c8e7ffd3d3435e544d18b4147a4029c2884ec82
+Homepage: https://gerrit.uniontech.com/admin/repos/dde-network-core
+Description: the plugin of network for dde-dock
+ dock-plugin module
+
+Package: dss-network-plugin
+Architecture: amd64
+Version: 2.0.71
+Priority: optional
+Section: libs
+Source: dde-network-core
+Maintainer: donghualin <donghualin@uniontech.com>
+Installed-Size: 2309
+Depends: libc6 (>= 2.32), libdde-network-core (= 2.0.71), libdtk6core (>= 6.0), libdtk6gui (>= 6.0), libdtk6widget (>= 6.0), libgcc-s1 (>= 3.0), libkf6networkmanagerqt6 (>= 6.0.0), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.8.2), libqt6network6 (>= 6.1.2), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 5.2)
+Filename: pool/main/d/dde-network-core/dss-network-plugin_2.0.71_amd64.deb
+Size: 539452
+MD5sum: 08bb8e5ff7fb02f53469558043dd65fb
+SHA1: 2904f83803c4d2619aafae9c282a7f92b19fabe8
+SHA256: 55bf580ec88e85d191fcdc5ac4e9ffb9d1c3f870b33eb9fc8eb7f78f00363e76
+SHA512: 3c912d75e18bd4d608437bf7fd918705104186679492de9d473256de1addb2fe49156f89feb2d6a1aeba500d2f894b6391f59b51b91255c52f0dd88401b6a953
+Homepage: https://gerrit.uniontech.com/admin/repos/dde-network-core
+Description: the plugin of network for dde-lock
+ dss-network-plugin module
+
+Package: libdde-network-core-dev
+Architecture: amd64
+Version: 2.0.71
+Priority: optional
+Section: libs
+Source: dde-network-core
+Maintainer: donghualin <donghualin@uniontech.com>
+Installed-Size: 65
+Depends: libdde-network-core (= 2.0.71)
+Filename: pool/main/d/dde-network-core/libdde-network-core-dev_2.0.71_amd64.deb
+Size: 17812
+MD5sum: 89f0d85672f1ee9ddbc36099feaab6bd
+SHA1: 6b4c7728700b8951bd6512e912edce343044ec59
+SHA256: d669152a1ddbba0f59b88976f5c7922668df445fa6ec22aaef6f984f7f990de8
+SHA512: 3e4847a9387bd6dfba014e303ee098fedd547a62f942bb64322c8e3053d516b44ef54669bb0ae96a9bcfc205f57351a6c3079cdbded2226c3a02ca586243fe2e
+Homepage: https://gerrit.uniontech.com/admin/repos/dde-network-core
+Description: the interface of networkcode,used for developers
+ libdde-network-core-dev module
+
+Package: libdde-network-core
+Architecture: amd64
+Version: 2.0.71
+Priority: optional
+Section: libs
+Source: dde-network-core
+Maintainer: donghualin <donghualin@uniontech.com>
+Installed-Size: 1661
+Depends: libc6 (>= 2.14), libdtk6core (>= 6.0), libdtk6log (>= 0.0), libgcc-s1 (>= 3.0), libkf6networkmanagerqt6 (>= 6.0.0), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6network6 (>= 6.1.2), libstdc++6 (>= 14), libudev1 (>= 183), deepin-service-plugin-network, dnsmasq-base
+Filename: pool/main/d/dde-network-core/libdde-network-core_2.0.71_amd64.deb
+Size: 387636
+MD5sum: e8c0e28f0964bc42d0ed2dab3380c8e4
+SHA1: d7032f4a7424ce7e7f576698b90d670c87334e2c
+SHA256: 3f2f18d96c575821050ce57987908ef31ae3e8717c9f2e43d37a87b9dd01c2e6
+SHA512: 12b970c52bc4983fd2f88f5d595dc9ee3cb3c9fbf88463d224d9ffe224e3b1b19e2eaecfe9e3f207a158f36475486d8267940c7190f5fa400bd1b32e1b9eff64
+Homepage: https://gerrit.uniontech.com/admin/repos/dde-network-core
+Description: the library of network
+ libdde-network-core module
+
 Package: dde-polkit-agent-dev
 Architecture: amd64
 Version: 6.0.16
