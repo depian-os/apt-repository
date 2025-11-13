@@ -37,6 +37,64 @@ Description: Go-lang bingdings for dde-daemon
  DDE API provides some dbus interfaces that is used for screen zone
  detecting, thumbnail generating, sound playing, etc.
 
+Package: dde-dconfig-daemon
+Architecture: amd64
+Version: 1.0.37.1
+Priority: optional
+Section: libdevel
+Source: dde-app-services
+Maintainer: Deepin Packages Builder <yeshanshan@uniontech.com>
+Installed-Size: 604
+Depends: libc6 (>= 2.34), libdtk6core (>= 6.0), libgcc-s1 (>= 3.0), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libstdc++6 (>= 14)
+Conflicts: dconfig-daemon
+Replaces: dconfig-daemon
+Filename: pool/main/d/dde-app-services/dde-dconfig-daemon_1.0.37.1_amd64.deb
+Size: 164024
+MD5sum: 815534179b2705f726515834944bef44
+SHA1: 349b268b1e47027020c17daafd50544784a4db83
+SHA256: 4d2ace24a5c5194bd0ca39466ad8e688525a4e721f0e7c90cb7f0d838e39461a
+SHA512: ca8c8394be1096aa5f946f06c26620aa8740066401a2fa035df626f3d25b942b79f983fd8f202a1a0a073b36bf276163cbeaf009365bf11785bf9cf48720e101
+Description: deepin desktop-environment - dde-dconfig-daemon module
+ dde-dconfig-daemon provids dbus service for reading and writing DSG configuration.
+
+Package: dde-dconfig-doc
+Architecture: amd64
+Version: 1.0.37.1
+Priority: optional
+Section: libdevel
+Source: dde-app-services
+Maintainer: Deepin Packages Builder <yeshanshan@uniontech.com>
+Installed-Size: 180
+Filename: pool/main/d/dde-app-services/dde-dconfig-doc_1.0.37.1_amd64.deb
+Size: 107196
+MD5sum: 87bd53161c44a7971bec8ea467136432
+SHA1: 94bd6ece80af60224d20dec7f79f2e9cdb576d1c
+SHA256: a662f0afe871a90b42dacb290741f78473c42fdd808ac742145e630c9abb2e5d
+SHA512: e993e80109635bf966ef8b3fa364bfde5348292fc92c510146e971c626f72c061eef4899af8d404a764bc7c90897daec10c3836c873ac107f93c55e45d591872
+Description: Deepin Tool Kit DConfig (document)
+ This package contains the doc files of DConfig
+
+Package: dde-dconfig-editor
+Architecture: amd64
+Version: 1.0.37.1
+Priority: optional
+Section: libdevel
+Source: dde-app-services
+Maintainer: Deepin Packages Builder <yeshanshan@uniontech.com>
+Installed-Size: 489
+Depends: libc6 (>= 2.34), libdtk6core (>= 6.0), libdtk6widget (>= 6.0), libgcc-s1 (>= 3.0), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.1.2), libqt6widgets6 (>= 6.3.0), libstdc++6 (>= 14)
+Conflicts: dconfig-editor
+Replaces: dconfig-editor
+Filename: pool/main/d/dde-app-services/dde-dconfig-editor_1.0.37.1_amd64.deb
+Size: 141896
+MD5sum: 01ad8a371fe52cc7346a7b84d84c4d57
+SHA1: ba5d0d944b4b70b3ad93d89146ed488325c4c9b9
+SHA256: 555f7dc93ad61d7166e0240d5d73700cd445684e4a88746f45d63fa18e4758a0
+SHA512: d509d0cc2462be799f8a8345d47a7a4784b6c07ec58bd3cd249f9ed3b30b3fcfb56198cd15885f67f3a143d16ca75f05e766ffb71274fcc403198ae20ac165b6
+Description: deepin desktop-environment - dde-dconfig-editor module
+ dde-dconfig-editor is a GUI or Console tool, it's used to view and edit
+ DSG configuration for current user.
+
 Package: dde-application-manager-api
 Architecture: amd64
 Version: 1.2.37
