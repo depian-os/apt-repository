@@ -3611,3 +3611,24 @@ Description: Wayland protocols designed for use in wlroots
   extend the functionality of some other protocol either in Wayland core,
   or some other protocol in wayland-protocols.
 
+Package: xdg-desktop-portal-dde
+Architecture: amd64
+Version: 1.0.15
+Priority: optional
+Section: libdevel
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 1506
+Depends: libc6 (>= 2.34), libdrm2 (>= 2.4.109), libdtk6core (>= 6.0), libdtk6widget (>= 6.0), libgbm1 (>= 21.3.0~rc1), libgcc-s1 (>= 3.0), libpipewire-0.3-0t64 (>= 0.3.6), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.1.2), libqt6qml6 (>= 6.6.0), libqt6quick6 (>= 6.6.0), libqt6waylandclient6 (>= 6.6.0), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 14), libwayland-client0 (>= 1.20.0), qt6-base-private-abi (= 6.8.2), qt6-declarative-private-abi (= 6.8.2), qt6-waylandclient-private-abi (= 6.8.2)
+Filename: pool/main/x/xdg-desktop-portal-dde/xdg-desktop-portal-dde_1.0.15_amd64.deb
+Size: 349272
+MD5sum: c4c549c5d0eab4c1342c1b0ec33da1c0
+SHA1: 0a5584bc9926a9267b24acdb278d2494cd130b58
+SHA256: c6c654597ba05afd0d3d841176c47cf4d9f5944f9acd96eb4f63713ab61516b7
+SHA512: 8e443581cb76b28924153a732d2a82d3dd44683b963a3747f098cf504a6a1ac811dc204ddddec094d5a8dc50716dd3524caa6038f3b4fe378d99537a36d0a920
+Description: Dtk poortal backend for xdg-desktop-portal
+  xdg-desktop-portal-dde provide a DTK implementation for the
+  desktop-agnostic xdg-desktop-portal service. This allows sandboxed
+  applications to request services from outside the sandbox using
+  Dtk GUIs (app chooser, file chooser, print dialog) or using GNOME
+  services (session manager, screenshot provider).
+
