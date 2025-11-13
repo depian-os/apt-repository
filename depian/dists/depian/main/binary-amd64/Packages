@@ -1313,6 +1313,44 @@ SHA512: ce1f5a472667bdddcf13f27d44b0035001497aa91d9890567fb316f82cec35d5bb68441c
 Description: deepin home
  quick login bbs, bug report.
 
+Package: deepin-icon-theme
+Architecture: all
+Version: 2025.9.11
+Priority: optional
+Section: x11
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 216727
+Suggests: papirus-icon-theme
+Conflicts: deepin-cursor-theme
+Filename: pool/main/d/deepin-icon-theme/deepin-icon-theme_2025.9.11_all.deb
+Size: 31263092
+MD5sum: e33082d7d34ed0c0b9ef540b120e9cf3
+SHA1: a35c3c1c0183761d060d87570a0bd21c91ff2179
+SHA256: 75be6ddfb3ac2c842898a56891b406d97298801555fbf00a572d2d5910e5f21b
+SHA512: d904ead0c75249623c1fc6b4efd73a368afc507ccc40aa3fce7f894a1ae0bc145c435314cb385b63a5806a3071e33b3636a451ffdb3d114b8c91992cacd53489
+Homepage: https://github.com/linuxdeepin/deepin-icon-theme
+Description: Deepin Icons
+ This package is DeepinIconTheme
+
+Package: sea-icon-theme
+Architecture: all
+Version: 2025.9.11
+Priority: optional
+Section: x11
+Source: deepin-icon-theme
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 6224
+Conflicts: deepin-icon-theme (<< 15.12.65)
+Filename: pool/main/d/deepin-icon-theme/sea-icon-theme_2025.9.11_all.deb
+Size: 2013416
+MD5sum: 535b625d7fc2662e3a4d9377311e223c
+SHA1: 8ab28483490b0643c63aad7b91122ff783ebb435
+SHA256: 445ebaf4c04edab8f5b4cc05fdcd82d734e5ed56c9baaf4fe844e91fcdce8750
+SHA512: 56745bfb27a2fcd744772fc7cf13e0cb9e63c6de5cbdd75316c73cb45f13d00e04db35d92a9febfe763616cf653a3f688da94a08ec5d99e2e5f82e3976cdd200
+Homepage: https://github.com/linuxdeepin/deepin-icon-theme
+Description: Deepin Sea Icons
+ This package is DeepinIconTheme Sea
+
 Package: deepin-installer-timezones
 Architecture: all
 Version: 6.0.4
