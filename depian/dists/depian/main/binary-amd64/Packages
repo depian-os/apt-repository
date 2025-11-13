@@ -1829,6 +1829,45 @@ Homepage: http://www.deepin.com
 Description: Chinese to pinyin class library
  provide more accurate Chinese to pinyin solutions.
 
+Package: lastore-daemon-dev
+Architecture: all
+Version: 6.2.37
+Priority: optional
+Section: admin
+Source: lastore-daemon
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 43
+Depends: lastore-daemon (>= 6.2.37), lastore-daemon (<< 6.2.37.1~)
+Filename: pool/main/l/lastore-daemon/lastore-daemon-dev_6.2.37_all.deb
+Size: 15196
+MD5sum: 7c903f51d8f63e3a37f7c92215a96b8b
+SHA1: 4d0bbab509530473115c5ed6cc8a7a1e7d040a35
+SHA256: e6395fadaab8636bcbfc7ab938522f5b2f692dbdc1cc2141e52a003d7644327e
+SHA512: 64e1a7cf10832816812d6d3cc4a726cf3ca2eb884a6a7c2066f535fd098133a68a032ac48ccb5af0705d0d0d20ff5f09c127d788dbb3d1a79958a845dab9c1ac
+Homepage: http://github.com/linuxdeepin/lastore-daemon
+Description: daemon of lastore - development files.
+ daemon of lastore - support dbus interface - development files.
+
+Package: lastore-daemon
+Architecture: amd64
+Version: 6.2.37
+Priority: optional
+Section: admin
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 42873
+Provides: update-notifier
+Depends: dbus, procps, binutils, xz-utils, ostree, libc6 (>= 2.34), libglib2.0-0t64 (>= 2.70.0), libgtk-3-0t64 (>= 3.0.0), libsystemd0 (>= 243)
+Recommends: deepin-default-settings
+Filename: pool/main/l/lastore-daemon/lastore-daemon_6.2.37_amd64.deb
+Size: 11193468
+MD5sum: d2f4e6a08edcf09839b32d4655ebf5ea
+SHA1: ffe0a6640e3d78716a8853ad91bb2b9f862cc950
+SHA256: 789021a1c0784c92fb8c10e1af134c385e858ddcc0b51a9ba309f7374c679c0b
+SHA512: 45a337a63e63bf5fd18cea862d1a2fd5c524259f6403b6d5279e614a98aced685b08f34bc3c41d427de7f3e702e3b15a9f573a471965978a493cd37d4da48388
+Homepage: http://github.com/linuxdeepin/lastore-daemon
+Description: daemon of lastore
+ daemon of lastore - support dbus interface
+
 Package: libdareader-dev
 Architecture: amd64
 Version: 2.0.0.0
