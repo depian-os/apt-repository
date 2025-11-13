@@ -711,6 +711,29 @@ Description: deepin desktop-environment - dde-session-shell module
  dde-lock - lock screen, to protect privacy
  deepin-greeter - actual call the lightdm-deepin-greeter
 
+Package: dde-session-ui
+Architecture: amd64
+Version: 6.0.35
+Priority: optional
+Section: devel
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 9572
+Provides: lightdm-greeter
+Depends: libc6 (>= 2.34), libcrypt1 (>= 1:4.1.0), libdeepin-pw-check, libdtk6core (>= 6.0), libdtk6gui (>= 6.0), libdtk6widget (>= 6.0), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.30.0), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.8.2), libqt6network6 (>= 6.1.2), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 14), libsystemd0 (>= 213), deepin-desktop-schemas (>= 5.9.14), dde-daemon (>= 6.1.26), x11-xserver-utils, dbus-user-session, dde-session-shell
+Recommends: onboard
+Conflicts: dde-control-center (<< 6.0.0.1), dde-workspace, deepin-notifications, startdde (<< 2.91.1)
+Breaks: dde-control-center (<< 6.0.0.1), dde-workspace, startdde (<< 2.91.1)
+Replaces: deepin-notifications
+Filename: pool/main/d/dde-session-ui/dde-session-ui_6.0.35_amd64.deb
+Size: 1104532
+MD5sum: 4e7de43ec6e3b0d685c38af2950e1310
+SHA1: d29d82df07d7d88742615b5ab597981f1e2ba0b9
+SHA256: 6cdf0ae05e1dce08f2a2e24ecce5841ede85fcabf4df2bf97a88e6aa76837ee3
+SHA512: ac1d859b6ca0180e89239ec747b99f0bc92dd8fa4d769ae9af5d158b05e29167284951e483c0df99056601423fb4a659c969ad8a72f90718c8eefea1ba8d3054
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - dde-session-ui module
+ Deepin desktop environment 2015 - dde-session-ui module.
+
 Package: dde-shell-example
 Architecture: amd64
 Version: 2.0.17-0depian1
