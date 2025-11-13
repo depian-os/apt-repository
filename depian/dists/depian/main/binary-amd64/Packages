@@ -3330,6 +3330,26 @@ Homepage: http://www.deepin.org
 Description: network-manager framework with plugin config.
  This is a network manager plugin config for deepin control center.
 
+Package: plymouth-theme-deepin-logo
+Architecture: all
+Version: 23.00.01
+Priority: optional
+Section: admin
+Source: plymouth-theme-deepin
+Maintainer: Leng Ganghua <hiweed@gmail.com>
+Installed-Size: 13801
+Provides: plymouth-theme
+Depends: plymouth, util-linux (>= 2.30), plymouth-themes
+Replaces: plymouth (<< 0.8.1-1~)
+Filename: pool/main/p/plymouth-theme-deepin/plymouth-theme-deepin-logo_23.00.01_all.deb
+Size: 8548628
+MD5sum: ae3314fb74c75e908195c22f3ecb024d
+SHA1: db054c14d5bda0ebf040b1904b42032fc98093d8
+SHA256: 5e480b94fe3741a8981b9bed8d6f1f0cf5194ca2eb7bc1c1fac0186a049948be
+SHA512: 26159944624f1f805d03da461478a16d5e184af85eb0ba63fd06619c392d40b2871723b11fc5eb5fcdec4b1df4ca115794c3b472ea6a203db201cf5ad49f7d33
+Description: Plymouth theme for Linux Deepin
+ This theme package contains deepin-logo.
+
 Package: startdde
 Architecture: amd64
 Version: 6.1.6
