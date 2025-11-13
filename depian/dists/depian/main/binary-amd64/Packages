@@ -602,6 +602,23 @@ Description: Deepin Internationalization utilities
  .
  This package is part of DDE (Deepin Desktop Environment).
 
+Package: deepin-installer-timezones
+Architecture: all
+Version: 6.0.4+dde
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 1188
+Filename: pool/main/d/deepin-installer-timezones/deepin-installer-timezones_6.0.4+dde_all.deb
+Size: 109844
+MD5sum: 62e84d8756614e30716b992c08dad942
+SHA1: 9cd5523c73eaac9c3051e6305064413324ae4d23
+SHA256: a53e9cf35e2f8c9abffb9ad5e29bb318bc498490f1175f9ab8c526d14a5c0cb5
+SHA512: b88446b8d0e1971fc3540f30ce4cb5a2bc52c1d1cbbb5ba8b1441fe1bef8a3900376dd33f7bc6245da22ded52828e78a283d48e112f21836983ce1c62a62747d
+Homepage: http://www.deepin.org
+Description: Language package for timezone names
+ Installer language package for timezone names
+
 Package: libdeepin-pdfium-dev
 Architecture: amd64
 Version: 1.5.7
