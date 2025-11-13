@@ -737,19 +737,19 @@ Description: The basic file of Deepin Desktop,
 
 Package: deepin-desktop-environment-base
 Architecture: amd64
-Version: 2025.10.28
+Version: 2025.10.28-0depian1
 Priority: standard
 Section: metapackages
 Source: deepin-desktop-environment
 Maintainer: LinuxDeepin Project <linuxdeepin@linuxdeepin.com>
 Installed-Size: 12
-Depends: adduser, apt, apt-utils, deepin-keyring, e2fsprogs, fdisk, gcc, gpgv, init, libzip4, lsb-base, mawk, mount, passwd, pciutils, sensible-utils, tzdata, udev, zlib1g
-Filename: pool/main/d/deepin-desktop-environment/deepin-desktop-environment-base_2025.10.28_amd64.deb
-Size: 6156
-MD5sum: 49e0bffdc08ac7bc316e142d61048f74
-SHA1: c9d6bc12b94df0672da66dc84e108fb678b49c11
-SHA256: 3ca3cb5891010da5b7548e7f42810a5cb4958a7c9d7e59317aea0e4482a77520
-SHA512: 7f985e9d60f5434a6bba55ef472fb8453a7b1e5bb8e215087eb540e364a5282ac9240ab45a7155ac2f060e811db67f8ae1947246c05c25a2a44299a1405aa6cf
+Depends: adduser, apt, apt-utils, depian-keyring, e2fsprogs, fdisk, gcc, gpgv, init, libzip5, lsb-base, mawk, mount, passwd, pciutils, sensible-utils, tzdata, udev, zlib1g
+Filename: pool/main/d/deepin-desktop-environment/deepin-desktop-environment-base_2025.10.28-0depian1_amd64.deb
+Size: 6200
+MD5sum: 8b0c293df55fd50215eb968467365fbe
+SHA1: 62be7de02a49d7ca5eda6d4ef4f52c24864af49a
+SHA256: 4827791e41a29806859f231d86eb1b6a90d746ea6e3e689c31a73929fc9a4c47
+SHA512: eac8032384692105bafa1c6db1d783d88432287ddf9b326ad8190c9f66e12e0d0e45f762decce5cf9e83bf83372ef1da40abceb17862a4a389a52cb9ae50afe6
 Homepage: https://github.com/deepin-community/deepin-desktop-environment
 Description: Deepin New Desktop Environment - Next
  This is a base meta package depends Deepin New Desktop Envrionment.
@@ -758,7 +758,7 @@ Description: Deepin New Desktop Environment - Next
 
 Package: deepin-desktop-environment-cli
 Architecture: amd64
-Version: 2025.10.28
+Version: 2025.10.28-0depian1
 Priority: standard
 Section: metapackages
 Source: deepin-desktop-environment
@@ -767,12 +767,12 @@ Installed-Size: 12
 Depends: dpkg-dev, accountsservice, acpid, alsa-topology-conf, alsa-ucm-conf, alsa-utils, amd64-microcode, arj, avfs, bash-completion, bash-pinyin-completion, bluez, cifs-utils, command-not-found, crda, cryptsetup-initramfs, dbus, dbus-user-session, dialog, dkms, dmidecode, dnsutils, efibootmgr, exfat-fuse, exfatprogs, file, foomatic-db-compressed-ppds, foomatic-db-engine, fprintd, gcr, geoclue-2.0, grub-common, gtk2-engines, gtk2-engines-murrine, gtk2-engines-pixbuf, gvfs-backends, gvfs-fuse, hdparm, iio-sensor-proxy, im-config, initramfs-tools, intel-microcode, ipheth-utils, iputils-ping, less, lhasa, libc6-dev, libfile-mimeinfo-perl, libglib2.0-bin, libimobiledevice-utils, libmtp-runtime, libnss-myhostname, libpam-fprintd, libpam-gnome-keyring, libpulse-mainloop-glib0, librsvg2-bin, libspa-0.2-bluetooth, libtirpc-common, linux-firmware, linux-sysctl-defaults, live-config, locales, lsb-release, lvm2, man-db, mesa-utils, mesa-utils-bin, mesa-va-drivers, mesa-vdpau-drivers, mesa-vulkan-drivers, modemmanager, ncompress, net-tools, network-manager, onboard, openprinting-ppds, os-prober, ostree, pipewire-pulse, pkg-config, plymouth, pppoe, proxychains4, pulseaudio, pulseaudio-module-bluetooth, pulseaudio-utils, python-is-python3, python3-dbus, python3-dnspython, python3-gi, python3-ldb, python3-samba, python3-smbc, python3-tdb, qttranslations5-l10n, redshift, rfkill, rsync, rzip, sdparm, slirp4netns, smbclient, sudo, tdb-tools, unace, unalz, unar, unrar, unzip, usb-modeswitch, usbmuxd, usbutils, usec-boot-crypt, user-setup, vim, wireless-tools, wireplumber, wpasupplicant, xdg-user-dirs, xdg-utils, xserver-xorg-core, xserver-xorg-input-all, xserver-xorg-input-wacom, xz-utils, zip
 Recommends: aptitude, hostapd, lz4, lzip, lzma, lzop, xorg
 Conflicts: exfat-utils
-Filename: pool/main/d/deepin-desktop-environment/deepin-desktop-environment-cli_2025.10.28_amd64.deb
-Size: 6908
-MD5sum: f461d360c68b8125ac41c7027eb91dbd
-SHA1: d02dabff1a65a77aa0735c2394d8685ea9dd7c49
-SHA256: 2ae0f855d62ac7fa81c49cacef78b0a67e5ec493c6cc06a62241d715d37adedc
-SHA512: d8648eac295a9231a5aa2e41e7174f638b0dd671b4fe262885c3e69f5bc9988fe0485c0f13651246ffb58c118a7c03e89d4a8fb8c19f4ea16b720861c788cf75
+Filename: pool/main/d/deepin-desktop-environment/deepin-desktop-environment-cli_2025.10.28-0depian1_amd64.deb
+Size: 6960
+MD5sum: 332015a33916d1fac3aa630f7aa64156
+SHA1: 82dadfc4e6b83815ae3bdb9e9dfe43564930d3ab
+SHA256: 8509dff56c222d9939481cd94040aea4f3009cb24da6746a2bb5aede90a4004c
+SHA512: 9f1f8db667f852b9da80106c6667e3e07ee14e0dbe11eb033167076611b30c58cec876245ca7421b3f936d09c71a8697b6ef7f459144c19fba1a71470b62b235
 Homepage: https://github.com/deepin-community/deepin-desktop-environment
 Description: Deepin New Desktop Environment - Next
  This is a cli meta package depends Deepin New Desktop Envrionment.
@@ -781,7 +781,7 @@ Description: Deepin New Desktop Environment - Next
 
 Package: deepin-desktop-environment-core
 Architecture: amd64
-Version: 2025.10.28
+Version: 2025.10.28-0depian1
 Priority: standard
 Section: metapackages
 Source: deepin-desktop-environment
@@ -789,19 +789,19 @@ Maintainer: LinuxDeepin Project <linuxdeepin@linuxdeepin.com>
 Installed-Size: 12
 Depends: cups, cups-bsd, cups-filters, dcc-insider-plugin, dcc-network-plugin, dde-account-faces, dde-api, dde-api-proxy, dde-appearance, dde-application-manager, dde-clipboard, dde-control-center, dde-cooperation, dde-daemon, dde-dconfig-daemon, dde-desktop, dde-device-formatter, dde-disk-mount-plugin, dde-file-manager, dde-grand-search, dde-kwin (>= 6.0.0), dde-launchpad, dde-qt5integration, dde-qt6integration, dde-services, dde-session, dde-session-shell, dde-session-ui, dde-shell, dde-wirelesscasting-plugin, deepin-anything-dkms, deepin-anything-server, deepin-authenticate, deepin-debug-config, deepin-deepinid-client, deepin-desktop-base, deepin-desktop-schemas, deepin-desktop-theme, deepin-face, deepin-gtk-theme, deepin-icon-theme, deepin-keyring-whitebox, deepin-kwin-wayland (>= 6.0.0), deepin-kwin-x11 (>= 6.0.0), deepin-network-displays, deepin-osconfig, deepin-recovery-plugin, deepin-service-plugin-network, deepin-sync-daemon, deepin-terminal, deepin-update-ui, dock-network-plugin, dss-network-plugin, fcitx5-frontend-gtk2, fcitx5-frontend-gtk3, fcitx5-frontend-gtk4, fcitx5-frontend-qt5, fcitx5-frontend-qt6, fcitx5-pinyin-gui, fcitx5-table, fcitx5-theme-deepin, fcitx5-unikey, fonts-adobe-source-han-cjk, fonts-gb, fonts-lohit-deva, fonts-noto, fonts-noto-cjk, fonts-noto-color-emoji, fonts-noto-mono, fonts-noto-unhinted, fonts-open-sans, fonts-wqy-microhei, fonts-wqy-zenhei, fonts-macau, gstreamer1.0-fluendo-mp3, gstreamer1.0-libav, gstreamer1.0-plugins-ugly, intel-media-va-driver-non-free, lastore-daemon, libcupsimage2, libfcitx5gclient2, libime-bin, libudfburn, libvlc5, lightdm, linglong-bin, linglong-box, linglong-installer, mokutil, plymouth-theme-deepin-logo, samba, samba-common-bin, samba-dsdb-modules, samba-vfs-modules, simple-scan, systemd-timesyncd, util-linux-extra, xdg-desktop-portal-dde, xdg-desktop-portal, xfonts-wqy, gnome-keyring
 Recommends: ttf-deepin-opensymbol, uos-ste-resourced
-Filename: pool/main/d/deepin-desktop-environment/deepin-desktop-environment-core_2025.10.28_amd64.deb
-Size: 6776
-MD5sum: fc682eab418eeecfac9cdbc5c46b3c0d
-SHA1: 58c587c725abdce96972065e663b9050d54a25bb
-SHA256: 063b8e71a22f6c3ed6f07563515b87b52bb7c3b720a84a7d7ab3b26984638159
-SHA512: f02b60ef9ba13a34972074224b2e0b9b4ea4ec2f8c60277b5f2c002a9a6a1b2ade82f08dcdd7b957070fa3aa5569279476e3fbb69f14b4fb76c3e98a2506f1fa
+Filename: pool/main/d/deepin-desktop-environment/deepin-desktop-environment-core_2025.10.28-0depian1_amd64.deb
+Size: 6824
+MD5sum: 2c319eb50ddd494f060da2ae901ba97c
+SHA1: 24022ca015e85be7752db9cca2df9b6c9dbf6569
+SHA256: ab0d03dfef91a49997df5d6663326c0e5292756cacf4696713b4595ffab83970
+SHA512: 57953a5fbec6fdf7b3021224629a20c643b34a2f48102cd7e164a3e7165516a217998faaf99034e062699a338a6fcb7a9df6e47fa9d9db6336aa9ac12f3fe92c
 Homepage: https://github.com/deepin-community/deepin-desktop-environment
 Description: Deepin New Desktop Environment - Next
  This is a dde package depends Deepin New Desktop Envrionment.
 
 Package: deepin-desktop-environment-extras
 Architecture: amd64
-Version: 2025.10.28
+Version: 2025.10.28-0depian1
 Priority: standard
 Section: metapackages
 Source: deepin-desktop-environment
@@ -809,12 +809,12 @@ Maintainer: LinuxDeepin Project <linuxdeepin@linuxdeepin.com>
 Installed-Size: 14
 Depends: com.deepin.gomoku, com.deepin.lianliankan, dde-introduction, dde-manual-content, dde-printer, deepin-app-store, deepin-app-store-runtime, deepin-compressor, deepin-deb-installer, deepin-default-settings, deepin-desktop-environment-core, deepin-devicemanager, deepin-diskmanager, deepin-fcitx5configtool-plugin, deepin-home, deepin-home-appstore-daemon, deepin-log-viewer, deepin-ocr, deepin-picker, deepin-screen-recorder, deepin-screensaver, deepin-shortcut-viewer, deepin-system-monitor, org.deepin.downloader, uos-ai
 Recommends: tlp
-Filename: pool/main/d/deepin-desktop-environment/deepin-desktop-environment-extras_2025.10.28_amd64.deb
-Size: 7092
-MD5sum: 4dc100a571373cad33980d16f7e3b830
-SHA1: 70129a260e16dadbe67db8e360604006270113d6
-SHA256: 9f37fbbf7232deb621df14d2da6c6c4b1beaae30c57cdee43e48eb8ff88dec61
-SHA512: 2b30f20dda2b01cdc93d9025f27e72fe1487b5c4a067c316ee5696ca5e3c66b61440a69a715a4f27c278391d4ba1b194f316bc12461800f3f20f2bc25587b679
+Filename: pool/main/d/deepin-desktop-environment/deepin-desktop-environment-extras_2025.10.28-0depian1_amd64.deb
+Size: 7136
+MD5sum: e3b5e1e1cf9b515180e3cae8f9f6d286
+SHA1: 44408733503901ad008f22741d7924b4fcf7f966
+SHA256: 8b9eebe7ccfe19ba98d30517eb81d1b2a6e39d8da023880d8a2ed3ada1534222
+SHA512: 6dc50cf08ddcd303dd081a45f4189dd538b3d7c8efeef34380730f4bb63daca30aeae943cd9e04cf570d7d5db5120924c444590e9f5f3941dcca5088f7c44eae
 Homepage: https://github.com/deepin-community/deepin-desktop-environment
 Description: Deepin New Desktop Environment - Next
  This is a extras package depends Deepin New Desktop Envrionment.
@@ -824,19 +824,19 @@ Description: Deepin New Desktop Environment - Next
 
 Package: deepin-desktop-environment-ll
 Architecture: amd64
-Version: 2025.10.28
+Version: 2025.10.28-0depian1
 Priority: standard
 Section: metapackages
 Source: deepin-desktop-environment
 Maintainer: LinuxDeepin Project <linuxdeepin@linuxdeepin.com>
 Installed-Size: 15
 Pre-Depends: linglong-bin
-Filename: pool/main/d/deepin-desktop-environment/deepin-desktop-environment-ll_2025.10.28_amd64.deb
-Size: 6360
-MD5sum: bfd82ec6e1f8c15c6b9143bb4d0e353d
-SHA1: 5dc165904c6518324233d49442ffbcc9bea83adf
-SHA256: 33fdbb8be85b6b4f2caea6467dc3658c567a3d27e677f615eb37040e17313396
-SHA512: 1c830836dc4cc173c1a6c14755a9889d4d18d0a3a62a90e412f3652f459f5aaa0ddb3c79a99eefa1c736eb1ea78f62b6dbd485a3346fa5a3237fdbe3b9f2f830
+Filename: pool/main/d/deepin-desktop-environment/deepin-desktop-environment-ll_2025.10.28-0depian1_amd64.deb
+Size: 6408
+MD5sum: 805aa50fceb7827353c46e086c52f214
+SHA1: 7289b6feb85a98772b9999cc0efeba27b20cc9c5
+SHA256: c7b68cef4cb03fb36ae9336106f0df867c8a25eb2be4f09b4ef2ca18d9937f02
+SHA512: 4fd91959c99dda0b521726b5836664cb5b562cdd80b9948ee652f8d0284f8298c38fa72d0e542594c0f5c9033ff9f7881511e54ca76d8dd77c18a4543edaa577
 Homepage: https://github.com/deepin-community/deepin-desktop-environment
 Description: Deepin New Desktop Environment - Next
  This is a ll package depends Deepin New Desktop Envrionment.
