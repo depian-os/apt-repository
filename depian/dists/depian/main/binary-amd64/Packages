@@ -1274,6 +1274,228 @@ Description: GSettings deepin desktop-wide schemas
  deepin-desktop-schemas contains a collection of GSettings schemas for
  settings shared by various components of a desktop.
 
+Package: deepin-desktop-theme
+Architecture: amd64
+Version: 1.1.20
+Priority: optional
+Section: devel
+Maintainer: caixiangrong <caixiangrong@uniontech.com>
+Installed-Size: 630
+Depends: deepin-theme-bloom, deepin-theme-bloom-dark, deepin-theme-vintage, deepin-theme-organic-glass, deepin-theme-hazy-color, deepin-theme-flow, deepin-theme-square, deepin-theme-nirvana, deepin-theme-origin, libdtk6gui-bin, libc6 (>= 2.34), libdtk6core (>= 6.0), libgcc-s1 (>= 3.0), libqt6core6t64 (>= 6.8.2), libqt6gui6 (>= 6.1.2), libstdc++6 (>= 5), qt6-base-private-abi (= 6.8.2)
+Filename: pool/main/d/deepin-desktop-theme/deepin-desktop-theme_1.1.20_amd64.deb
+Size: 446992
+MD5sum: b72ad00d15f87193ebf37c56346042b8
+SHA1: 97b13a8d118e993fff0ae951f1180bacf5dd95a0
+SHA256: 3a49d044796a08fd20f9daaf671d50b98957ccc6c1b0ec00a651d685a41d095d
+SHA512: 30e9e9b6879194d8631432528ec597f7dbb07f8b76f32221d8f64aeffde2d57ee9bfefdded53118619a9077656506d4f2ce311e894755412a2e42784bbe17214
+Homepage: http://www.deepin.org
+Description: deepin desktop theme
+ This package is DeepinDesktopTheme
+
+Package: deepin-theme-bloom-dark
+Architecture: all
+Version: 1.1.20
+Priority: optional
+Section: devel
+Source: deepin-desktop-theme
+Maintainer: caixiangrong <caixiangrong@uniontech.com>
+Installed-Size: 53506
+Depends: deepin-icon-theme, deepin-theme-bloom (= 1.1.20)
+Filename: pool/main/d/deepin-desktop-theme/deepin-theme-bloom-dark_1.1.20_all.deb
+Size: 45884636
+MD5sum: fbb5e8dd23a96e500546a72203cfdf74
+SHA1: 3b14f55fbbd18b2c2403051e1256d620dc147b9f
+SHA256: 61fe374c7941b1aa176d4cf4c5f60d80bc26a531da47fd183e01c422816767d3
+SHA512: b530ad2646ae84fec546e3e95992aea325cd1df0049de48eb55990c158662b6364945a1d6ac129a237cbb601a5d82162a81b66537effc98e52eadd398abfda01
+Homepage: http://www.deepin.org
+Description: deepin desktop-environment - bloom dark theme
+ deepin theme dark bloom.
+
+Package: deepin-theme-bloom
+Architecture: all
+Version: 1.1.20
+Priority: optional
+Section: devel
+Source: deepin-desktop-theme
+Maintainer: caixiangrong <caixiangrong@uniontech.com>
+Installed-Size: 73148
+Depends: deepin-icon-theme
+Filename: pool/main/d/deepin-desktop-theme/deepin-theme-bloom_1.1.20_all.deb
+Size: 60547060
+MD5sum: 778968f3943133ce4003642c4a74be0e
+SHA1: 28dc43ce27807b3e526a1369e02703e138b33047
+SHA256: 5a69eca873ce5bc0a0a48234276b1566cefb1b1e51f75c78ef0c1213a14aaca1
+SHA512: a1ecbe5b602419f822be214aa3b71d75d49dad6c2e72f502ba6d050910f051c28ceb3d8a638a56101c6becdd85425b154dc070ae3cd04d684ec42a7cce7359db
+Homepage: http://www.deepin.org
+Description: deepin desktop-environment - bloom theme
+ deepin theme bloom.
+
+Package: deepin-theme-flow
+Architecture: all
+Version: 1.1.20
+Priority: optional
+Section: devel
+Source: deepin-desktop-theme
+Maintainer: caixiangrong <caixiangrong@uniontech.com>
+Installed-Size: 44430
+Depends: deepin-icon-theme
+Filename: pool/main/d/deepin-desktop-theme/deepin-theme-flow_1.1.20_all.deb
+Size: 41621960
+MD5sum: 338dc76a2503fbcc8f7663d611d2f45c
+SHA1: bd1d92a58e191599299fb92d3df9a2c242e119fa
+SHA256: 0297636057f5145616fd5bf27df06992209b69ceec34c8fd3819caf257a78474
+SHA512: aed3147052067e361fc4030a1fd359cbaae5de4d3c9480362f25367c20da409f027f3b3abf80a1a228d148be3e4b83e06782fa99acec0260bf85e5295a6cea3c
+Homepage: http://www.deepin.org
+Description: deepin desktop-environment - flow theme
+ deepin theme flow.
+
+Package: deepin-theme-hazy-color
+Architecture: all
+Version: 1.1.20
+Priority: optional
+Section: devel
+Source: deepin-desktop-theme
+Maintainer: caixiangrong <caixiangrong@uniontech.com>
+Installed-Size: 60461
+Filename: pool/main/d/deepin-desktop-theme/deepin-theme-hazy-color_1.1.20_all.deb
+Size: 48983360
+MD5sum: 454f65b40f43a5999929e40b15a859f1
+SHA1: 586c2c21f1ff7b29be3097f53fb68bd38d23f302
+SHA256: 06980ec6b231077e964a54ee1193d374473981e59fdee91861da2383161f7a60
+SHA512: 6c44befad7bc779f3dadf02bd5204f1b2846e7df04b8593d1b246d35be64f8a314796ef5095a0f5b8dae3715cbbb7f0f509233c76e62d76ed0bfe00bdb1e0d70
+Homepage: http://www.deepin.org
+Description: deepin desktop-environment - hazy color theme
+ deepin theme hazy color.
+
+Package: deepin-theme-macaron
+Architecture: all
+Version: 1.1.20
+Priority: optional
+Section: devel
+Source: deepin-desktop-theme
+Maintainer: caixiangrong <caixiangrong@uniontech.com>
+Installed-Size: 31626
+Filename: pool/main/d/deepin-desktop-theme/deepin-theme-macaron_1.1.20_all.deb
+Size: 25007452
+MD5sum: 55be702fbe6e3687e234e3f78485b0c8
+SHA1: c3c6eb8de63489155e950f5d06d40be4fb83bbcf
+SHA256: 17eed524526163303bfdffe6eeb0241c0411a899b2b839250d91fc885206397f
+SHA512: 25ab7a5beb17bfdc339c885db2d6afed59bf131602c64b90f3679f22c58b5a04dc1938922bfbf18dd8d505c5e1f010dac6885ad6be095807e6f614030fafacf4
+Homepage: http://www.deepin.org
+Description: deepin desktop-environment - macaron theme
+ deepin theme macaron.
+
+Package: deepin-theme-nirvana
+Architecture: all
+Version: 1.1.20
+Priority: optional
+Section: devel
+Source: deepin-desktop-theme
+Maintainer: caixiangrong <caixiangrong@uniontech.com>
+Installed-Size: 21712
+Filename: pool/main/d/deepin-desktop-theme/deepin-theme-nirvana_1.1.20_all.deb
+Size: 19166732
+MD5sum: ab43cb6973bd11e75f52cefde6cb9f41
+SHA1: a4075c24085c24b0ec8155cf393818f0828712c6
+SHA256: cde89beaa678ef5ca167c7a30bd516e32c43e8148df28b2992fef189f4b70d4c
+SHA512: f46254083e7d4fb4badbeec81e5a4e7052e58fb2a577454e44b6d1c767e74c09c5d73c278db258b52bde17c602277f2dbc4eaf6cd80396fe70629969d92f067b
+Homepage: http://www.deepin.org
+Description: deepin desktop-environment - nirvana theme
+ deepin theme nirvana.
+
+Package: deepin-theme-organic-glass
+Architecture: all
+Version: 1.1.20
+Priority: optional
+Section: devel
+Source: deepin-desktop-theme
+Maintainer: caixiangrong <caixiangrong@uniontech.com>
+Installed-Size: 57078
+Filename: pool/main/d/deepin-desktop-theme/deepin-theme-organic-glass_1.1.20_all.deb
+Size: 50265004
+MD5sum: 462e4e35e05ef8b734303cd270e932a7
+SHA1: 7fd98d67ebb4987e3abe0dab044d8484933fe800
+SHA256: 957bd853d4412ca8207cb0fa0e822ee4af887fb2ea3ffeab39a2c1035da21f4b
+SHA512: 0393e19cc07d9c5ee824f35f9c65c8b7aa9486781fce4b3cca1798f717a36dcb6d3c7e4d83be93c3305a6a80dff098287b6151e1dfb8671a232dae1771a85ed1
+Homepage: http://www.deepin.org
+Description: deepin desktop-environment - organic glass theme
+ deepin theme organic glass.
+
+Package: deepin-theme-origin
+Architecture: all
+Version: 1.1.20
+Priority: optional
+Section: devel
+Source: deepin-desktop-theme
+Maintainer: caixiangrong <caixiangrong@uniontech.com>
+Installed-Size: 23203
+Filename: pool/main/d/deepin-desktop-theme/deepin-theme-origin_1.1.20_all.deb
+Size: 11257960
+MD5sum: 7bbda91ae1e35d6ebb7230792d4f332a
+SHA1: 5ce95450f20f9e1f4ddc66abee306022e828e2b3
+SHA256: 21652c12a6d27cc2176c5990be5ad876c5297807c113e403f48dc9d72a3210c8
+SHA512: 136d6675eb5a792832ea58c1b1910e035df8e80b236d68be722e8076ddea43ca9aa79558e539b6a32a56dc9961c6b037944ffd00c81443a8db0426948021e2c8
+Homepage: http://www.deepin.org
+Description: deepin desktop-environment - origin theme
+ deepin theme origin.
+
+Package: deepin-theme-square
+Architecture: all
+Version: 1.1.20
+Priority: optional
+Section: devel
+Source: deepin-desktop-theme
+Maintainer: caixiangrong <caixiangrong@uniontech.com>
+Installed-Size: 29590
+Depends: deepin-icon-theme
+Filename: pool/main/d/deepin-desktop-theme/deepin-theme-square_1.1.20_all.deb
+Size: 25161080
+MD5sum: 9a47b819cc5581c4574ff8417a33e9d7
+SHA1: 7ccf44ae7b3fd07de207b2892835e58e09081823
+SHA256: 443101accdc7703e872804a60fe72e05c6460031b6ee7a6b55aa8f9fbc67aeb2
+SHA512: 3297d6135baa6dfbab38a472dcef5c04f95c29c8ce8a56366d55588408b791dffa2ae3c1c18cd8630e4c8403d176f9d1cb145de121e30c8720ecca89fe01ca2f
+Homepage: http://www.deepin.org
+Description: deepin desktop-environment - square theme
+ deepin theme square.
+
+Package: deepin-theme-vintage
+Architecture: all
+Version: 1.1.20
+Priority: optional
+Section: devel
+Source: deepin-desktop-theme
+Maintainer: caixiangrong <caixiangrong@uniontech.com>
+Installed-Size: 14471
+Depends: deepin-icon-theme
+Filename: pool/main/d/deepin-desktop-theme/deepin-theme-vintage_1.1.20_all.deb
+Size: 11558056
+MD5sum: 597be90ded93c87b9752495be2e789af
+SHA1: baad3dae9db2b4a3db0a1fd7fff6f9ef747f2e88
+SHA256: 9a33aa9954420704fd2a5eb233c8dacb25781d6505a449dd600a8905d3981744
+SHA512: 23f159fb8f395569528b62dc5f856c88aa66f0859f56c0b2ba09395ad7894b748f3bc8c1fa92930c9f818ff1420973ba08942d12b7758466f270ad71385048bc
+Homepage: http://www.deepin.org
+Description: deepin desktop-environment - Vintage theme
+ deepin theme Vintage icon.
+
+Package: deepin-xdgicon-convert
+Architecture: amd64
+Version: 1.1.20
+Priority: optional
+Section: devel
+Source: deepin-desktop-theme
+Maintainer: caixiangrong <caixiangrong@uniontech.com>
+Installed-Size: 172
+Depends: libdtk6gui-bin, libc6 (>= 2.34), libdtk6core (>= 6.0), libdtk6gui (>= 6.0), libdtk6widget (>= 6.0), libgcc-s1 (>= 3.0), libqt6core6t64 (>= 6.8.2), libqt6gui6 (>= 6.1.2), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 14)
+Filename: pool/main/d/deepin-desktop-theme/deepin-xdgicon-convert_1.1.20_amd64.deb
+Size: 52228
+MD5sum: b051a2e2f128a2fe6ddfca233e6875f6
+SHA1: 5d1a070c1ece12ae721377faa94d2ec93402bb94
+SHA256: 032e141edb07613f790d06305ff045099dd781c6f36c2b69cf3d277adc788cac
+SHA512: 68b61d354a87672cd93892ed0f188f5180fc289474d7b59498d22b7997dff3bfa772f5b2d79c534b97660b09fc881380db533f92f98d05fbfea9e57a14d1fb2e
+Homepage: http://www.deepin.org
+Description: deepin xdgicon convert tool
+ This package provides a tool to convert xdg icon theme to debian icon theme.
+
 Package: deepin-gettext-tools
 Architecture: all
 Version: 1.0.6-1
