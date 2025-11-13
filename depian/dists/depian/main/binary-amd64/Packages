@@ -867,6 +867,24 @@ SHA512: 6d81e445468cc1076ea992712e275fbd0a45d961caefe91f49df2d2f273d2874a125da14
 Description: A libaray about PDF base on Qt6.
  A library for parsing and editing and displaying PDF.
 
+Package: deepin-proxy
+Architecture: amd64
+Version: 2.0.2
+Priority: optional
+Section: misc
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 10774
+Depends: adduser, libc6 (>= 2.34), libglib2.0-0t64 (>= 2.70.0), libgtk-3-0t64 (>= 3.0.0)
+Filename: pool/main/d/deepin-proxy/deepin-proxy_2.0.2_amd64.deb
+Size: 3143120
+MD5sum: a7ec7754bff19914574306b7e3735351
+SHA1: bf9dc7a93765e88c79c664cfc03ff008cc7be0b4
+SHA256: 6888c9330a2d8b6f838a984bcfad6aa1883234b25c670581783e501447ea02dd
+SHA512: cc212d477fb51b09d1d19264bcebca0f9c7a4381614ee1df160357bd999ccebe3fb6662c14acb81f1016afa2075f835b1aebd03e81c0236c6c86de174bdbd9e2
+Homepage: http://www.deepin.org
+Description: service for global or app proxy
+ deepin-proxy is used for proxy
+
 Package: deepin-pw-check
 Architecture: amd64
 Version: 6.0.3
