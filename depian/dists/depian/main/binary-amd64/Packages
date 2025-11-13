@@ -597,6 +597,49 @@ Homepage: http://www.deepin.org/
 Description: deepin desktop-environment - wireless casting plugin for dde-dock
  wireless casting plugin module
 
+Package: deepin-default-settings-tuning
+Architecture: all
+Version: 2025.06.17
+Priority: optional
+Section: admin
+Source: deepin-default-settings
+Maintainer: sysdev <sysdev@deepin.com>
+Installed-Size: 36897
+Replaces: deepin-default-settings (<= 2018.1.23)
+Filename: pool/main/d/deepin-default-settings/deepin-default-settings-tuning_2025.06.17_all.deb
+Size: 10361456
+MD5sum: eab52fd77c1c2235105c5c1d8e8b919c
+SHA1: 7ba463bc78152278f81d830ff8f0ff0f57cecde1
+SHA256: 2823485e759691f639249d888e8d3cc4a8a0d4f2546584d4ffe76b77d2ad4928
+SHA512: ff6c7dab20c9be2f9728e1b72994df23898fc43b6ca02d92bfd84a8f1783ce10c7d344e8a2694dd67cfc952e5bd5a517aaa771c7c04412b18c43039e91a2fbae
+Description: default settings for deepin destkop environment - misc overrides
+ This package does tweaking and to provide better experience of deepin desktop
+ environment.
+ .
+ This package includes files to override cups default page and fcitx icon.
+
+Package: deepin-default-settings
+Architecture: all
+Version: 2025.06.17
+Priority: optional
+Section: admin
+Maintainer: sysdev <sysdev@deepin.com>
+Installed-Size: 2070
+Pre-Depends: deepin-home (>= 1.6.0), coreutils
+Depends: deepin-default-settings-tuning (>= 2018.1.23), deepin-wallpapers, iw, python3, python3-gi
+Suggests: binfmt-support
+Conflicts: chrome-default-settings, deepin-default-settings-network, deepinop
+Replaces: deepin-default-settings-network, deepinop
+Filename: pool/main/d/deepin-default-settings/deepin-default-settings_2025.06.17_all.deb
+Size: 1929376
+MD5sum: 774ba392f871528b81f6f27ec7e36d0b
+SHA1: c36a6aa900ebd4d42ab5d35ea8477c041a76db8c
+SHA256: 553f8595083f96a7b8d9ff59541fc0737d13fe714d948fdd8090c45f2d4303b6
+SHA512: 7cb8baaa08b433ecb32d8d4b53425b2538e883d7e4c10aebdcdc93f254c4f2aba8cf52c93baf7256aab173abe2dbfb9545d1259b2de037dcb4bb3d1b099eac17
+Description: default settings for deepin destkop environment
+ This package does tweaking and to provide better experience of deepin desktop
+ environment.
+
 Package: deepin-desktop-base
 Architecture: amd64
 Version: 2025.10.22
