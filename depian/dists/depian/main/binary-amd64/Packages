@@ -2116,6 +2116,27 @@ SHA512: 0d05f0d686731381e97acd6b25364c0397613caa58a7f4c25ff2e469e20d39458c360551
 Description: lib for read image/video data from deepin-authentication
  this package is a lib for read image/video data from deepin-authentication.
 
+Package: startdde
+Architecture: amd64
+Version: 6.1.6
+Priority: optional
+Section: x11
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 13028
+Provides: x-session-manager
+Depends: dde-api, dde-daemon (>> 3.24.1+), deepin-desktop-schemas (>> 5.2.0+), deepin-proxy, gnome-keyring, libpam-gnome-keyring, procps, xinput, redshift, dde-appearance, dconf-gsettings-backend | gsettings-backend, libc6 (>= 2.34), libglib2.0-0t64 (>= 2.70.0), libgtk-3-0t64 (>= 3.0.0), libgudev-1.0-0 (>= 234), libx11-6, libxi6 (>= 2:1.2.99.4)
+Conflicts: deepin-session, deepin-wm-switcher
+Breaks: deepin-desktop-schemas (<= 5.8.44)
+Filename: pool/main/s/startdde/startdde_6.1.6_amd64.deb
+Size: 3404980
+MD5sum: 38d3e2338fea4bea67dc3af74230f5a0
+SHA1: 5f46d1361aeee26b71827106e15995691732dd24
+SHA256: 504a581af195545f19cb14a9b743e4f05049a5277378a66c8e4e5648c1dea15c
+SHA512: 109f30b9fa1c50f90fc9460b33fb3381ccd62d01d539b91914f280fbbf4cd3e90eafb0453147f5b9749827a8f5f36c46b228c658750b31e75d42d3bd97b7558a
+Homepage: http://github.com/linuxdeepin/startdde
+Description: start deepin desktop environment
+ starter of deepin desktop environment.
+
 Package: treeland-protocols
 Architecture: all
 Version: 0.5.0
