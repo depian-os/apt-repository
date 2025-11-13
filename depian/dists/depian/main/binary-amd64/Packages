@@ -2693,18 +2693,18 @@ Description: lib for read image/video data from deepin-authentication
 
 Package: network-manager-integration-plugins
 Architecture: all
-Version: 0.0.4-deepin
+Version: 0.0.4-0depian1
 Priority: extra
 Section: metapackages
 Maintainer: Deepin Developer <deepin-dev@deepin.org>
 Installed-Size: 9
-Depends: sysv-rc, network-manager-openvpn, network-manager-openvpn-gnome, network-manager-l2tp, network-manager-l2tp-gnome, network-manager-pptp, network-manager-pptp-gnome, network-manager-vpnc, network-manager-vpnc-gnome, network-manager-openconnect, network-manager-openconnect-gnome, network-manager-strongswan, network-manager-sstp
-Filename: pool/main/n/network-manager-integration-plugins/network-manager-integration-plugins_0.0.4-deepin_all.deb
-Size: 2048
-MD5sum: ee8aa8e9d5eaf2cf347cfafc373fa3ea
-SHA1: cc4635d925e5ad9f442061657a619659c923664d
-SHA256: 54ce8d6a2af7bb916563354d6a8f1345f60a4b99b54f7e8081b35fb20578070f
-SHA512: 0464c858c0ff7d24ba870fc0e2c4e7ea47d582d9ec6b1b4c01257a997343ae15a9745f5f6491fcdbce43da691ccacb991b776f1bfb6d1155f195263d3e6d07b1
+Depends: network-manager-openvpn, network-manager-openvpn-gnome, network-manager-l2tp, network-manager-l2tp-gnome, network-manager-pptp, network-manager-pptp-gnome, network-manager-vpnc, network-manager-vpnc-gnome, network-manager-openconnect, network-manager-openconnect-gnome, network-manager-strongswan, network-manager-sstp
+Filename: pool/main/n/network-manager-integration-plugins/network-manager-integration-plugins_0.0.4-0depian1_all.deb
+Size: 2088
+MD5sum: fba1da698ab130f29936e592960dcb5f
+SHA1: 5b8bd989404f4db736c9e4cf251c29557238c13e
+SHA256: 2d738ad4490176eaa291a1261878c6684707040a51387f943d425f480ca201e1
+SHA512: c7e5897e3aba263dee5554012d2facf7e928bc2221c08255da87363001358afc4db7aa291d006d0ecd03331174e65a41e6f1ea125d93047e632db5a44d2fe763
 Homepage: http://www.deepin.org
 Description: network-manager framework with plugin config.
  This is a network manager plugin config for deepin control center.
