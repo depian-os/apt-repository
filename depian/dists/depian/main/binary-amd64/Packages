@@ -95,6 +95,24 @@ Description: deepin desktop-environment - dde-dconfig-editor module
  dde-dconfig-editor is a GUI or Console tool, it's used to view and edit
  DSG configuration for current user.
 
+Package: dde-appearance
+Architecture: amd64
+Version: 1.1.70
+Priority: optional
+Section: devel
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 1420
+Depends: dde-daemon (>= 6.1.26), libc6 (>= 2.38), libdtk6core (>= 6.0), libdtk6gui (>= 6.0), libfontconfig1 (>= 2.12.6), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.16.0), libgtk-3-0t64 (>= 3.0.0), libkf6configcore6 (>= 6.0.0), libkf6globalaccel6 (>= 6.0.0), libkf6windowsystem6 (>= 6.0.0), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.4.0), libssl3t64 (>= 3.0.0), libstdc++6 (>= 13.1), libx11-6, libxcursor1 (>> 1.1.2), libxfixes3, deepin-service-manager
+Filename: pool/main/d/dde-appearance/dde-appearance_1.1.70_amd64.deb
+Size: 451912
+MD5sum: 9bf6bfa2b3b7abb210dc448c808bd3f9
+SHA1: 7c763ae497843e68a01df57a9335d3a3143bbff1
+SHA256: 0a3ad66e65c85f28137142537a2395fc43fc9cfadb8d5d4a7d751715559e5077
+SHA512: fb2bd7f70bbc3b41bf01ed7c42891df9975138a02526d1d9b41a9adc3565af5ac68c35f303321baefb647856ac8e082146dab104ac228dc5dfc1fe57245b00a2
+Homepage: http://www.deepin.org
+Description: deepin desktop-environment - dde-appearance module
+ dde appearance Provides application resource management and control services for the dde desktop environment.
+
 Package: dde-application-manager-api
 Architecture: amd64
 Version: 1.2.37
