@@ -205,6 +205,25 @@ Homepage: https://github.com/linuxdeepin/dde-application-manager
 Description: Application manager for DDE.
   Launch applications by systemd for more caps.
 
+Package: dde-application-wizard-daemon-compat
+Architecture: amd64
+Version: 0.1.21-0depian1
+Priority: optional
+Section: unknown
+Source: dde-application-wizard
+Maintainer: Gary Wang <wangzichong@deepin.org>
+Installed-Size: 185
+Depends: libc6 (>= 2.34), libdtk6core (>= 6.0), libdtk6gui (>= 6.0), libgcc-s1 (>= 3.0), libpackagekitqt6-1 (>= 1.1.1), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.1.2), libqt6gui6 (>= 6.1.2), libstdc++6 (>= 14), packagekit
+Conflicts: dde-application-manager (<= 1.1.0)
+Filename: pool/main/d/dde-application-wizard/dde-application-wizard-daemon-compat_0.1.21-0depian1_amd64.deb
+Size: 48944
+MD5sum: a2c73ced3aa7a203b23520c9ba0bf6bb
+SHA1: ae905c8fcf6d264ad0505af7440f8b7d9e0784a2
+SHA256: 9236e18ee487373e39f06d7e8a5f8f711db57bdad51e4b1acb089c355528831a
+SHA512: af54c6cda7570bf44b1be9c7df606dda798438ba10be3ade26d3ffbcc1b57e399935e408baf6f9589aafe9eecfa52582fe7a6feea33709f99e2b54f1568b5da1
+Description: D-Bus compat module to provide app uninstall support
+ This package provides the app uninstallation related D-Bus APIs which
+
 Package: dde-control-center-dev
 Architecture: amd64
 Version: 6.1.53-0depian1
