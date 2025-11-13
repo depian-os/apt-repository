@@ -515,6 +515,43 @@ Homepage: http://www.deepin.org
 Description: extension library of dde-file-manager
  Extension library of dde-file-manager which is provided for third parties
 
+Package: dde-kwin-dev
+Architecture: amd64
+Version: 6.0.3
+Priority: optional
+Section: libdevel
+Source: dde-kwin
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 12
+Filename: pool/main/d/dde-kwin/dde-kwin-dev_6.0.3_amd64.deb
+Size: 6004
+MD5sum: ae5175b524d86e83017a0a5db60a809e
+SHA1: aa2b90d43c5a6476fd8979d6f30b70dc9c5056e5
+SHA256: 8cf6eadabcc2c58561802b5a2d40b45d9c82e39a665ff0258347937ec62fccf2
+SHA512: de24012aa0d3742b6e8f4d439ce9d7fe315061b8ec3ffcb9ddbcda1c469789b80cc8dc354feb0d945b9f4fb0055215e6429ef8351d26b5df5ce34fa1304a6865
+Homepage: https://github.com/linuxdeepin/dde-kwin
+Description: Developer package of dde-kwin
+ Provide dde-kwin plugin implementation basis files.
+
+Package: dde-kwin
+Architecture: amd64
+Version: 6.0.3
+Priority: optional
+Section: devel
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 259
+Depends: deepin-kwin-x11 (>= 4:6.0.0), deepin-kwin-wayland (>= 4:6.0.0)
+Breaks: deepin-kwin-data (<< 4:6.0.0~)
+Filename: pool/main/d/dde-kwin/dde-kwin_6.0.3_amd64.deb
+Size: 28080
+MD5sum: fe5e2073ff4534115392f454a088f7e3
+SHA1: 83d1fd3cbfa87fe9167fee81fbfafe6ae3ec1394
+SHA256: be56a212e30d504ba5f3f7bd382fe199b28177be2629fe420fdc84880cee2d9b
+SHA512: eb25a8af600d1e27c483974e0015eed4034a41167c80f7abe34f8b324ba9da648df6107232969282aa421de22e290ad1194b29a341b86cc925f78c4e4ea5ba1d
+Homepage: https://github.com/linuxdeepin/dde-kwin
+Description: KWin configures/plugins on the DDE
+ Let kwin work well in the Deepin Desktop Environment.
+
 Package: dde-launchpad
 Architecture: amd64
 Version: 2.0.15-0depian1
