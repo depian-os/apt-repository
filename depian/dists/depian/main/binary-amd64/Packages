@@ -2691,6 +2691,24 @@ SHA512: 0d05f0d686731381e97acd6b25364c0397613caa58a7f4c25ff2e469e20d39458c360551
 Description: lib for read image/video data from deepin-authentication
  this package is a lib for read image/video data from deepin-authentication.
 
+Package: network-manager-integration-plugins
+Architecture: all
+Version: 0.0.4-deepin
+Priority: extra
+Section: metapackages
+Maintainer: Deepin Developer <deepin-dev@deepin.org>
+Installed-Size: 9
+Depends: sysv-rc, network-manager-openvpn, network-manager-openvpn-gnome, network-manager-l2tp, network-manager-l2tp-gnome, network-manager-pptp, network-manager-pptp-gnome, network-manager-vpnc, network-manager-vpnc-gnome, network-manager-openconnect, network-manager-openconnect-gnome, network-manager-strongswan, network-manager-sstp
+Filename: pool/main/n/network-manager-integration-plugins/network-manager-integration-plugins_0.0.4-deepin_all.deb
+Size: 2048
+MD5sum: ee8aa8e9d5eaf2cf347cfafc373fa3ea
+SHA1: cc4635d925e5ad9f442061657a619659c923664d
+SHA256: 54ce8d6a2af7bb916563354d6a8f1345f60a4b99b54f7e8081b35fb20578070f
+SHA512: 0464c858c0ff7d24ba870fc0e2c4e7ea47d582d9ec6b1b4c01257a997343ae15a9745f5f6491fcdbce43da691ccacb991b776f1bfb6d1155f195263d3e6d07b1
+Homepage: http://www.deepin.org
+Description: network-manager framework with plugin config.
+ This is a network manager plugin config for deepin control center.
+
 Package: startdde
 Architecture: amd64
 Version: 6.1.6
