@@ -1876,6 +1876,43 @@ Homepage: http://www.deepin.org
 Description: Language package for timezone names
  Installer language package for timezone names
 
+Package: deepin-keyring-whitebox
+Architecture: amd64
+Version: 1.0.6
+Priority: optional
+Section: devel
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 225
+Depends: dde-crypto (>= 1.0.2), libc6 (>= 2.38), libgcc-s1 (>= 3.0), libpam0g (>= 0.99.7.1), libqt6core6t64 (>= 6.8.2), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 5.2)
+Filename: pool/main/d/deepin-keyring-whitebox/deepin-keyring-whitebox_1.0.6_amd64.deb
+Size: 41956
+MD5sum: 02f910127dbe120371deea34fa4ceeb9
+SHA1: c91057f3f82a7858332e29f2ea5950e820296bc0
+SHA256: b802fa43c0b453540e2d07285fea6547bb5b28bc1e3c9eb3ca86fff8571adedd
+SHA512: 6817b49479ff1bbd1c07074e34f57b9a5e3670a4d1a37a047ca27776a70ab4bf9cdeb656d9086fb66f82f0e2ea9e170c9498d1e5c2dc8f7a46feead503d21e67
+Homepage: https://www.deepin.org
+Description: deepin whitebox extension for GNOME keyring.
+ This is an extension project provided by deepin, which implements a solution for a password free scenario of gnome keyring.
+
+Package: libdeepin-keyring-whitebox-dev
+Architecture: amd64
+Version: 1.0.6
+Priority: optional
+Section: devel
+Source: deepin-keyring-whitebox
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 15
+Depends: deepin-keyring-whitebox
+Filename: pool/main/d/deepin-keyring-whitebox/libdeepin-keyring-whitebox-dev_1.0.6_amd64.deb
+Size: 2888
+MD5sum: 729552e2072c4d49dcc5156ae6fada66
+SHA1: c4ed3a8bf01d615d890a955b3f3e8bfb1425d375
+SHA256: 97aa19ae15f8c03e7168946719ebf1b8c1258931261874704983b45a48def85d
+SHA512: 0a931bd87db977edaa73ee3dc2f17fd902f86b8b4479aec41e2589ad54961be22a0220f722dfbfbb9108ced981223d7a41dd52dd293bc5485b908fb4fdfcca5a
+Homepage: https://www.deepin.org
+Description: deepin whitebox extension development Library.
+ The project encapsulates the details of the white box solution to avoid external involvement.
+
 Package: deepin-kwin-common
 Architecture: amd64
 Version: 4:6.0.11
