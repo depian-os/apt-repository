@@ -3600,6 +3600,25 @@ SHA512: 26159944624f1f805d03da461478a16d5e184af85eb0ba63fd06619c392d40b2871723b1
 Description: Plymouth theme for Linux Deepin
  This theme package contains deepin-logo.
 
+Package: dde-qt6integration
+Architecture: amd64
+Version: 6.0.44
+Priority: optional
+Section: devel
+Source: qt6integration
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 872
+Provides: libqt6deepintheme-plugin
+Depends: libc6 (>= 2.14), libdtk6core (>= 6.0), libdtk6gui (>= 6.0), libdtk6widget (>= 6.0), libgcc-s1 (>= 3.0), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.8.2), libqt6widgets6 (>= 6.2.0), libstdc++6 (>= 14), libx11-6, qt6-base-private-abi (= 6.8.2), dde-qt6xcb-plugin
+Filename: pool/main/q/qt6integration/dde-qt6integration_6.0.44_amd64.deb
+Size: 220900
+MD5sum: e52ba60a3a3ff900c69f7010b1a83d31
+SHA1: 1d472655b8fe26af0a49db491208462f9eac0abc
+SHA256: e1cd5b8649dab2e9fb805bcabf599ed8fca6c9d59a211caaabe5e37c9055bddb
+SHA512: 3a8a8b91042b348f766120b576dc06aef3e24269af5401fd8e5d602fd731e79dc7167c8b6b491d08a46ae4490cc504d6f54e4287e160d7d98428ea592019b753
+Description: Qt platform theme integration plugins for DDE
+ Multiple Qt plugins to provide better Qt6 integration for DDE is included.
+
 Package: seetaface-anti-spoofing-x
 Architecture: amd64
 Version: 1.0.0.2-1+dde
