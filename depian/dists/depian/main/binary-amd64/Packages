@@ -557,6 +557,26 @@ Homepage: http://www.deepin.org
 Description: extension library of dde-file-manager
  Extension library of dde-file-manager which is provided for third parties
 
+Package: dde-grand-search
+Architecture: amd64
+Version: 6.0.25
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 8433
+Depends: libavformat61 (>= 7:7.0), libc6 (>= 2.34), libdde-shell (>= 2.0.17), libdeepin-pdfium, libdfm6-search, libdtk6core (>= 6.0), libdtk6gui (>= 6.0), libdtk6log (>= 0.0), libdtk6widget (>= 6.0), libffmpegthumbnailer4v5 (>= 2.2.3), libgcc-s1 (>= 3.4), libglib2.0-0t64 (>= 2.24.0), libicu76 (>= 76.1-1~), liblucene++0t64 (>= 3.0.9), libqt6concurrent6 (>= 6.1.2), libqt6core5compat6 (>= 6.6.0), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.4.0), libqt6gui6 (>= 6.8.2), libqt6network6 (>= 6.1.2), libqt6widgets6 (>= 6.3.0), libstdc++6 (>= 14), libtag2 (>= 2.0), dconf-gsettings-backend | gsettings-backend
+Recommends: deepin-desktop-schemas (>= 5.8.0.34), dde-daemon (>= 5.12.0.31), startdde (>= 5.6.0.34), deepin-anything-server
+Replaces: dde-shell (<= 1.99.30)
+Filename: pool/main/d/dde-grand-search/dde-grand-search_6.0.25_amd64.deb
+Size: 3237832
+MD5sum: b06dcbb1ac60aee0f952e58d16b74de8
+SHA1: fbd5e3d46e3f63a5f03bb9b04d93102114dde24e
+SHA256: d154f82b856c5f7af71bf3a9ecede26a56a55129c78fc00a045a68d3a6705a5f
+SHA512: e7eca99619144f19f2b2623702001ea047e96bc6033ad186eab41c6b1ceaf6ff354d5a6b902c0f16c8d0d0b82006b44dc994a72b2e7f0e976e6722b1f7a6d513
+Homepage: http://www.deepin.org/
+Description: deepin desktop-environment - search module
+ Search module of deepin desktop-environment
+
 Package: dde-kwin-dev
 Architecture: amd64
 Version: 6.0.3
