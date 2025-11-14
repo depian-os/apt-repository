@@ -3501,6 +3501,23 @@ Homepage: http://www.deepin.org
 Description: GB18030 fonts
  GB18030 fonts for dependency
 
+Package: fonts-macau
+Architecture: all
+Version: 1.0.0-0deepin1
+Multi-Arch: foreign
+Priority: optional
+Section: fonts
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 136
+Filename: pool/main/f/fonts-macau/fonts-macau_1.0.0-0deepin1_all.deb
+Size: 77140
+MD5sum: ce08754eeeaea6d2b4011d062598ffff
+SHA1: 1c34c241d53eab40141d2b4ab299cda65d743b72
+SHA256: e5962cc739f2156b82de5fef877fe817747ebed56adf75f7788ec120b6d37a3a
+SHA512: fbbc1850005f1fd2b4094a5c0fc7051ff7466c886e7d3baf9f5b90bde215e7701105471cc8b6cede21f18bccefb4e19fd27defb48a95bf90f573bf13cb5df57d
+Homepage: http://www.deepin.org
+Description: macau fonts
+
 Package: golang-codegangsta-cli-dev
 Architecture: all
 Version: 1.18.0-3
