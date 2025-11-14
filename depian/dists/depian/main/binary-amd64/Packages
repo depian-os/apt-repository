@@ -3565,6 +3565,24 @@ SHA512: 26159944624f1f805d03da461478a16d5e184af85eb0ba63fd06619c392d40b2871723b1
 Description: Plymouth theme for Linux Deepin
  This theme package contains deepin-logo.
 
+Package: seetaface-anti-spoofing-x
+Architecture: amd64
+Version: 1.0.0.2-1+dde
+Priority: optional
+Section: devel
+Maintainer: likier <likier@sina.cn>
+Installed-Size: 710
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
+Filename: pool/main/s/seetaface-anti-spoofing-x/seetaface-anti-spoofing-x_1.0.0.2-1+dde_amd64.deb
+Size: 151332
+MD5sum: e0f91af25ab1034a702a5a605b6f7804
+SHA1: b7f8157f973d234ba2f0b6e247f9715e0e6d1d50
+SHA256: b767e5f6d93ec406dd59f73cad511b877f46613685c9e117f3b59e801ac5960d
+SHA512: f35c1063f32deca42d48be308191df8012ce82c3854c4be18c2ef4d43066bc97d93b79b06cfaea4213034095e5f291db51a56c77d8ae454962f2f7285bc64ba9
+Homepage: https://github.com/SeetaFace6Open/FaceAntiSpoofingX6.git
+Description: anti-spoofing module of seetaface
+ The anti-spofing library of seetaface.
+
 Package: seetaface-authorize
 Architecture: amd64
 Version: 1.0.0.1-2deepin1
