@@ -1,3 +1,21 @@
+Package: bash-pinyin-completion
+Architecture: amd64
+Version: 0.0.3
+Priority: optional
+Section: shells
+Maintainer: April Lu <apr3vau@outlook.com>
+Installed-Size: 262
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1), bash-completion (>= 1:2.12)
+Filename: pool/main/b/bash-pinyin-completion/bash-pinyin-completion_0.0.3_amd64.deb
+Size: 96308
+MD5sum: 50b5013c6aeb0a02e0a64fb08373cca5
+SHA1: f4050d1fa37a216a7402e1c85701b331088c0bb3
+SHA256: 7e2a9974562dab8fff99809a408da628fcfe5966fb3df61b5efe708c88c8c0d2
+SHA512: b133dbea8f3ae72900ce75e742d89c21021def819f8e34988d599f464348a9e75f7a36605a02ed99eac2f0293a0caf4145d987813fe249a25fa8fb6d3f070033
+Homepage: https://github.com/calsym456/bash-pinyin-completion-cpp
+Description: Chinese Pinyin completion for bash
+ Complete Chinese pathname using pinyin in bash
+
 Package: crda
 Architecture: amd64
 Version: 4.14+git20191112.9856751.1-1depian1
