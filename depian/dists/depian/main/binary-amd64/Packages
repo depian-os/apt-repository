@@ -3619,6 +3619,24 @@ Homepage: https://github.com/TenniS-Open/TenniS.git
 Description: Faceboxes module of seetaface
  The faceboxes module of seetaface
 
+Package: seetaface-landmarker
+Architecture: amd64
+Version: 1.0.0.1-1
+Priority: optional
+Section: devel
+Maintainer: bd <bd@seetatech.com>
+Installed-Size: 351
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
+Filename: pool/main/s/seetaface-landmarker/seetaface-landmarker_1.0.0.1-1_amd64.deb
+Size: 105704
+MD5sum: a5ad8a789eb56e1b5ca168de33daf939
+SHA1: 7635ab7ef203d9cb0e151f76f8a2cfab3935e17d
+SHA256: 7c1802958850d9a2bc215cd1bccbc221380e7116f6e5f415926f2b06a8fbe1c8
+SHA512: 720ae874fdf3bd94c05b5440818de847029532de40efdc81d65ad053f32a0b1c8b68514eaf8a3a4c3c4d3c586454d86be46813e96029a58130b045bf7b29f453
+Homepage: https://github.com/SeetaFace6Open/Landmarker.git
+Description: landmarker for seetaface
+ landmarker module for seetaface.
+
 Package: seetaface-open-role-zoo
 Architecture: amd64
 Version: 2.0.0.0deepin0
