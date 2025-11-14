@@ -2142,6 +2142,22 @@ Description: miracast application for the Deepin desktop
  .
  Note: wpasupplicant is required, iwd won't work.
 
+Package: deepin-osconfig
+Architecture: all
+Version: 2025.05.28
+Priority: optional
+Section: misc
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 24
+Filename: pool/main/d/deepin-osconfig/deepin-osconfig_2025.05.28_all.deb
+Size: 3244
+MD5sum: 710306dbead9fcde7fcae808fb9e74ea
+SHA1: 4967bac54bac709bd5ecd2ca227d6e284d47a771
+SHA256: 7427ff7af857f3d349d9b1275b0affe3232dfc6eed67f47d93f58bd3484af049
+SHA512: 33f8545c5b7c56120abcefaf2734c47257a60d501ed131c990cecd403ea375dc44bbad1f38524726157f2525f35a15a13254bdb89c1da45f711ce0f4cbbdef6a
+Description: The config files of Deepin Desktop,
+ provides system configs for DDE components
+
 Package: libdeepin-pdfium-dev
 Architecture: amd64
 Version: 1.5.7
