@@ -3535,6 +3535,45 @@ SHA512: fbbc1850005f1fd2b4094a5c0fc7051ff7466c886e7d3baf9f5b90bde215e7701105471c
 Homepage: http://www.deepin.org
 Description: macau fonts
 
+Package: libgenudfimage-dev
+Architecture: amd64
+Version: 1.1.0
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: genudfimage
+Maintainer: Zhang Sheng <zhangsheng@uniontech.com>
+Installed-Size: 17
+Depends: libgenudfimage
+Filename: pool/main/g/genudfimage/libgenudfimage-dev_1.1.0_amd64.deb
+Size: 2816
+MD5sum: 5bfa26ef7a415f2aba51441dfac997e4
+SHA1: 1fee27db4f1b727e4d4dd5c716571328750632db
+SHA256: 712e3f620d89a325e314827e745e1956d8b45251311c02a9fa8ef9f14aa12271
+SHA512: a0c492371d08ff659597dc45d452d44a007fbdb07f2c373c63400ea167c07c245b051ded3f94b898376281dd547d7745ebf44c0617b0e4153e72b461a4a8bc79
+Homepage: https://gerrit.uniontech.com/admin/repos/libgenudfimage
+Description: a library for generate a UDF image
+ generate a UDF image for developer
+
+Package: libgenudfimage
+Architecture: amd64
+Version: 1.1.0
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: genudfimage
+Maintainer: Zhang Sheng <zhangsheng@uniontech.com>
+Installed-Size: 97
+Filename: pool/main/g/genudfimage/libgenudfimage_1.1.0_amd64.deb
+Size: 34684
+MD5sum: 2f17df5bb8673014c35c8e1298d50f82
+SHA1: d46016a130e6481088508b1f52aa3213a946e963
+SHA256: ed6dd97ba302200f6e2cd36207a48b35e5c13a371adb0c6a36fbf5d0da9816cf
+SHA512: c6da7eb30e1d1417dfe524dda0ed8779a958bedd034cae6e5f416adc074fae0861024192b54fe5c12093bde47ba06bc94c400a612bb744618792927e9baa74a1
+Homepage: https://gerrit.uniontech.com/admin/repos/libgenudfimage
+Description: generate a UDF image
+ generate a UDF image as a low level library
+
 Package: golang-codegangsta-cli-dev
 Architecture: all
 Version: 1.18.0-3
@@ -3999,6 +4038,64 @@ SHA256: eede4b2722fd0a491f266095907803a94b6c24de9b13ffc7efe95f5261481db8
 SHA512: 0d05f0d686731381e97acd6b25364c0397613caa58a7f4c25ff2e469e20d39458c360551b10ffcd00025b0f9cf76f8d25eb9ca56782ebadbd70eba54a8c05b1d
 Description: lib for read image/video data from deepin-authentication
  this package is a lib for read image/video data from deepin-authentication.
+
+Package: libudfburn-dev
+Architecture: amd64
+Version: 1.1.4-deepin
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: libudfburn
+Maintainer: Deepin Developer <deepin-dev@deepin.org>
+Installed-Size: 16
+Depends: libudfburn
+Filename: pool/main/libu/libudfburn/libudfburn-dev_1.1.4-deepin_amd64.deb
+Size: 2648
+MD5sum: cc38d311c8367f0f45310bcf1e15a516
+SHA1: bf3ea118bbbe67cec27159048f10ce42f88de31b
+SHA256: b72cd84b0848ffd0a5826ef4ce9cab8f5e1e41f3282f7cadf3f76d9038929ae5
+SHA512: de190dad1b30347be340eb237729a1e3bc45777403afa3d8a2c387fadf3dfdf84e4cb2f51f37b7f599a8ca458457a410a925e7cf844f9898a9e86555693b73a2
+Homepage: <insert the upstream URL, if relevant>
+Description: a lib for burn images for developer
+ a simple image burner;
+
+Package: libudfburn
+Architecture: amd64
+Version: 1.1.4-deepin
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Maintainer: Deepin Developer <deepin-dev@deepin.org>
+Installed-Size: 57
+Depends: libgenudfimage (>= 1.0.1), libc6 (>= 2.33)
+Filename: pool/main/libu/libudfburn/libudfburn_1.1.4-deepin_amd64.deb
+Size: 14300
+MD5sum: 94f42f7d935d45a3d54e7f476ebe4ad1
+SHA1: 3841648c9937942a352e68816846826019a0c445
+SHA256: 609b4996305e7d1a88e71ba4cf7927ad05e88c6c3b8595e49f9160051bbbd1d5
+SHA512: 0a22c5a8ce9ce00c51cc4ce5e20fe6b5273a39ece5502d2c93980f698152fa33dd5c983b03921589c90499debd8fd4d50c8ab9f4a4acfcf41eff5a064aeaab1b
+Homepage: <insert the upstream URL, if relevant>
+Description: a lib for burn images
+ a simple image burner;
+
+Package: udfburn-tool
+Architecture: amd64
+Version: 1.1.4-deepin
+Priority: optional
+Section: libdevel
+Source: libudfburn
+Maintainer: Deepin Developer <deepin-dev@deepin.org>
+Installed-Size: 24
+Depends: libc6 (>= 2.34), libudfburn
+Filename: pool/main/libu/libudfburn/udfburn-tool_1.1.4-deepin_amd64.deb
+Size: 4704
+MD5sum: 771dc34e2922ca03c21fe1685c17c069
+SHA1: 1f0dfd2da4b6561b2cde1b84d1d24d166265fbfe
+SHA256: 46461351579695a5ec1f6ec19c589b27aabdc422b41fb7809f3a9841b973ec51
+SHA512: 478d808ac6d8e3fd787d7f8fdaab1db3b1c76221e4f8fe1086f669df55770f3d59774c062225b06d9c617efc4eebcac9c702a2fa6c3ccfc535202de0cad135ab
+Homepage: <insert the upstream URL, if relevant>
+Description: a command line program
+ a command line program for burning images;
 
 Package: network-manager-integration-plugins
 Architecture: all
