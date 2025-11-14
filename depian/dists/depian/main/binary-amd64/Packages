@@ -353,6 +353,83 @@ Description: New control center for Deepin Desktop Environment,
  after the completion of the update.
  DDE Control Center is the control panel of Deepin Desktop Environment.
 
+Package: dde-cooperation-dev
+Architecture: amd64
+Version: 1.1.21
+Priority: optional
+Section: libdevel
+Source: dde-cooperation
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 98
+Depends: dde-cooperation (= 1.1.21)
+Filename: pool/main/d/dde-cooperation/dde-cooperation-dev_1.1.21_amd64.deb
+Size: 17340
+MD5sum: 4443c6c5ae57c0e16cee1c9b2500650a
+SHA1: fdc563fe725d94f4bd8ec13ddb7deb0e6cd9e9b8
+SHA256: b3b90bf9579b37b1e02f4ade97e28b24b62f38b23e65569c81741906e7e911f5
+SHA512: 58de15430b5f4c93d2b250fb7b59fd4a9983ec64a8984c69bf732463d72878919c8dec60eb89988e91516477dbcf47b387d3250f4a584a47a4f8fa542acf98b1
+Homepage: https://github.com/linuxdeepin/dde-cooperation
+Description: Development package for deepin cooperation application
+ This package contains the header files and static libraries
+
+Package: dde-cooperation-transfer
+Architecture: amd64
+Version: 1.1.21
+Priority: optional
+Section: utils
+Source: dde-cooperation
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 5138
+Depends: dde-cooperation, libc6 (>= 2.34), libdde-file-manager, libdtk6core (>= 6.0), libdtk6gui (>= 6.0), libdtk6widget (>= 6.0), libgcc-s1 (>= 3.0), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.1.2), libqt6gui6 (>= 6.4.0), libqt6network6 (>= 6.1.2), libqt6widgets6 (>= 6.3.0), libstdc++6 (>= 14), libuuid1 (>= 2.16), zlib1g (>= 1:1.1.4)
+Replaces: dfmplugin-cooperation
+Filename: pool/main/d/dde-cooperation/dde-cooperation-transfer_1.1.21_amd64.deb
+Size: 3364616
+MD5sum: 6048eac87092858fde4b16fdde614a2e
+SHA1: a5009dec79018d6ac0d1e069e15e63e10db6fd5a
+SHA256: d5163740e66ae7b4c3cce4b84466137576d00cd335a9edd6a6b29f929ecd3af0
+SHA512: d133a1d8a1d7e0c6e4eacd2718c60dcf5b0d9980d17d0924662060616495c3efbe8191f81c03ee20720334a579cbd922027c0551d0cf7a756b49bc5ee675b608
+Homepage: https://github.com/linuxdeepin/dde-cooperation
+Description: deepin file delivery
+ Deepin Desktop Environment (DDE) - file transfer application.
+
+Package: dde-cooperation
+Architecture: amd64
+Version: 1.1.21
+Priority: optional
+Section: utils
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 24107
+Depends: libavahi-client3 (>= 0.6.16), libavahi-common3 (>= 0.6.16), libc6 (>= 2.38), libdtk6core (>= 6.0), libdtk6gui (>= 6.0), libdtk6widget (>= 6.0), libgcc-s1 (>= 3.0), libqrencode4 (>= 3.2.0), libqt6core5compat6 (>= 6.6.0), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.1.2), libqt6gui6 (>= 6.1.2), libqt6network6 (>= 6.4.0), libqt6widgets6 (>= 6.3.0), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14), libsystemd0, libuuid1 (>= 2.16), libvncclient1 (>= 0.9.10), libx11-6 (>= 2:1.2.99.901), libxext6, libxi6 (>= 2:1.2.99.4), libxinerama1 (>= 2:1.1.4), libxrandr2, libxtst6 (>= 2:1.2.5), zlib1g (>= 1:1.1.4), dde-cooperation-transfer
+Replaces: QtZeroConf, dde-cooperation-daemon (<< 1.0.0)
+Filename: pool/main/d/dde-cooperation/dde-cooperation_1.1.21_amd64.deb
+Size: 12421988
+MD5sum: c3885b6ffdf73d6eeadff0f7b7b63f52
+SHA1: 2f441455226ae3bc0441e003df2a82e218dd5bf6
+SHA256: a37d90728115a86a0617c7797b217919a92cc45784294bbe9b9b43dbfd3a292a
+SHA512: a89c4c6bf5f20294968baaa1f326c03ffddb45a341f837f45d522447fed40188cb8854eea5e8db434cafe42998955d4d66514f287cb09115aa0a444fadc51333
+Homepage: https://github.com/linuxdeepin/dde-cooperation
+Description: deepin cooperation application
+ Deepin Desktop Environment (DDE) - cooperation application.
+
+Package: deepin-data-transfer
+Architecture: amd64
+Version: 1.1.21
+Priority: optional
+Section: utils
+Source: dde-cooperation
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 17172
+Depends: libc6 (>= 2.38), libdtk6core (>= 6.0), libdtk6gui (>= 6.0), libdtk6widget (>= 6.0), libgcc-s1 (>= 3.0), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.1.2), libqt6network6 (>= 6.1.2), libqt6widgets6 (>= 6.1.2), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14), libuuid1 (>= 2.16), libzip5 (>= 0.10), zlib1g (>= 1:1.1.4)
+Filename: pool/main/d/dde-cooperation/deepin-data-transfer_1.1.21_amd64.deb
+Size: 12113796
+MD5sum: e219c81cc16e9b48dba0da5a262a0e3c
+SHA1: 185c73dd51408f02d65a33bc196afa43056c68f8
+SHA256: fe1a0ecc35b0db7f7503675957ce3398f0c49ddcbbabf6275f7f37fe24e5bfe8
+SHA512: a8c4d279866f56791f791ea4c389251c852fa28a54484f32092b891097ccdf7e36e4e295934ee9cadd43aa43bc3c6ea91f68d148e983cd30e8826ce96a7ccabf
+Homepage: https://github.com/linuxdeepin/dde-cooperation
+Description: deepin data transfer application
+ Deepin Desktop Environment (DDE) - data transfer application.
+
 Package: dde-daemon
 Architecture: amd64
 Version: 6.1.61-0depian1
