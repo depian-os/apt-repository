@@ -1179,6 +1179,44 @@ Homepage: https://github.com/linuxdeepin/ddm.git
 Description: DDM library
   provide PAM libraries
 
+Package: deepin-anything-dkms
+Architecture: amd64
+Version: 7.0.31
+Priority: optional
+Section: admin
+Source: deepin-anything
+Maintainer: Deepin Package Builder <packages@deepin.com>
+Installed-Size: 92
+Depends: dkms (>= 3.0.11)
+Filename: pool/main/d/deepin-anything/deepin-anything-dkms_7.0.31_amd64.deb
+Size: 18724
+MD5sum: 716979d2c5c89c9e09760165e39a245f
+SHA1: 4db7dc03d6be594fd1439b8e77d8c89bb3fb4240
+SHA256: e26211c7e808e29a4fc0e27c0fe96c10cdf2f04b4fc3ea6d2e2ca941e0ccec04
+SHA512: 20812065253564d72bf140966e8a2fd193cc7142293be3db1705d14e48f6eaa0c0e01f6cb0a1bc18cba1e70946c9416129f1785dcf8085357cc74d991b2ee8ec
+Homepage: http://github.com/linuxdeepin/deepin-anything
+Description: anything module
+ anything kernel module package
+
+Package: deepin-anything-server
+Architecture: amd64
+Version: 7.0.31
+Priority: optional
+Section: admin
+Source: deepin-anything
+Maintainer: Deepin Package Builder <packages@deepin.com>
+Installed-Size: 1680
+Depends: libc6 (>= 2.38), libfmt10 (>= 10.1.1+ds1), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.76.0), liblucene++-contrib0t64 (>= 3.0.9), liblucene++0t64 (>= 3.0.9), libmount1 (>= 2.24.2), libnl-3-200 (>= 3.2.27), libnl-genl-3-200 (>= 3.2.21), libqt6core6t64 (>= 6.8.2), libspdlog1.15-fmt10, libstdc++6 (>= 14)
+Filename: pool/main/d/deepin-anything/deepin-anything-server_7.0.31_amd64.deb
+Size: 407792
+MD5sum: 422236f95529684cdfb506c569b36b2a
+SHA1: bbd3c39ca619de24a5ea28ab23c215cddee9cd57
+SHA256: 8f7953f5f098dd45912a075f10affad096e461b6a92cdf7fa3ae40d13ae9a40e
+SHA512: 81851224153bcaf3313d1925e3e9390c15a49942c5c37461c60d45c0b7149dcfcc56a3851896df94a49b0a2fe63c4d8ca88de2bfd0a2228d776d20c168a59230
+Homepage: http://github.com/linuxdeepin/deepin-anything
+Description: Deepin Anything server package
+ This is the server part of Deepin Anything, which includes core functionality for the application.
+
 Package: deepin-authenticate
 Architecture: amd64
 Version: 1:2.0.19
