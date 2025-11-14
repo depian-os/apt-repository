@@ -2,52 +2,52 @@
 Hash: SHA512
 
 Codename: depian
-Date: Fri, 14 Nov 2025 05:37:22 +0000
+Date: Fri, 14 Nov 2025 05:39:17 +0000
 Label: Depian OS Repository
 Origin: depian-os.github.io
 Suite: depian
 MD5Sum:
- 7bf2ac685d88d891d3e4d9948f5533f2              125 Release
- 07588dd53d3286c5f1ad28c9a39f4826           221310 main/binary-amd64/Packages
+ 1dc6c9a8dbb94dbc8b8f8b03e639d67d              125 Release
+ 69014989439533f9b1e79f87dec57a62           226152 main/binary-amd64/Packages
  a85cba99e94c4de2e42d75e8d3414205               80 main/binary-amd64/Release
  d41d8cd98f00b204e9800998ecf8427e                0 main/binary-i386/Packages
  b091def84bb467feee3d4b86631f00ab               79 main/binary-i386/Release
  7896d059b53a772c0d7d88803b388143               81 main/source/Release
 SHA1:
- be7195471975b9219393d369b46613fe64a41a1d              125 Release
- 88d414e19deeb307f52880fca8efab8de1ff28ff           221310 main/binary-amd64/Packages
+ be2f05a2bba184d6970f4e1ee0939551c11d07ef              125 Release
+ 719a154f604028e9f4092de2fd131cb1a9ec7fb7           226152 main/binary-amd64/Packages
  1dea827aa2bfcc8aab365277d57bbca45fdc0d48               80 main/binary-amd64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709                0 main/binary-i386/Packages
  547cf4ac143001bc170780e9154623e3cb8b5ffa               79 main/binary-i386/Release
  085f47014d5c81c3f726a8755c2c58f7c21592a5               81 main/source/Release
 SHA256:
- 9352d1aef637f43f85ea84ce1bfd9d22981f94840a0561cf3dd1f4856fa22343              125 Release
- 010aca229e9253469f757466e68d2f99fa3c6b976cc9d6f7f73c7796d78502c4           221310 main/binary-amd64/Packages
+ dfb6d73bf1e9857187bacc3a902d2349269cac0afed3999e359cc89a0a44bf73              125 Release
+ c26fc791258847ac9022eef439649f2ee568305d124aa1d3b419457f0213a40f           226152 main/binary-amd64/Packages
  d97ba12959904cf5f89980adf7d3debc088ce1f0782338b8e77c1ac35f898c51               80 main/binary-amd64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 main/binary-i386/Packages
  45950aa594abaf8891375ecdd63ab700aea7cec7571f9fca8ffaad8e023327a5               79 main/binary-i386/Release
  3bc25aa2d6a022a91bad609146cfc2d9021e004b34b54a2b85a4b4eb4d8b736f               81 main/source/Release
 SHA512:
- 3d58deb086c2199cae02f6bf42ac55deedbb6e00c5df57d97fe7628fbc1ed621c368da252ffcb1c4b6a338b5d1fcfd9b9a0bed10204752b06c49c9fc2cbeb858              125 Release
- b70edcbbca0d48b5fea8d6ee4d8ffca47f9f5fa7f36a1213f8080ff8eabf5222084d54a94bc02d5ba26fdc9e6fb29e3eaa278e4c5406eef7555ae6a24fcce956           221310 main/binary-amd64/Packages
+ 81f76b288d8a2c03a2e9f4ba4415ce9f5be679545cc834c9b4c6c6d7f1c07dc8f4e711ca9e7bf4c51d1fdbc8338cb5b58c1d26e6bcd66681a2c1a45534932423              125 Release
+ 7614e8562d83760efd6d814f1962ad1c15be7ba78fa8d2c195f38c4d369404adf5a1a94ff220d5eeb139d7acc0e86148dad4e28304dde11ad83df92ba4dd1851           226152 main/binary-amd64/Packages
  04d2953aad51e2b99a9312ba8a1e9698264d2d81724eb9164a70ce1cb3bcc050eacd1f3607da75555080fb72242c631ea5cb40cbb5520f8faf198de4272cfb78               80 main/binary-amd64/Release
  cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e                0 main/binary-i386/Packages
  4f11490b8af7968e85007a5c52712c808334ca2542ab54fe026edac075cbb0c289148a7f112365145409173021321281ce4d27bed7e898939526a85924b88aa9               79 main/binary-i386/Release
  bfff8b7bad8d2998e3ba9b4cc78f185182c37e18a13a5c0fccba36979790398e4d1c2496203b0270d4e31cbd93cdc8159afb5fe9db39a212f6605fe0d24b9696               81 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAEBCgAuFiEEVfh2Atj/WxmZR7Zepg7XhqvBza0FAmkWwBIQHGxoZGpwbHlA
-MTI2LmNvbQAKCRCmDteGq8HNrWe9D/0YGWJ3aitMDwWv6KzMY7B/dRK+6lPDINal
-bJFHe3hLSmE4V7jxS8Delw7HZ19FIB99V5NUr5fvQ4cW4UXE6lYfhTKazIx6t9Cb
-F2bmytDrvDrBTZyF3SL4SdNe8h2NieRRSQZIdYE9mi5m7E/t6f8jqdcllSfasw/f
-se544kPpiA1q4UXVz5KTcRltZ7Yy85IU2DIEYfOe2HYkbTedJ4b17qrdw9d/6MZP
-FedHEkvE0v2Rhws0JziFI/zX6onBw6uywUXO+Hdy1wrPv4eh6Mvx1DuHgsJ25YzE
-CW4Lqx3u5yZ7rmWgxQtopviw4+20wMws1VsU3yFg0LhpAX5/RXeAMZ2p3KiHVIHt
-btZa6pU4ahSoilMVjos2sWhk14bMo1lZkS+w0YaKHvZAKIDnUG3ZeKps3oDeR4R3
-YWguTWyewjkz9TteYvCHFdiqXVAK4wXnSukYHi8xr/rXr8besdyXm9yM1w6mujXb
-8rC4NS9nJjuR1wUUX1+i2SquhKXM0cphCe1MTF7MmHJqTDiRtIKBIzGoEo5Cxt1z
-D3mLL6XpX3Xn/G9NnVnQVqDSG2f/Z4l1VCMaoFWaU80MhRgPFO225MK8SAlDC+Yj
-wuWCr9DaBBAbUPsaJAnZlhQs0w69P+Y+y14oVfVmBmeJGZ66XQKH7s7T5JqSo3Bb
-BG3+2GIJzQ==
-=wNW0
+iQJEBAEBCgAuFiEEVfh2Atj/WxmZR7Zepg7XhqvBza0FAmkWwIYQHGxoZGpwbHlA
+MTI2LmNvbQAKCRCmDteGq8HNret/D/49SLQB5GvQwFOJlFjQILQRuY9/9sZGV0Zh
+YrK4oPEGQppCqGeJ51gX81uR4NkS6V8Mx9dgSiFDPj6FBPnxIpwcEaOMgcMoNLTf
+JypdrTdChBO4IoqCXvTBOZjab169reEL1JuNlJAoIB1/D+rok7OHMGUOLeoT9cu5
+umaz0dWtdgLcA8WFU2YrAv5FsFQ7mw1MXWOETsF85GwyLyHc5e0wF/L4eCC6O21b
+OlEM/r/qPlebLwTVV0b6GxuwVQoAxp7XLwIfVi3Ns45GDsA0pholOBRuYgF43+jZ
+xgrXbO+rXnf6k/MTMw8nZ+kJizxPHA1IbAe9SeRzOWp08t/+631fr/MlqRMTEG8L
+BBximJenyhJ7uF060dCPEir+PfVgCtMrJaV9Fs/JjeWxd9+2rmx8m5zfR8zHYv7Q
++/RUub6jdxj3HCZXQDLMpTEoJZc0RRIL6VMtpon/Y4zpC5GFIutQd/buRLOIP6Ei
+Cv7RnipsQAq2oBtD5M56GhNxBO+F8cYnszdkT2AJymNXr1JwRfF+OPi3qi6Jegeu
+Yqu1fgmY9sQRRh0Sc5pYbYTriCzp/zq1hrJ/c7nSQJ1OUBlggH/K+aT0l5C/uKjk
+sPGx+KPHdjU6KvjGfVIZjT3a95mHcvnxOSZlgAAcGsGs6aMMd3Wzr88cl+p5Z+bJ
+o8x2/f90xg==
+=88Pi
 -----END PGP SIGNATURE-----

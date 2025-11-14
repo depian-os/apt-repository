@@ -3368,6 +3368,139 @@ SHA512: 03a14b3fae8d697e02f9a89d8549c282ab02520ce1b162f0eb224af6520486dcec72d499
 Homepage: https://github.com/linuxdeepin/fcitx5-theme-deepin
 Description: Deepin looklike fcitx5 theme
 
+Package: fonts-gb-fs
+Architecture: all
+Version: 1.5-deepin1
+Multi-Arch: foreign
+Priority: optional
+Section: fonts
+Source: fonts-gb
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 14099
+Filename: pool/main/f/fonts-gb/fonts-gb-fs_1.5-deepin1_all.deb
+Size: 8223940
+MD5sum: dc689f375f9faef2fba6020db812fc7e
+SHA1: 1ee512462403c703274026d30ade2b7a448a2c86
+SHA256: 0c9b99acc7c0bfce174c9a72483f179ccba1c63256c303f144d85db5f38e0a12
+SHA512: 67f89e30b19273437226f247022edd5dbd4f2b3af192296b72f8124b542dba5689933e79bf419e0463b5677afa9a567ed0ccfa69d4fea7fd900510572e345e61
+Homepage: http://www.deepin.org
+Description: GB18030 fonts
+ GB18030 fs fonts
+
+Package: fonts-gb-ht
+Architecture: all
+Version: 1.5-deepin1
+Multi-Arch: foreign
+Priority: optional
+Section: fonts
+Source: fonts-gb
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 12878
+Filename: pool/main/f/fonts-gb/fonts-gb-ht_1.5-deepin1_all.deb
+Size: 7235820
+MD5sum: 9789db23f0446a3021fd48fadc617c3d
+SHA1: dfaafa6f7dad8b503b1e7dda62aebaa73bd75d51
+SHA256: c2f9de3b90f3ac5af1bbfed98a63c75e25cf91a8c9e4d3e89fcd4420c4147818
+SHA512: 3489f05445a787628d2048c967d3a5d6e9cb515754d2f30c248b74972d4daa37723a9bde37f358890eb4e2113c108db55c8ef1d4f95d43da843984cd6849ceb0
+Homepage: http://www.deepin.org
+Description: GB18030 fonts
+ GB18030 ht fonts
+
+Package: fonts-gb-kt
+Architecture: all
+Version: 1.5-deepin1
+Multi-Arch: foreign
+Priority: optional
+Section: fonts
+Source: fonts-gb
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 21462
+Filename: pool/main/f/fonts-gb/fonts-gb-kt_1.5-deepin1_all.deb
+Size: 11530160
+MD5sum: b6eee31ed31061771a92f6c251c951d2
+SHA1: db076e1a9ebb4136ba85d3a7a286a97f93598450
+SHA256: 412aa0ba0d28e191985a541051c8c3fd672d0ee3091118cbfd19fe60d1c13f1d
+SHA512: ededfa3af7e949cc7db23392d250671b189d797216036b7a2bde85497901295ce7b347ed342631d3bc918c7c9bf22a1cf4470b18f1d1d6c28af6d4358d670f3d
+Homepage: http://www.deepin.org
+Description: GB18030 fonts
+ GB18030 kt fonts
+
+Package: fonts-gb-st-super
+Architecture: all
+Version: 1.5-deepin1
+Multi-Arch: foreign
+Priority: optional
+Section: fonts
+Source: fonts-gb
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 49771
+Filename: pool/main/f/fonts-gb/fonts-gb-st-super_1.5-deepin1_all.deb
+Size: 23165236
+MD5sum: 909f02a96cbed5479518b787895c78ba
+SHA1: f331908261f79597cb49670f4ff5f3ccff361437
+SHA256: 66e45a5be420295babf94d9c0cdca1079388671bd92d41000e2772cab87b7efa
+SHA512: af36fa30e3258922bc9392dd4c56b0b275783018a645724116cefdb4a019db7cd5d1e1e808d332dd9f24f9364d986eec4e976024e5c19b37b0ee033afc428500
+Homepage: http://www.deepin.org
+Description: GB18030 fonts
+ GB18030 st-super fonts
+
+Package: fonts-gb-st
+Architecture: all
+Version: 1.5-deepin1
+Multi-Arch: foreign
+Priority: optional
+Section: fonts
+Source: fonts-gb
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 18779
+Filename: pool/main/f/fonts-gb/fonts-gb-st_1.5-deepin1_all.deb
+Size: 8609456
+MD5sum: 59f853397eff31a74cd035e4983ca5d1
+SHA1: 406a92136898991b26752dd7753cac8a34743d9c
+SHA256: b215dc1a1aada2a6f3de09673df51daaa2638f666f8dcc247a6c38d2874b2cb6
+SHA512: a8585556bc29886c1a04ebf277e3a61ec8ec11e5e8f1282fe3c216ad87ee575035421d3a17841777351811294a815846f1daeddbf3d920274c1ddb4f8703aaef
+Homepage: http://www.deepin.org
+Description: GB18030 fonts
+ GB18030 st fonts
+
+Package: fonts-gb-xbs
+Architecture: all
+Version: 1.5-deepin1
+Multi-Arch: foreign
+Priority: optional
+Section: fonts
+Source: fonts-gb
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 18890
+Filename: pool/main/f/fonts-gb/fonts-gb-xbs_1.5-deepin1_all.deb
+Size: 9440168
+MD5sum: c9e31a208d49738fb2c44207ae1d792c
+SHA1: b3718ad2334b6cc843b13a7a1b53c0bc951c9f38
+SHA256: 0d92cd81a42b1800976f7635b51270e537792e290a6940d0bcae65977d2aa19b
+SHA512: e40227025544d1f70136dd979604130633b136832985ea5b5ce5d5a8c4714449191316ad6cfd3c675287d67e015967c097a52c6250b250e68d1de91af4c4580b
+Homepage: http://www.deepin.org
+Description: GB18030 fonts
+ GB18030 xbs fonts
+
+Package: fonts-gb
+Architecture: all
+Version: 1.5-deepin1
+Multi-Arch: foreign
+Priority: optional
+Section: fonts
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 9
+Depends: fonts-gb-fs (= 1.5-deepin1), fonts-gb-st (= 1.5-deepin1), fonts-gb-ht (= 1.5-deepin1), fonts-gb-kt (= 1.5-deepin1), fonts-gb-xbs (= 1.5-deepin1), fonts-gb-st-super (= 1.5-deepin1)
+Filename: pool/main/f/fonts-gb/fonts-gb_1.5-deepin1_all.deb
+Size: 2112
+MD5sum: 3e36608250ffb3832034a2cea6479261
+SHA1: 096e205de0c62af6200c8ae2529334aa3adbbd45
+SHA256: b2fdaab39a70385b399b154be608835c2e4bf0287eedc81a63dd7682cd82af11
+SHA512: b48d1cbcf113c1b1851ea5b4a6a6c9105ae040323bfe345672bf7b038d894dbae1891c3be7cf19ba7bb85e7bfb6ba3d28a6149b0972923f9184d015c7bfb6b5c
+Homepage: http://www.deepin.org
+Description: GB18030 fonts
+ GB18030 fonts for dependency
+
 Package: golang-codegangsta-cli-dev
 Architecture: all
 Version: 1.18.0-3
