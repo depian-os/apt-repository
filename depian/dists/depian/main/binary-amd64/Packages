@@ -1,3 +1,27 @@
+Package: crda
+Architecture: amd64
+Version: 4.14+git20191112.9856751.1-1depian1
+Multi-Arch: foreign
+Priority: optional
+Section: net
+Maintainer: Debian kernel team <debian-kernel@lists.debian.org>
+Installed-Size: 287
+Depends: libc6 (>= 2.34), libnl-3-200 (>= 3.2.7), libnl-genl-3-200 (>= 3.2.7), libssl3t64 (>= 3.0.0), wireless-regdb, iw (>= 3.2-1~)
+Filename: pool/main/c/crda/crda_4.14+git20191112.9856751.1-1depian1_amd64.deb
+Size: 63600
+MD5sum: d7d96849b4520f18eb51a1f3408c3665
+SHA1: b60444ebe0aa9d1c5a68d539466434f8de3d5606
+SHA256: 9e56c8416574d9ba8591f354842efa5ba55545300833e8504277c5482d0862d8
+SHA512: c0714fe1de5b3c97046f41c23c9dc198d588292a5dbe113af34d522810e85db09fd2c5355dab5d30d330df44bcde7879e55cc9f9ea85cda52389acb556464653
+Homepage: https://wireless.wiki.kernel.org/en/developers/Regulatory/CRDA
+Description: wireless Central Regulatory Domain Agent
+ This package provides a Central Regulatory Domain Agent (CRDA) to be used by
+ the Linux kernel cfg80211 wireless subsystem to query and apply the regulatory
+ domain settings wireless devices may operate within for a given location.
+ .
+ CRDA queries operational frequency regulations stored within the regulatory
+ database provided by the wireless-regdb package.
+
 Package: dcc-insider-plugin
 Architecture: amd64
 Version: 0.1.15
