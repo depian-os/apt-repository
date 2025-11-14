@@ -1255,6 +1255,25 @@ Homepage: https://www.deepin.org
 Description: client to login deepin sync account
  Deepin user can login with DeepinID oauth
 
+Package: dcc-deepinid-plugin
+Architecture: amd64
+Version: 2.0.9
+Priority: optional
+Section: lib
+Source: deepin-deepinid-plugin
+Maintainer: duanhongyu <duanhongyu@uniontech.com>
+Installed-Size: 23499
+Depends: libc6 (>= 2.32), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (>= 5.6), libgcc-s1 (>= 3.0), libpolkit-qt5-1-1 (>= 0.112.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5network5 (>= 5.14.1), libqt5svg5 (>= 5.15.1), libqt5widgets5 (>= 5.11.0~rc1), libssl3 (>= 3.0.0), libstdc++6 (>= 5.2)
+Filename: pool/main/d/deepin-deepinid-plugin/dcc-deepinid-plugin_2.0.9_amd64.deb
+Size: 6078668
+MD5sum: 979dc69383f261ec4a2cf84d7b1c6a1e
+SHA1: 9e2a97ae0e6c5742a2f1ec16d0eefac121d2e02d
+SHA256: 2d44cd21ec3227b7b0194ef184ebe41b97c0886049c45e30b0da3b2df028e49c
+SHA512: 103fe420ce8ddaa0f11cc0f994f26543d2f62205777a7318bffbd252666af8276bb1a11959a5534a97e79ece44be2b480710d2d46eee4326b18b34a55d216745
+Homepage: https://gerrit.uniontech.com/admin/repos/deepin-deepinid-plugin
+Description: the plugin of deepinid for dde control center
+ deepin-deepinid-plugin module
+
 Package: deepin-default-settings-tuning
 Architecture: all
 Version: 2025.06.17
