@@ -430,6 +430,24 @@ Homepage: https://github.com/linuxdeepin/dde-cooperation
 Description: deepin data transfer application
  Deepin Desktop Environment (DDE) - data transfer application.
 
+Package: dde-crypto
+Architecture: amd64
+Version: 1.0.4
+Priority: optional
+Section: non-free/libs
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 77
+Depends: openssl, libc6 (>= 2.2.5), libssl3 (>= 3.0.0)
+Filename: pool/main/d/dde-crypto/dde-crypto_1.0.4_amd64.deb
+Size: 16056
+MD5sum: 167e0bfe146ad38f69b853a79ad4d0a5
+SHA1: a379eeb82475d997e57dd3ffc39995881a79db55
+SHA256: cb403ae380c40a9f703f9e4cf508fb76fb6e14df203a2d9bca9cbf458b37374b
+SHA512: 29dfaba9f27b5a05f4c09fdbca96f49512d89f07c09fd52da46871d478da21a39eb43e385be2c94a06998ed4dc01af735a6c9230ef7cbe2876728c66a8c9ea8a
+Homepage: https://www.deepin.org
+Description: Archiver for keyring/* files
+ DDE crypto provides encrypt or decrypt functions
+
 Package: dde-daemon
 Architecture: amd64
 Version: 6.1.61-0depian1
