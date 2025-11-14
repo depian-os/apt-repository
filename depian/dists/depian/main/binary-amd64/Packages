@@ -3727,6 +3727,24 @@ Homepage: https://github.com/TenniS-Open/TenniS.git
 Description: tennis for seetaface
   TenniS: Tensor based Edge Neural Network Inference System
 
+Package: seetaface-tracker
+Architecture: amd64
+Version: 1.0.0.2-1
+Priority: optional
+Section: devel
+Maintainer: bd <bd@seetatech.com>
+Installed-Size: 69
+Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
+Filename: pool/main/s/seetaface-tracker/seetaface-tracker_1.0.0.2-1_amd64.deb
+Size: 18536
+MD5sum: 8edabdeda8722733f7d4234d6008b8a4
+SHA1: c2693b995ea5f45d3789fb1ec5a85d4687a10d32
+SHA256: 4e0d0257783b1a8f07ebe5145fd7268adabfadf863b993462e8ab1983213f689
+SHA512: a7e278ae5e97a383dd78d06ec7125af7752037220d3e4efe33c76a1b60ec7861fd2695982bd9944742b22c414aaad8535ac2d50ee5ff00a73d754f323b96f28d
+Homepage: https://github.com/SeetaFace6Open/FaceTracker6.git
+Description: tracker for seetaface
+ tracker module for seetaface.
+
 Package: startdde
 Architecture: amd64
 Version: 6.1.6
