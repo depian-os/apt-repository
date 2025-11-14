@@ -2419,6 +2419,24 @@ Description: Terminal is an advanced terminal emulator with workspace, multiple
  and etc. You can instantly start and close Terminal smoothly like normal
  file window, allowing you to input commands with facility and no distractions.
 
+Package: deepin-update-ui
+Architecture: amd64
+Version: 1.0.31
+Priority: optional
+Section: devel
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 4740
+Depends: dde-control-center (>= 6.1.53), libc6 (>= 2.34), libdtk6core (>= 6.0), libdtk6gui (>= 6.0), libdtk6widget (>= 6.0), libgcc-s1 (>= 3.0), libqt6concurrent6 (>= 6.1.2), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.8.2), libqt6network6 (>= 6.1.2), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 14), lastore-daemon (>> 6.2.25)
+Filename: pool/main/d/deepin-update-ui/deepin-update-ui_1.0.31_amd64.deb
+Size: 1290192
+MD5sum: e5866c376168ece4eb2ed53113a8d5cf
+SHA1: 6a0842b54ead3441b0e9749d4422648a9cbef984
+SHA256: feb4c977f59a6e5d9ae2d525f104a1522ddab413370ca448b0dca1fa18758d7d
+SHA512: f71985e77798e900aeecc7360c6faf0f26e2dc65c6ae92159d36da53e5f228d0f3f68c0ea80c892e1ce79da4cb1b6838d50d0e4dcbd48d34cffd8714c06c92c5
+Homepage: http://www.deepin.org/
+Description: The UI collection for updating functions, including control
+ center update plugins, full screen update interfaces, rollback pages, etc.
+
 Package: deepin-wayland-protocols
 Architecture: amd64
 Version: 1.10.0.31-1
