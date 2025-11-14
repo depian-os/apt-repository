@@ -3583,6 +3583,24 @@ Homepage: https://github.com/SeetaFace6Open/SeetaAuthorize
 Description: seetaface authorize module
  The authorize module of seetaface.
 
+Package: seetaface-boxes
+Architecture: amd64
+Version: 1.0.0.1-2deepin1
+Priority: optional
+Section: devel
+Maintainer: bd <bd@seetatech.com>
+Installed-Size: 288
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
+Filename: pool/main/s/seetaface-boxes/seetaface-boxes_1.0.0.1-2deepin1_amd64.deb
+Size: 76756
+MD5sum: 54d6a87b4bc0fb4648cfa03a11ba5704
+SHA1: 491598f0e1ae9edc15c284d5c38750d9979ce8e7
+SHA256: 12b260b7b4265254d2858e0503d0031610984407092c24977b043a36e8652b91
+SHA512: 7d581926a4768bab3c23f2d8449459edc23e081dea54bf3231e1314494eca3a566d18cf25a5bdfd3c61b2945eb7addd4ae785ec9b6a7cef7f20685aaa5d39950
+Homepage: https://github.com/TenniS-Open/TenniS.git
+Description: Faceboxes module of seetaface
+ The faceboxes module of seetaface
+
 Package: seetaface-open-role-zoo
 Architecture: amd64
 Version: 2.0.0.0deepin0
