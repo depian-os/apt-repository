@@ -1689,6 +1689,24 @@ Homepage: http://www.deepin.org
 Description: deepin xdgicon convert tool
  This package provides a tool to convert xdg icon theme to debian icon theme.
 
+Package: deepin-face
+Architecture: amd64
+Version: 2.0.10
+Priority: optional
+Section: devel
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 248
+Depends: libc6 (>= 2.34), libdtk6core (>= 6.0), libgcc-s1 (>= 3.0), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.3.0), libqt6gui6 (>= 6.1.2), libqt6multimedia6 (>= 6.6.1), libstdc++6 (>= 13.1), seetaface-boxes, seetaface-landmarker, seetaface-anti-spoofing-x, seetaface-tracker, seetaface-recognizer, seetaface-quality-assessor, seetaface-pose-estimation, seetaface-authorize, seetaface-tennis, seetaface-models
+Filename: pool/main/d/deepin-face/deepin-face_2.0.10_amd64.deb
+Size: 69916
+MD5sum: 57afce0b70e8acdb085a49dfc6cf9975
+SHA1: 50a9f2825af0061f03803cd9d662461d084a6788
+SHA256: 7acd72dd5c5ce0a6ca66b0fb16872102525a0decd86988244150bed75b9daa56
+SHA512: 16b7c6ba2b9ab13d9b1e0d17b69eca247769312768dcafca1ca88da153146f34dcf7eb0621b75d9608cdc04666aa311aef0c4fba1d349811e48df0118266a6a2
+Homepage: https://github.com/linuxdeepin/deepin-face
+Description: Face recognition service
+ deepin-face is a face recognition service implemented by the open source face recognition engine seetaface
+
 Package: deepin-gettext-tools
 Architecture: all
 Version: 1.0.6-1
