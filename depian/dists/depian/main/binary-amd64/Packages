@@ -1235,6 +1235,26 @@ Homepage: http://github.com/linuxdeepin/deepin-anything
 Description: Deepin Anything server package
  This is the server part of Deepin Anything, which includes core functionality for the application.
 
+Package: deepin-app-store-runtime
+Architecture: amd64
+Version: 1.0.3+community
+Multi-Arch: same
+Priority: optional
+Section: utils
+Maintainer: wurongjie <wurongjie@uniontech.com>
+Installed-Size: 10
+Provides: deepin-elf-verify (= 100.0.0)
+Conflicts: deepin-elf-verify
+Replaces: deepin-elf-verify
+Filename: pool/main/d/deepin-app-store-runtime/deepin-app-store-runtime_1.0.3+community_amd64.deb
+Size: 2404
+MD5sum: 5cfee429e8a80c23855ba8b924299a41
+SHA1: fea11e8c534614a5582d3122563bb63542b8e2ea
+SHA256: 85d3f0bec40d8f047f259aa12eb26d8203abde2f5682dc403f728c0811497ab4
+SHA512: c5b61144019bb3775236c690ad60c6a62e86a94caaab0b68e0e5a8e9e9e0c1fcb63195573ce55b31f5eaafd333bef5aedc4b3a623b920bcb5e409e3b99609a9b
+Homepage: https://gitlabwh.uniontech.com/
+Description: A runtime environment software package for Deepin App Store.
+
 Package: deepin-authenticate
 Architecture: amd64
 Version: 1:2.0.19
