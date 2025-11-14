@@ -3655,6 +3655,24 @@ Homepage: https://github.com/SeetaFace6Open/OpenRoleZoo.git
 Description: OpenRoleZoo for seetaface
  OpenRoleZoo is a static library used by seetaface
 
+Package: seetaface-pose-estimation
+Architecture: amd64
+Version: 1.0.0.1-1
+Priority: optional
+Section: devel
+Maintainer: bd <bd@seetatech.com>
+Installed-Size: 326
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
+Filename: pool/main/s/seetaface-pose-estimation/seetaface-pose-estimation_1.0.0.1-1_amd64.deb
+Size: 98120
+MD5sum: 6022ded3041369eeece1ab4fa102a176
+SHA1: 709d446ff63605fee9f68c1b4f21ffe6f6c3e55f
+SHA256: b95c1fc0a0134e34a0b182df05df9f071ccc340843bd8fbb8c1a81fe1a44468b
+SHA512: 60f82e69e33a4c7e293698a9b774762540dd8b9eb519934e0092dce99b6dbd101a5666cdada05af1c1dc4fd4e91a85743dbc1bfe253ca5c990e803729a37b91e
+Homepage: https://github.com/TenniS-Open/TenniS.git
+Description: Poseestimator6 for deepin
+ Poseestimator6 for deepin to using.
+
 Package: seetaface-tennis
 Architecture: amd64
 Version: 1.0.1-0deepin2
