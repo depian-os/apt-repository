@@ -3565,6 +3565,24 @@ SHA512: 26159944624f1f805d03da461478a16d5e184af85eb0ba63fd06619c392d40b2871723b1
 Description: Plymouth theme for Linux Deepin
  This theme package contains deepin-logo.
 
+Package: seetaface-open-role-zoo
+Architecture: amd64
+Version: 2.0.0.0deepin0
+Priority: optional
+Section: devel
+Maintainer: likier <likier@sina.cn>
+Installed-Size: 2076
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
+Filename: pool/main/s/seetaface-open-role-zoo/seetaface-open-role-zoo_2.0.0.0deepin0_amd64.deb
+Size: 326508
+MD5sum: f81c3da3023848e8345a6f4b7f36c70d
+SHA1: 7a7a8d3065fa1c76373ee6821ba03914bed85296
+SHA256: 8556f0695337a82e4700cee9babbbdaa029f9b63a04b04db506c5542b66496d5
+SHA512: e2ece245cb99896dd5e8fe2e6160a800bea41b2775088865613c2953a92f561b78eae0deb780cdc6db3a537d79211475a327eb1457869061dbd0639e57bbc647
+Homepage: https://github.com/SeetaFace6Open/OpenRoleZoo.git
+Description: OpenRoleZoo for seetaface
+ OpenRoleZoo is a static library used by seetaface
+
 Package: startdde
 Architecture: amd64
 Version: 6.1.6
