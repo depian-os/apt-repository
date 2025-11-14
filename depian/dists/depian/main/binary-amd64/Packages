@@ -881,6 +881,23 @@ SHA512: 6ec694e4e224f557af7a21aae715dc42314214dba5f633a6fc1f08ec45b5f82464290e9c
 Description: Qt platform plugins
  Qt platform plugins for DDE.
 
+Package: dde-services
+Architecture: amd64
+Version: 1.0.11
+Priority: optional
+Section: admin
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 429
+Depends: libc6 (>= 2.38), libdtk6core (>= 6.0), libdtk6gui (>= 6.0), libgcc-s1 (>= 3.0), libnet1 (>= 1.1.2.1), libpcap0.8t64 (>= 1.0.0), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.8.2), libqt6gui6 (>= 6.1.2), libstdc++6 (>= 5.2), libsystemd0 (>= 243), deepin-service-manager (>= 1.0.5)
+Filename: pool/main/d/dde-services/dde-services_1.0.11_amd64.deb
+Size: 110776
+MD5sum: b021e009e4b3f5843f3d9703606d92a2
+SHA1: 183dbcbec886afca517937da3edae21e7cf66cbe
+SHA256: f314bcd372a8870f11a26702f88007e0b52af49e82a9d659e8a3537984921675
+SHA512: 5f882124f8141ef233e19975ff321b26f743d475fb5f4d102c2d24e0b7e569fd359a73e04ec90895ffffd1afedb9a9498475bc2b56061dfaa3737fb520784f95
+Homepage: https://github.com/linuxdeepin
+Description: deepin desktop-environment plugins service
+
 Package: dde-session-shell-dev
 Architecture: amd64
 Version: 6.0.49
