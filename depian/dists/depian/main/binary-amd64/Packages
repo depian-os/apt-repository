@@ -2324,6 +2324,81 @@ Homepage: http://www.deepin.org
 Description: deepin password check interface
  deepin-pw-check is a tool to verify the validity of the password
 
+Package: deepin-recovery-gui
+Architecture: amd64
+Version: 7.0.4
+Priority: optional
+Section: admin
+Maintainer: justforlxz <justforlxz@gmail.com>
+Installed-Size: 1306
+Depends: libc6 (>= 2.34), libdtk6core (>= 6.0), libdtk6gui (>= 6.0), libdtk6log (>= 0.0), libdtk6widget (>= 6.0), libgcc-s1 (>= 3.0), libqt6core6 (>= 6.8.0), libqt6dbus6 (>= 6.1.2), libqt6gui6 (>= 6.1.2), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 5), libudisks2-qt6 (>= 6.0.0)
+Filename: pool/main/d/deepin-recovery-gui/deepin-recovery-gui_7.0.4_amd64.deb
+Size: 326876
+MD5sum: 1342444ac0a175a2c2b6b101c4c77813
+SHA1: 8e660590aeccadf4fea8fbe2fdca2e1a6bb11207
+SHA256: a9fa20b3e85c371a7816d4ddf28027ab57ae4eb9cef4558fd9c8d58e94366211
+SHA512: 041217cf80469d8ca41efb45fe2192ce5b2a92a62822759485694a89a5d608bb3f4452116d80dcd477f9c3c4ad5ae26f5310832d67b83df26d1007db9287f187
+Homepage: https://gitlabwh.uniontech.com/wuhan/dde-v20/deepin-recovery-gui
+Description: Recovery GUI
+ This package is run in live system.
+
+Package: deepin-recovery-live
+Architecture: amd64
+Version: 7.0.4
+Priority: optional
+Section: admin
+Source: deepin-recovery-gui
+Maintainer: justforlxz <justforlxz@gmail.com>
+Installed-Size: 1929
+Depends: libc6 (>= 2.34), libdtk6core (>= 6.0), libdtk6gui (>= 6.0), libdtk6log (>= 0.0), libdtk6widget (>= 6.0), libgcc-s1 (>= 3.0), libqt6core6 (>= 6.8.0), libqt6dbus6 (>= 6.4.0), libqt6gui6 (>= 6.1.2), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 5), libudisks2-qt6 (>= 6.0.0)
+Filename: pool/main/d/deepin-recovery-gui/deepin-recovery-live_7.0.4_amd64.deb
+Size: 436472
+MD5sum: a51bb5572bd31f79c5c31c13a2dcf407
+SHA1: dcd8db69b92a24be5d912a1bcf62fa36376305f1
+SHA256: 0eecff30161c8a0ab2dc9155c9c840c4f5d0c1c4da0982e405025ff7c32b89c8
+SHA512: 492e3739c32677c82b25b461e14c85c64e37c82b87f57568622ef27202dd7526b5ab28d7333ea374578f0d4884c7aba7c0d2b2f03b279417ebb94a9c5879067f
+Homepage: https://gitlabwh.uniontech.com/wuhan/dde-v20/deepin-recovery-gui
+Description: live fix Tool
+ This package is run in live system.
+
+Package: deepin-recovery-plugin
+Architecture: amd64
+Version: 7.0.4
+Priority: optional
+Section: admin
+Source: deepin-recovery-gui
+Maintainer: justforlxz <justforlxz@gmail.com>
+Installed-Size: 480
+Depends: dde-control-center (>= 6.1.28), libc6 (>= 2.4), libgcc-s1 (>= 3.0), libqt6core6 (>= 6.8.0), libstdc++6 (>= 5)
+Recommends: uos-recovery
+Filename: pool/main/d/deepin-recovery-gui/deepin-recovery-plugin_7.0.4_amd64.deb
+Size: 58768
+MD5sum: 1bf65273651c72fef1912f3d35be188b
+SHA1: 7f6fe180fb45f0ee4f84da663accea5ac87a07e1
+SHA256: b9ab213a115f77f78d3063a6f4a04759c7ff5479f3824c77bfa1e4fcc5e44d9c
+SHA512: b5724f1083e6313bc29aa6b2717ae2884d152a5c6f8cf67270b5d0c638b7b8a4c5d97e9b9e0fa72f0ad64629140c197a8a0e1eca9da7022df800b2abad72a470
+Homepage: https://gitlabwh.uniontech.com/wuhan/dde-v20/deepin-recovery-gui
+Description: Recovery Plugin
+ This is a plugin for dde-control-center.
+
+Package: live-system-com
+Architecture: all
+Version: 7.0.4
+Priority: optional
+Section: admin
+Source: deepin-recovery-gui
+Maintainer: justforlxz <justforlxz@gmail.com>
+Installed-Size: 9
+Filename: pool/main/d/deepin-recovery-gui/live-system-com_7.0.4_all.deb
+Size: 1772
+MD5sum: d3d67f973d73ef89d73995d815ecacb5
+SHA1: f3b181150f60f83704eb3581600a78f108e301cf
+SHA256: 9c46bf3a756c5fb4cb65203b3ab2dfca70c772969f67f9728c6f0e9827602550
+SHA512: d362e9dee7170bc277c743907c07242923b515d22f691b1cc66d8520fdedfcd83eaac6c62da00b7baf7940ea46b458d8aba569a23a60103fc13aef7a114d99a1
+Homepage: https://gitlabwh.uniontech.com/wuhan/dde-v20/deepin-recovery-gui
+Description: Live system config
+ The config for live-system.
+
 Package: deepin-service-manager
 Architecture: amd64
 Version: 1.0.16
