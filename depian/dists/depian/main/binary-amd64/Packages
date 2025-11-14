@@ -3565,6 +3565,24 @@ SHA512: 26159944624f1f805d03da461478a16d5e184af85eb0ba63fd06619c392d40b2871723b1
 Description: Plymouth theme for Linux Deepin
  This theme package contains deepin-logo.
 
+Package: seetaface-authorize
+Architecture: amd64
+Version: 1.0.0.1-2deepin1
+Priority: optional
+Section: devel
+Maintainer: likier <likier@sina.cn>
+Installed-Size: 461
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
+Filename: pool/main/s/seetaface-authorize/seetaface-authorize_1.0.0.1-2deepin1_amd64.deb
+Size: 110672
+MD5sum: 84ac3a85b61dd76782ef453cc97a2fc3
+SHA1: 57705bd756bb4315157285d88825bd284d432806
+SHA256: 1f84bb4cdfa08c03938c7ff430edc7dc843d10a16ba8ba2d6a1b92ab30578695
+SHA512: fae7cb3cebb03e04b293e619b3809ecb40d40bc971d08a04f771d10307267babec870d4bb04b20d5face7b2e142cea674099f567ed0a3c9d9f4c0d4774b86839
+Homepage: https://github.com/SeetaFace6Open/SeetaAuthorize
+Description: seetaface authorize module
+ The authorize module of seetaface.
+
 Package: seetaface-open-role-zoo
 Architecture: amd64
 Version: 2.0.0.0deepin0
