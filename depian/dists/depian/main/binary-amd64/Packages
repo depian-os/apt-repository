@@ -1729,6 +1729,23 @@ Description: Deepin Internationalization utilities
  .
  This package is part of DDE (Deepin Desktop Environment).
 
+Package: deepin-gtk-theme
+Architecture: all
+Version: 25.3.7
+Priority: optional
+Section: gnome
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 4435
+Breaks: libgtk-3-0 (<= 3.5.0)
+Filename: pool/main/d/deepin-gtk-theme/deepin-gtk-theme_25.3.7_all.deb
+Size: 263356
+MD5sum: 2c1ab2a789a558b2616ba04170971a6d
+SHA1: 12d5f5aa343b9c379ddc8f0563322d3a2d36ab38
+SHA256: f4930ee2922f2fba8ef4ba3bfd7c2c5bc5f39d2f8daece1aa56e10df53648583
+SHA512: c1a5bb191fb64abf340dd45cf905d231da0ca1e6440e0d584fb485945e5f2d4c1bab1b0568d74593be079cd868f195a93b560ff2c9a540ef868d2279e0c25976
+Description: Deepin Gtk Themes
+ This package contains GTK+ themes for Deepin Desktop Environment.
+
 Package: deepin-home
 Architecture: amd64
 Version: 1.6.5
