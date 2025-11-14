@@ -3671,6 +3671,24 @@ Description: simple display manager
   * upower can be used to suspend the computer from the display manager
   * accountsservice is used to populate a user list with addition information.
 
+Package: linglong-box
+Architecture: amd64
+Version: 2.1.0-1
+Priority: optional
+Section: admin
+Maintainer: Deepin Packages Builder <packages@deepin.org>
+Installed-Size: 869
+Depends: libc6 (>= 2.38), libcap2 (>= 1:2.10), libgcc-s1 (>= 3.0), libstdc++6 (>= 14)
+Filename: pool/main/l/linglong-box/linglong-box_2.1.0-1_amd64.deb
+Size: 306144
+MD5sum: 990fae9588d2a7cb49dafe9b7d2af96e
+SHA1: e2f941df2d4a75a3472d3d805e3506a995158bd9
+SHA256: 63c50abe87ee8a0f8dbb1659dd5b25b149e2533a6adc5d31c3bccc42136d9193
+SHA512: 097848a0b8277ad6e8110bb3b8d90b4821ac90646ead11d869e9bdfc91840716b4327b4a4e9d3a62f4403f9d99ba4e125ebd0c68232e34b4f918d488fbfc9fd1
+Homepage: https://www.deepin.org
+Description: Deepin sandbox with OCI standard.
+ Deepin sandbox...
+
 Package: libdareader-dev
 Architecture: amd64
 Version: 2.0.0.0
