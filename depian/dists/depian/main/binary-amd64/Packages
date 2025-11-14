@@ -4132,6 +4132,82 @@ SHA512: 0d05f0d686731381e97acd6b25364c0397613caa58a7f4c25ff2e469e20d39458c360551
 Description: lib for read image/video data from deepin-authentication
  this package is a lib for read image/video data from deepin-authentication.
 
+Package: libqapt-qt6-dev
+Architecture: amd64
+Version: 3.0.9
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: libqapt-qt6
+Maintainer: Debian/Kubuntu KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+Installed-Size: 174
+Depends: libapt-pkg-dev, libqapt3-qt6 (= 3.0.9), qt6-base-dev | qtbase5-dev
+Filename: pool/main/libq/libqapt-qt6/libqapt-qt6-dev_3.0.9_amd64.deb
+Size: 28480
+MD5sum: 5feb53cd883e0732e8b7d829225f5896
+SHA1: 5ac3284f0bc3847b94a3590dcac93a2b0ec0e3a6
+SHA256: acbb6fcb24c5ec4136510fabcc0ab001fa3f77c2e21d19ceec8e4522092c9ce8
+SHA512: dc0e4b49852110079014580a7edf4f8e977a8a600fd560c484be69bdfbfd700c782d9b72e0e2100442e8a22b429defa2058cbf324b2c7d12fb82a1bf9bfbe248
+Homepage: https://cgit.kde.org/libqapt.git/
+Description: Development headers for the QApt library
+ LibQApt is a Qt wrapper around the libapt-pkg library as well as an APT
+ implementation using libapt-pkg. The aim is to provide a sane API for
+ package management to ease the development of package managers written in Qt
+ and C++
+ .
+ This package contains the development headers for the QApt library
+
+Package: libqapt3-qt6-runtime
+Architecture: amd64
+Version: 3.0.9
+Priority: optional
+Section: kde
+Source: libqapt-qt6
+Maintainer: Debian/Kubuntu KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+Installed-Size: 269
+Depends: dde-polkit-agent | polkit-kde-agent-1 | policykit-1-gnome, libapt-pkg7.0 (>= 1.9~), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libpolkit-qt6-1-1 (>= 0.200.0), libqapt3-qt6 (>= 3.0.9), libqt6core5compat6 (>= 6.6.0), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.3.0), libstdc++6 (>= 14)
+Filename: pool/main/libq/libqapt-qt6/libqapt3-qt6-runtime_3.0.9_amd64.deb
+Size: 77912
+MD5sum: 04bf938f2f2963fe32533b21e2a50a53
+SHA1: e5db90201bd58c2c9a48af596ae78210a5e2bd8b
+SHA256: 25aa520afda1d072c45d6ba34a9db9bc1ade5b9c046d98ac4e45a54faa78fa06
+SHA512: c9e84811940152fdf612bbc6eb6c79d30e7bc2bde452b28f6989fc9f885e77bef9d85bb80087a6767536fabfd0e18599069c07f1c7b4eadf7a0665dec936a518
+Homepage: https://cgit.kde.org/libqapt.git/
+Description: Runtime components for the QApt library
+ LibQApt is a Qt wrapper around the libapt-pkg library as well as an APT
+ implementation using libapt-pkg. The aim is to provide a sane API for
+ package management to ease the development of package managers written in Qt
+ and C++
+ .
+ This package contains the runtime components necessary for applications using
+ the QApt library to run.
+
+Package: libqapt3-qt6
+Architecture: amd64
+Version: 3.0.9
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libqapt-qt6
+Maintainer: Debian/Kubuntu KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+Installed-Size: 667
+Depends: libapt-pkg7.0 (>= 1.9.11~), libc6 (>= 2.14), libgcc-s1 (>= 3.0), libqt6core5compat6 (>= 6.6.0), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.4.0), libstdc++6 (>= 14), libxapian30 (>= 1.4.28~)
+Recommends: libqapt3-qt6-runtime (= 3.0.9)
+Filename: pool/main/libq/libqapt-qt6/libqapt3-qt6_3.0.9_amd64.deb
+Size: 196584
+MD5sum: cf305b1d196c32563c08bb2d4b19c2d7
+SHA1: 2e35b00e7961fdb6c945c446002bdaed820a072f
+SHA256: f5d683fb8ea8ea8817acc32fb0175d1b4837207f2b2651dcd673531b211e3852
+SHA512: 314519f23e32f4cdee47160a33ef783db12fb7c707f50cb11fd457c8de41d8b76a568d508d00d78ae9c2b6cd06d448fde2edd4f793a46b839cea153cf93659d0
+Homepage: https://cgit.kde.org/libqapt.git/
+Description: QApt library package
+ LibQApt is a Qt wrapper around the libapt-pkg library as well as an APT
+ implementation using libapt-pkg. The aim is to provide a sane API for
+ package management to ease the development of package managers written in Qt
+ and C++
+ .
+ This package contains the QApt library
+
 Package: libudfburn-dev
 Architecture: amd64
 Version: 1.1.4-deepin
