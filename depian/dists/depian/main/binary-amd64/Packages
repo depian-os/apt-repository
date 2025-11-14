@@ -3691,6 +3691,24 @@ Homepage: https://github.com/TenniS-Open/TenniS.git
 Description: Qualityassessor3 for deepin
  Qualityassessor3 for deepin to using.
 
+Package: seetaface-recognizer
+Architecture: amd64
+Version: 1.0.0.2-1
+Priority: optional
+Section: devel
+Maintainer: bd <bd@seetatech.com>
+Installed-Size: 466
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
+Filename: pool/main/s/seetaface-recognizer/seetaface-recognizer_1.0.0.2-1_amd64.deb
+Size: 141444
+MD5sum: 30481bc70f89e909b1ee1867cadd5ae0
+SHA1: 08e2424b3b5c73b2c9499fbc9f8aca2d56e54814
+SHA256: 57b7e0e3bb2b42a4d9b010b74716544f791329a8bc2bef8b87be3e27ccee827b
+SHA512: 66dfebaabffcba83c359baf1eaf231d28ef95db035d6b16022cc0ae32395fce0a0e49d627cd8b345f45df882aa8e0fda41e163ca9b6bcfc30d41eb955928fb1f
+Homepage: https://github.com/SeetaFace6Open/FaceRecognizer6.git
+Description: facerecognizer6 for deepin
+ facerecognizer6 for deepin to using.
+
 Package: seetaface-tennis
 Architecture: amd64
 Version: 1.0.1-0deepin2
