@@ -3673,6 +3673,24 @@ Homepage: https://github.com/TenniS-Open/TenniS.git
 Description: Poseestimator6 for deepin
  Poseestimator6 for deepin to using.
 
+Package: seetaface-quality-assessor
+Architecture: amd64
+Version: 1.0.0.2-1
+Priority: optional
+Section: devel
+Maintainer: bd <bd@seetatech.com>
+Installed-Size: 404
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
+Filename: pool/main/s/seetaface-quality-assessor/seetaface-quality-assessor_1.0.0.2-1_amd64.deb
+Size: 118452
+MD5sum: 9253486b81f966e23abe6a024506f34a
+SHA1: 49517031fdc4fc00bdde2f5550c4c16f0428ed4c
+SHA256: c602995e415e3d957618a7f4918ee7979e33272b7645085a65f599d4a5ca7eef
+SHA512: a009e25ce98472159487c0b534c52339160ecea9867505c33020255f61a1bbe6eccda0a9bd416e0f45c3a6b2540962b6f3ded69aea4bee72760f4a8a86b58316
+Homepage: https://github.com/TenniS-Open/TenniS.git
+Description: Qualityassessor3 for deepin
+ Qualityassessor3 for deepin to using.
+
 Package: seetaface-tennis
 Architecture: amd64
 Version: 1.0.1-0deepin2
