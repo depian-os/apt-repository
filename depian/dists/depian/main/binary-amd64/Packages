@@ -3368,6 +3368,23 @@ SHA512: 03a14b3fae8d697e02f9a89d8549c282ab02520ce1b162f0eb224af6520486dcec72d499
 Homepage: https://github.com/linuxdeepin/fcitx5-theme-deepin
 Description: Deepin looklike fcitx5 theme
 
+Package: fonts-adobe-source-han-cjk
+Architecture: all
+Version: 1.0.4-0deepin1
+Multi-Arch: foreign
+Priority: optional
+Section: fonts
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 80170
+Filename: pool/main/f/fonts-adobe-source-han-cjk/fonts-adobe-source-han-cjk_1.0.4-0deepin1_all.deb
+Size: 54619440
+MD5sum: c13b71e988755a398affad7146b4ac85
+SHA1: f338984e05620b797f491ff31661fa49ffcf2dfb
+SHA256: 058977616ae52026970f7383bb5dea07627e8278bf2b56c7b93df9dd7ed14629
+SHA512: 876cc72323687540561631b6f01f2237c36328d470b34be103f8dacce8d5fd39a55eacb1787638a021dc14ff91341e2fb486156e748fd694d35bd0fbaebbdd1f
+Homepage: http://www.deepin.org
+Description: adobe source han cjk fonts
+
 Package: fonts-gb-fs
 Architecture: all
 Version: 1.5-deepin1
