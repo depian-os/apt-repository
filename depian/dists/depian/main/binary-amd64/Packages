@@ -4425,6 +4425,63 @@ Homepage: <insert the upstream URL, if relevant>
 Description: a command line program
  a command line program for burning images;
 
+Package: libncnn-dev
+Architecture: amd64
+Version: 1.0.20240820-0deepin2
+Priority: optional
+Section: devel
+Source: ncnn
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 396
+Depends: libncnn, libvulkan-dev
+Filename: pool/main/n/ncnn/libncnn-dev_1.0.20240820-0deepin2_amd64.deb
+Size: 52220
+MD5sum: 9fcc30d1eeae00ee6997253dcb523a19
+SHA1: 8921314c647c6f76bf88843143e11911c34a8aec
+SHA256: d8b20ab709f16ec589ea6c9d0eeb3d60c1754de7d6f6e038363191caee0a4d85
+SHA512: 7657406f48acdf4dd44fad5a484e2bdc7f965c05b99758e85bc83317021a6292a696f7af628c80127a73614e28d31d8f7bcd7c00d0d0d27faff9d212e1c9300a
+Homepage: https://github.com/Tencent/ncnn
+Description: Neural network inference framework.
+ ncnn is a high-performance neural network inference framework optimized for the mobile platform.
+
+Package: libncnn
+Architecture: amd64
+Version: 1.0.20240820-0deepin2
+Priority: optional
+Section: devel
+Source: ncnn
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 14882
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libgomp1 (>= 4.9), libstdc++6 (>= 13.1)
+Filename: pool/main/n/ncnn/libncnn_1.0.20240820-0deepin2_amd64.deb
+Size: 3677492
+MD5sum: d9374a0bae540d7a21e27bd4e1eae0ad
+SHA1: a03165fe5845e6b2f642ffdc26a5a64dad87e6d0
+SHA256: 36b7186436ad9dc8ae784dcf2ca2be70c33a03c1e5e663485d25596015669afa
+SHA512: c73c1df207692fadef976b896ae581713f5e01f51194bd23acf1a8d7bf58dcc0d043892bdf38a02e13530ce16a125a932afd3daee3af7953d8fa4839379934c2
+Homepage: https://github.com/Tencent/ncnn
+Description: Neural network inference framework.
+ ncnn is a high-performance neural network inference framework optimized for the mobile platform.
+
+Package: ncnn-tools
+Architecture: amd64
+Version: 1.0.20240820-0deepin2
+Priority: optional
+Section: devel
+Source: ncnn
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 877
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.3.1), libgomp1 (>= 4.9), libncnn, libstdc++6 (>= 14)
+Filename: pool/main/n/ncnn/ncnn-tools_1.0.20240820-0deepin2_amd64.deb
+Size: 258840
+MD5sum: f003952cbf97a307ca9adbccfcc8ab98
+SHA1: d6724221ea51c0e75a7c61214650d7a0d5006b30
+SHA256: 4e3bcc02f306baedac93510713f6b1488903a75e938ee06476072dfa07c3e40b
+SHA512: b43a5b8aee22fa07927357e67675ffc49dedca4d0e4bb7385fd1dd42fe57307e15094ada2bd247b858eeaa05d9b56118d482cce1f47e4a767fd9205764a302ee
+Homepage: https://github.com/Tencent/ncnn
+Description: Miscellaneous ncnn utilities.
+ miscellaneous ncnn utilities.
+
 Package: network-manager-integration-plugins
 Architecture: all
 Version: 0.0.4-0depian1
