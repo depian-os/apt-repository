@@ -4443,6 +4443,42 @@ Homepage: http://www.deepin.org
 Description: network-manager framework with plugin config.
  This is a network manager plugin config for deepin control center.
 
+Package: libopencv-mobile-dev
+Architecture: amd64
+Version: 1:4.5.4+14
+Priority: optional
+Section: utils
+Source: opencv-mobile
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 4073
+Depends: libopencv-mobile
+Filename: pool/main/o/opencv-mobile/libopencv-mobile-dev_4.5.4+14_amd64.deb
+Size: 543580
+MD5sum: e585719a61736b5c4b193e63f4c943b1
+SHA1: 125e9eb23d631a4586ae78b0cdcd630fb7b13603
+SHA256: 0185cdd72e33fe80ac9c45402ac73139941c12f406474de42d221745d0d102bd
+SHA512: 324b1e4d53f677d6a15680e67aa6093e5f74731cc2fa33aafbc1f21d4fe405ac88909ead7c8849a9ec54615134b645ee62edea1c5b0aa2aec582373438ec9784
+Homepage: http://www.deepin.org
+Description: The minimal build of opencv library for the Android, IOS, and ARM Linux platforms.
+
+Package: libopencv-mobile
+Architecture: amd64
+Version: 1:4.5.4+14
+Priority: optional
+Section: utils
+Source: opencv-mobile
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 11732
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libgomp1 (>= 6), libstdc++6 (>= 14)
+Filename: pool/main/o/opencv-mobile/libopencv-mobile_4.5.4+14_amd64.deb
+Size: 3565032
+MD5sum: 55e4e2f6185fadae0d30f78fb41c44fe
+SHA1: 7765edd485e8532ae7063cc1f540fe77c0fc2c31
+SHA256: 6e8e5e7c46e48503c159590b2d2feebe6e7cdde7cfa964e8290e14711ee9d8eb
+SHA512: bef7a9d01bc1fd8c1cdfc7c0872a66417f4f32e518da5c9a4dfe9bc602f8c722c16f360ca89fc91e2840ddb566c84a99facb72f3a972e0b2b833b4c3adffeaf3
+Homepage: http://www.deepin.org
+Description: The minimal build of opencv library for the Android, IOS, and ARM Linux platforms.
+
 Package: plymouth-theme-deepin-logo
 Architecture: all
 Version: 23.00.01
