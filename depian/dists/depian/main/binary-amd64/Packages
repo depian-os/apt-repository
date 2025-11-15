@@ -1274,6 +1274,44 @@ SHA512: c5b61144019bb3775236c690ad60c6a62e86a94caaab0b68e0e5a8e9e9e0c1fcb6319557
 Homepage: https://gitlabwh.uniontech.com/
 Description: A runtime environment software package for Deepin App Store.
 
+Package: deepin-app-store
+Architecture: amd64
+Version: 8.1.0
+Priority: optional
+Section: admin
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 56990
+Pre-Depends: dpkg (>= 1.20.6)
+Depends: libappstreamqt3 (>= 1.0.3), libc6 (>= 2.34), libdtk6core (>= 6.0), libdtk6gui (>= 6.0), libdtk6widget (>= 6.0), libgcc-s1 (>= 3.0), libgio-qt6-0 (>= 0.0.14), libglibmm-2.4-1v5 (>= 2.66.6), libqt6core6 (>= 6.8.0), libqt6dbus6 (>= 6.4.0), libqt6gui6 (>= 6.4.0), libqt6network6 (>= 6.8.0), libqt6sql6 (>= 6.8.0), libqt6svg6 (>= 6.6.0), libqt6widgets6 (>= 6.3.0), libqt6xml6 (>= 6.6.0), libstdc++6 (>= 11), deepin-home-appstore-daemon (>= 8.0.8), deepin-sync-daemon, deepin-deepinid-client, libqt6sql6-sqlite
+Conflicts: deepin-app-store-data
+Filename: pool/main/d/deepin-app-store/deepin-app-store_8.1.0_amd64.deb
+Size: 43811824
+MD5sum: 5862d1a3d7a84e764cad763b4fc5dc79
+SHA1: cad5646af84f68f98c8626034aaf085064863c16
+SHA256: c59445c7ec5757393a2c7492f4b689db9b6733c5a99cf66abab27de6b223700b
+SHA512: 385aba4a3cf0da11c626dafa8f1b0c45331f0988f47aeb56588b7b3c59c34eb93d527e3778d8ca04dd9a14deea533734fc840a6723ba8c36fd764bdad450a855
+Homepage: https://github.com/linuxdeepin/developer-center
+Description: Deepin App Store
+ Deepin App Store Client.
+
+Package: deepin-home-appstore-daemon
+Architecture: amd64
+Version: 8.1.0
+Priority: optional
+Section: admin
+Maintainer: Deepin Sysdev <sysdev@deepin.com>
+Installed-Size: 1934
+Depends: libc6 (>= 2.34), libdtk6core (>= 6.0), libgcc-s1 (>= 3.0), libqt6concurrent6 (>= 6.1.2), libqt6core6 (>= 6.8.0), libqt6dbus6 (>= 6.8.0), libqt6network6 (>= 6.4.0), libqt6sql6 (>= 6.1.2), libstdc++6 (>= 5.2), libqt6sql6-sqlite
+Filename: pool/main/d/deepin-app-store/deepin-home-appstore-daemon_8.1.0_amd64.deb
+Size: 586614
+MD5sum: 0d47894d01a3586629ee7a9985d3b27e
+SHA1: 924d347fdb8a76c10b9d514b0f9b2a8cdf39ac58
+SHA256: 6c7c841d6bb438f27fe7e019db4bf2022af1ec753283ada1506ec2b7eb93851b
+SHA512: bcc7359b51d2d4bae5b3f6a872bd98d9e0c9d06d44988ec4a228198baa7276becd6da457b241807bfdbca6b343b7c746aeb99fa80bc40cb295d4bdbfee3ccdba
+Homepage: https://github.com/linuxdeepin/developer-center
+Description: Deepin App Store Daemon
+ Deepin App Store Daemon.
+
 Package: deepin-authenticate
 Architecture: amd64
 Version: 1:2.0.19
