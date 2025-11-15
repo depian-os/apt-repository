@@ -4366,6 +4366,26 @@ SHA512: 26159944624f1f805d03da461478a16d5e184af85eb0ba63fd06619c392d40b2871723b1
 Description: Plymouth theme for Linux Deepin
  This theme package contains deepin-logo.
 
+Package: dde-qt5integration
+Architecture: amd64
+Version: 5.7.24
+Priority: optional
+Section: devel
+Source: qt5integration
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 1056
+Provides: libqt5deepintheme-plugin
+Depends: libc6 (>= 2.14), libdtkcore5 (>= 5.7), libdtkgui5 (>= 5.7), libdtkwidget5 (>= 5.7), libgcc-s1 (>= 3.0), libqt5core5t64 (>= 5.15.1), libqt5dbus5t64 (>= 5.14.1), libqt5gui5t64 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5widgets5t64 (>= 5.0.2), libqt5x11extras5 (>= 5.6.0), libqt5xdg3 (>= 3.10.0~), libqt5xdgiconloader3 (>= 3.10.0~), libstdc++6 (>= 14), libx11-6, qtbase-abi-5-15-15, dde-qt5xcb-plugin
+Conflicts: libqt5deepintheme-plugin
+Filename: pool/main/q/qt5integration/dde-qt5integration_5.7.24_amd64.deb
+Size: 281212
+MD5sum: 6e3858183385e49416bd67e084fde6de
+SHA1: 1d72973c9ccea57eb02a2cdda34375eb5c6150d5
+SHA256: 764372e5c423471b4f918a59932fbb63a353834e0ae2dc8d5df8d9e0a30bf2b8
+SHA512: 97ddb18988ea7d38cbb096cf67e92bb164299eea53a70a55a11c97be9f38834c92db84b806e4c3853189405ab5f8746611948875f59af9eaea2f58abc3ba4ebd
+Description: Qt platform theme integration plugins for DDE
+ Multiple Qt plugins to provide better Qt5 integration for DDE is included.
+
 Package: dde-qt6integration
 Architecture: amd64
 Version: 6.0.44
