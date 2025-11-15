@@ -1826,6 +1826,26 @@ Homepage: http://www.deepin.org
 Description: deepin xdgicon convert tool
  This package provides a tool to convert xdg icon theme to debian icon theme.
 
+Package: deepin-editor
+Architecture: amd64
+Version: 6.5.39
+Priority: optional
+Section: editors
+Maintainer: Debian Deepin Packaging Team <pkg-deepin-devel@lists.alioth.debian.org>
+Installed-Size: 11937
+Depends: libc6 (>= 2.38), libchardet1t64 (>= 1.0.6), libdtk6core (>= 6.0), libdtk6gui (>= 6.0), libdtk6widget (>= 6.0), libgcc-s1 (>= 3.0), libicu76 (>= 76.1-1~), libkf6codecs6 (>= 6.0.0), libkf6syntaxhighlighting6 (>= 6.0.0), libqt6core5compat6 (>= 6.6.0), libqt6core6t64 (>= 6.8.2), libqt6dbus6 (>= 6.3.0), libqt6gui6 (>= 6.8.2), libqt6printsupport6 (>= 6.1.2), libqt6svg6 (>= 6.6.0), libqt6widgets6 (>= 6.3.0), libqt6xml6 (>= 6.6.0), libstdc++6 (>= 14), libuchardet0 (>= 0.0.6), dde-qt6integration | dde-qt5integration, libchardet1
+Recommends: uos-reporter, deepin-event-log
+Filename: pool/main/d/deepin-editor/deepin-editor_6.5.39_amd64.deb
+Size: 8023592
+MD5sum: 8666db2bba8e97cbcdbc83c34a50433b
+SHA1: 364886dff933e029105e481ca02ecaf915fbea45
+SHA256: 4c85c939071fcfca999625c5edada24d868e72318fec36fea5224941f337bf91
+SHA512: 886d812f8c318b2356b29b09bea48a72579f56275bee030ee92dea39c17adf72223c688a90edd3f09bc556fcd4e240dc024f9560438722fbacd0c67b4c96ab99
+Description: Text editor for DDE (Deepin Desktop Environment)
+ Advanced text editor based on dtk.
+ .
+ This package is part of DDE (Deepin Desktop Environment).
+
 Package: deepin-face
 Architecture: amd64
 Version: 2.0.10
